@@ -5,28 +5,28 @@ body_file_url_template: "/uploads"
 new_page_extension: md
 auto_deploy: false
 admin_path: admin
-webhook_url:
+webhook_url: 
 sections:
-  about:
-    default_front_matter_template: page
-  article:
-    default_front_matter_template: article
-  author:
-    default_front_matter_template: author
-  book:
-    default_front_matter_template: book
-  catalog:
-    default_front_matter_template: catalog
-  event:
-    default_front_matter_template: event
   staff:
     default_front_matter_template: staff
-  genre:
-    default_front_matter_template: default
-  product:
+  series:
     default_front_matter_template: page
   review:
     default_front_matter_template: review
-  series:
+  product:
+    default_front_matter_template: page
+  genre:
+    default_front_matter_template: default
+  event:
+    default_front_matter_template: event
+  catalog:
+    default_front_matter_template: catalog
+  book:
+    default_front_matter_template: book
+  author:
+    default_front_matter_template: author
+  article:
+    default_front_matter_template: article
+  about:
     default_front_matter_template: page
 version: '0.28'
