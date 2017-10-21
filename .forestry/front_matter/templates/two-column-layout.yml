@@ -1,0 +1,50 @@
+---
+pages:
+- resources.md
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Title
+- type: text
+  name: linktitle
+  label: Linktitle
+  hidden: true
+- name: description
+  label: Description
+  type: textarea
+  hidden: false
+  default: ''
+  description: Always use a description, but keep it short. Good for search engines.
+- type: field_group
+  name: featured_image
+  label: Featured Image
+  fields:
+  - type: text
+    name: file
+    label: File
+  - type: text
+    name: caption
+    label: Caption
+- type: select
+  name: headerClasses
+  config:
+    source:
+      type: datafiles
+      file: page-designs-yaml
+      path: page-designs
+  label: Hero styling
+- type: select
+  name: layout
+  config:
+    source:
+      type: simple
+    options:
+    - two-column
+  label: Layout
+  hidden: true
+  default: two-column
+- type: list
+  name: aliases
+  label: Aliases
+  hidden: true

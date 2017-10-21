@@ -1,0 +1,183 @@
+---
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: subtitle
+  label: Subtitle
+  type: text
+  hidden: false
+  default: 
+- type: field_group_list
+  name: editions
+  label: Editions
+  fields:
+  - type: select
+    name: binding
+    config:
+      source:
+        type: simple
+      options:
+      - paperback
+      - clothbound
+      - ebook
+    label: Binding
+  - type: text
+    name: isbn
+    label: ISBN
+  - type: datetime
+    name: date
+    label: Date
+  - type: textarea
+    label: Description
+    name: description
+    config:
+      wysiwyg: ''
+    description: Add double asterisks  around **bold** items and on asterisk around
+      *italicized* items.
+  - type: text
+    name: trim_size
+    label: Trim Size
+    description: e.g. 5x8
+  - type: text
+    name: page_count
+    label: Page Count
+  - type: list
+    name: contributors
+    label: Contributors
+    config:
+      use_select: true
+      source:
+        type: pages
+        section: author
+  - type: text
+    name: cover_image
+    label: Cover Image
+    description: 'Paste in the image name, e.g: 9781234567891.jpg'
+  - type: field_group
+    name: sales_data
+    label: Sales Data
+    fields:
+    - type: boolean
+      name: for_sale
+      label: For Sale
+      default: ''
+    - type: number
+      label: Sales Price
+      name: sales_price
+      config:
+        step: '0.01'
+        min: '0.01'
+    - type: number
+      label: Shipping Charge
+      name: shipping_charge
+      config:
+        step: '0.01'
+        min: '0.01'
+    - type: number
+      name: price_us
+      label: Price US
+      config:
+        step: '0.01'
+        min: '0.01'
+    - type: number
+      name: price_cn
+      label: Price CN
+      config:
+        step: '0.01'
+        min: '0.01'
+  config:
+    labelField: isbn
+- type: datetime
+  default: 
+  label: Date
+  name: date
+- type: select
+  name: genre
+  config:
+    source:
+      type: simple
+    options:
+    - Fiction
+    - Nonfiction
+    - Poetry
+    - Theater
+  label: Genre
+- type: list
+  name: subgenre
+  label: Subgenre
+  config:
+    use_select: true
+    source:
+      type: simple
+    options:
+    - Anthology
+    - Essay
+    - Correspondence
+    - Criticism
+    - Memoir
+    - Selections
+    - Stories
+- type: select
+  config:
+    source:
+      type: datafiles
+      file: language-yaml
+      path: language
+  label: Language
+  name: language
+- type: list
+  name: authors
+  label: authors
+  config:
+    use_select: true
+    source:
+      type: pages
+      section: author
+- type: list
+  name: editors
+  label: Editors
+  config:
+    use_select: true
+    source:
+      type: pages
+      section: author
+- type: list
+  name: translators
+  label: Translators
+  config:
+    use_select: true
+    source:
+      type: pages
+      section: author
+- type: list
+  name: contributors
+  label: Contributors
+  config:
+    use_select: true
+    source:
+      type: pages
+      section: author
+- type: field_group
+  name: featured_image
+  label: Featured Image
+  fields:
+  - type: text
+    name: file
+    label: File
+    description: Paste the file name here
+  - type: text
+    name: caption
+    label: Caption
+    description: For image credit
+- type: select
+  name: headerClasses
+  config:
+    source:
+      type: datafiles
+      file: page-designs-yaml
+      path: page-designs
+  label: Hero Design

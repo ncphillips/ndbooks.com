@@ -1,0 +1,55 @@
+---
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: linktitle
+  label: Linktitle
+  type: text
+  hidden: true
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+- name: description
+  label: Description
+  type: text
+  hidden: false
+  default: ''
+- name: type
+  label: Type
+  type: text
+  hidden: true
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: true
+  default: ''
+- name: aliases
+  label: Aliases
+  type: list
+  hidden: true
+  default: ''
+- type: field_group
+  name: featured_image
+  label: Featured Image
+  fields:
+  - type: text
+    name: file
+    label: File
+  - type: text
+    name: caption
+    label: Caption
+- type: select
+  name: headerClasses
+  config:
+    source:
+      type: datafiles
+      file: page-designs-yaml
+      path: page-designs
+  label: Hero styling

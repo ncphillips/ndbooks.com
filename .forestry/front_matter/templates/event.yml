@@ -1,0 +1,95 @@
+---
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: textarea
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+- name: show_time
+  label: Show time
+  type: boolean
+  hidden: false
+  default: ''
+- name: description
+  label: Description
+  type: text
+  hidden: false
+  default: ''
+- type: list
+  name: related_contributors
+  label: Related contributors
+  config:
+    use_select: true
+    source:
+      type: pages
+      section: author
+- name: related_books
+  label: Related books
+  type: list
+  hidden: false
+  config:
+    use_select: true
+    source:
+      type: pages
+      section: book
+- name: venue
+  label: Venue
+  type: field_group
+  fields:
+  - name: name
+    label: Name
+    type: text
+    hidden: false
+    default: ''
+  - name: street1
+    label: Street1
+    type: text
+    hidden: false
+    default: ''
+  - name: street12
+    label: Street12
+    type: text
+    hidden: false
+    default: ''
+  - name: city
+    label: City
+    type: text
+    hidden: false
+    default: ''
+  - name: state
+    label: State
+    type: text
+    hidden: false
+    default: ''
+  - name: zip
+    label: Zip
+    type: text
+    hidden: false
+    default: ''
+  - name: country
+    label: Country
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: website
+  label: Website
+  type: text
+  hidden: false
+  default: ''
+- type: field_group
+  name: featured_image
+  label: Featured Image
+  fields:
+  - type: text
+    name: file
+    label: File
+  - type: text
+    name: caption
+    label: Caption

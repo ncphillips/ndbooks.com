@@ -1,0 +1,73 @@
+---
+pages:
+- _index.md
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: textarea
+  hidden: false
+  default: ''
+- name: description
+  label: Description
+  type: textarea
+  hidden: false
+  default: ''
+  description: Always use a description, but keep it short. Good for search engines.
+- type: field_group
+  name: featured_image
+  label: Featured Image
+  fields:
+  - type: text
+    name: file
+    label: File
+  - type: text
+    name: caption
+    label: Caption
+- type: select
+  name: headerClasses
+  config:
+    source:
+      type: datafiles
+      file: page-designs-yaml
+      path: page-designs
+  label: Hero styling
+- name: gallery
+  label: Image Gallery
+  type: field_group_list
+  fields:
+  - type: text
+    name: image
+    label: Image
+    description: 'Paste the image name here: e.g. image-name.jpg'
+  - name: caption
+    label: Caption
+    type: textarea
+    hidden: false
+    default: 
+    description: Add double asterisks  around **bold** items and on asterisk around       *italicized*
+      items.
+  - type: textarea
+    name: quote
+    label: Quote
+    description: Add double asterisks  around **bold** items and on asterisk around       *italicized*
+      items.
+  hidden: false
+  default: []
+  config:
+    labelField: image
+- type: list
+  name: featured_books
+  label: Featured Books
+  config:
+    use_select: true
+    source:
+      type: pages
+      section: book
+- type: select
+  config:
+    source:
+      type: pages
+      section: review
+  name: featured_review
+  label: Featured Review

@@ -1,0 +1,136 @@
+title = "New Directions Publishers"
+baseURL = "https://ndbooks.netlify.com"
+languageCode = "en-us"
+buildFuture = true
+log = false
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+# SectionPagesMenu = "main"
+Paginate = 3000
+googleAnalytics = ""
+enableRobotsTXT = true
+theme = "ndbooks"
+disableKinds = [ "RSS", "sitemap"]
+#disableKinds = [ "page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT", "404"]
+#ignoreFiles = [ "\/book\/",  "\/author\/" ]
+# [blackfriday]
+#   angledQuotes = false
+#   smartypantsQuotesNBSP =false
+
+[related]
+includeNewer = true
+
+
+[[related.indices]]
+name  = "authors"
+toLower = true
+weight = 100
+
+[[related.indices]]
+name  = "editors"
+toLower = true
+weight = 100
+
+[[related.indices]]
+name  = "contributors"
+toLower = true
+weight = 100
+
+[[related.indices]]
+name  = "translators"
+toLower = true
+weight = 100
+
+[[related.indices]]
+name  = "related_contributors"
+toLower = true
+weight = 100
+
+[[related.indices]]
+name  = "related_author"
+toLower = true
+weight = 100
+
+[[related.indices]]
+name  = "related_books"
+toLower = true
+weight = 100
+
+
+
+
+
+[outputs]
+  home = ["HTML", "HEADERS", "REDIRECTS", "JSON"]
+  #page = ["HTML","JSON"]
+
+[mediaTypes]
+[mediaTypes."text/netlify"]
+  suffix = ""
+  delimiter = ""
+
+[outputFormats]
+[outputFormats.REDIRECTS]
+  mediatype = "text/netlify"
+  baseName = "_redirects"
+  isPlainText = true
+  notAlternative = true
+[outputFormats.HEADERS]
+  mediatype = "text/netlify"
+  baseName = "_headers"
+  isPlainText = true
+  notAlternative = true
+
+
+[social]
+twitter = "ndbooks"
+facebook = "ndbooks"
+#youtube = ""
+instagram = "ndpublishing"
+tumblr = "https://newdirectionspublishing.tumblr.com/"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  description = ""
+  description_long = "New Directions was founded in 1936, when James Laughlin (1914–1997), then a twenty-two-year-old Harvard sophomore, issued the first of the New Directions anthologies. “I asked Ezra Pound for ‘career advice,’” Laughlin recalled. “He had been seeing my poems for months and had ruled them hopeless. He urged me to finish Harvard and then do ‘something’ useful.”"
+  facebook = "https://www.facebook.com/ndbooks"
+  twitter = "https://twitter.com/NewDirections"
+  instagram = ""
+  youtube = ""
+  #headerClasses = "bg-purple mid-gray"
+
+[params.classes]
+  body_classes = "bg-near-white sans-serif"
+  #page_padding_classes = "center mw9 ph3 ph5-l"
+  page_padding_classes = "ph3 ph5-l"
+  nested_paragraph = "nested-copy-seperator nested-copy-line-height nested-links nested-copy-line-height nested-links"
+
+
+
+  [params.dev]
+    js_path = "/themes/ndbooks/static/dist/js"
+    css_path = "/themes/ndbooks/static/dist/css"
+    #image_url = "https://ndbooks.imgix.net/"
+    #image_url = "/uploads/"
+    #image_url = "https://res.cloudinary.com/the-new-dynamic/image/upload/"
+    image_url = "https://res.cloudinary.com/ndbooks/image/upload/"
+
+    image_query_string = "?use_filename"
+    content-security-policy = "default-src 'self'; style-src 'self' 'unsafe-inline' https://cloud.typography.com; img-src 'self' data: https://res.cloudinary.com; media-src 'self' https://youtu.be https://www.youtube.com; script-src 'self' 'unsafe-inline' https://www.youtube.com/iframe_api https://s.ytimg.com; child-src https://www.youtube.com https://www.wnyc.org; font-src 'self' data:"
+
+
+  [taxonomies]
+  # tag = "tags"
+  # category = "categories"
+  series = "series"
+  genre = "genre"
+
+[[menu.secondary]]
+  name = "Contact"
+  weight = 1
+  identifier = "contact"
+  url = "/about/contact/"

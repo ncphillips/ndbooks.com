@@ -1,0 +1,55 @@
+---
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Title
+- type: datetime
+  name: date
+  label: Date
+- name: attribution
+  label: Attribution
+  type: text
+  hidden: false
+  default: ''
+- name: link_to_original
+  label: Link to original
+  type: text
+  hidden: false
+  default: ''
+- type: select
+  name: related_author
+  config:
+    source:
+      type: pages
+      section: author
+  label: Related Author
+- type: list
+  name: related_book
+  label: Related Book
+  config:
+    use_select: true
+    source:
+      type: pages
+      section: book
+- type: select
+  name: nd_author_of_this_review
+  config:
+    source:
+      type: pages
+      section: author
+  label: ND author of this review
+- type: number
+  name: weight
+  label: Weight
+  config:
+    min: '0'
+    max: '1'
+    step: '1'
+  description: Choose a weight to order reviews. A weight of "1" will make the review
+    stick at the top of the page.
+- type: text
+  name: layout
+  label: layout
+  hidden: true
+  default: none

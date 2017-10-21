@@ -1,0 +1,33 @@
+---
+hide_body: false
+fields:
+- name: date
+  label: Date
+  type: text
+  hidden: false
+- type: text
+  name: last_name
+  label: Last Name
+- type: textarea
+  name: description
+  label: Description
+- type: field_group
+  name: image
+  label: Image
+  fields:
+  - type: text
+    name: file
+    label: File
+  - type: text
+    name: caption
+    label: Caption
+- type: field_group
+  name: featured_image
+  label: Featured Image
+  fields:
+  - type: text
+    name: file
+    label: File
+  - type: text
+    name: caption
+    label: Caption

@@ -1,0 +1,41 @@
+---
+pages:
+- books.md
+hide_body: true
+fields:
+- label: Title
+  name: title
+  type: text
+- description: Shows up in navigation
+  label: Link Title
+  name: linktitle
+  type: text
+  hidden: true
+- fields:
+  - config:
+      source:
+        section: book
+        type: pages
+      use_select: true
+    label: Titles
+    name: titles
+    type: list
+  label: New  & Forthcoming Books
+  name: new__and_forthcoming_books
+  type: field_group
+- fields:
+  - config:
+      source:
+        section: book
+        type: pages
+      use_select: true
+    label: Titles
+    name: titles
+    type: list
+  label: Bestsellers
+  name: bestsellers
+  type: field_group
+- type: text
+  name: type
+  label: Type
+  hidden: true

@@ -1,0 +1,15 @@
+---
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Title
+- type: textarea
+  name: description
+  label: Description
+  description: Add double asterisks  around **bold** items and on asterisk around       *italicized*
+    items.
+- type: list
+  name: aliases
+  label: Aliases
+  hidden: true
