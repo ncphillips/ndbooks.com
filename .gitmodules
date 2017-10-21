@@ -1,0 +1,3 @@
+[submodule "themes/ndbooks"]
+	path = themes/ndbooks
+	url = https://github.com/theNewDynamic/ndbooks.git
