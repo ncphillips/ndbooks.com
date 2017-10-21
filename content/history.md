@@ -1,13 +1,18 @@
 ---
-title: "History"
-draft: false
-date: 2015-01-15T15:27:00-04:00
+title: History
+date: 2015-01-15 15:27:00 -0400
 featured_image:
   file: TWIW_PPoint_222.jpg
-  caption:
-description:
----
+  caption: ''
+description: New Directions was founded in 1936, when James Laughlin, then a twenty-two-year-old
+  Harvard sophomore, asked Ezra Pound for "career advice."
+type: page
+headerClasses: vh-100 bg-near-white white-70
+linktitle: ''
+layout: ''
+aliases: []
 
+---
 ## A Brief History of New Directions
 
 New Directions was founded in 1936, when James Laughlin (1914 - 1997), then a twenty-two-year-old Harvard sophomore, issued the first of the New Directions anthologies. "I asked Ezra Pound for 'career advice,'" James Laughlin recalled. "He had been seeing my poems for months and had ruled them hopeless. He urged me to finish Harvard and then do 'something' useful." Intended "as a place where experimentalists could test their inventions by publication," the ND anthologies first introduced readers to the early work of such writers as William Saroyan, Louis Zukofsky, Marianne Moore, Wallace Stevens, Kay Boyle, Delmore Schwartz, Dylan Thomas, Thomas Merton, John Hawkes, Denise Levertov, James Agee, and Lawrence Ferlinghetti. Soon after issuing the first of the anthologies, New Directions began publishing novels, plays, and collections of poems. Ezra Pound and William Carlos Williams, who once had difficulty finding publishers, were early New Directions authors and have remained at the core of ND's backlist of modernist writers. And Tennessee Williams first appeared as a poet in the early Five Young American Poets.

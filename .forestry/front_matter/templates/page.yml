@@ -1,4 +1,6 @@
 ---
+pages:
+- history.md
 hide_body: false
 fields:
 - name: title
