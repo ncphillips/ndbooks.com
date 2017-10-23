@@ -1,0 +1,24 @@
+{{$transforms := "w_450,h_253,c_fill,q_80,dpr_auto"}}
+<a href="{{.URL}}" class="ba b--light-gray bg-white db flex-ns link mb4 shadow-hover w-100"><div class="bg-center h5 h-auto-ns cover w-100 w-50-ns" style="background-image:url('{{$.Param "dev.image_url"}}{{$transforms}}/{{ .Params.featured_image.file }}')">
+{{if not .Params.featured_image}}
+  <img src="/logos/nd-logo-777.svg" class="center db img pv5 tc w-60"/>
+{{end}}
+</div>
+  <div class="w-100 bg-center w-50-ns pa3 pa4-ns"{{with .Params.cover_image}}style="background-image:url('{{$.Param "dev.image_url"}}w_300/{{.}}');"{{end}}>
+    <div class="flex-ns flex-column justify-center text-color-primary vh-75-ns">
+      <div class="bg-white-90 pa3 {{with .Params.cover_image}} interior-ns pl4-ns shadow-5-ns{{end}}"> 
+        {{with .Date}}
+          <time class="f7 gray">{{.Format "January 2, 2006"}}</time>
+        {{end}}
+        <h1 class="f2 f1-l mt0 lh-title mt2 ">
+            {{- .Title | markdownify -}}
+        </h1>
+        {{with .Summary}}
+          <p class="f5 font-family-brand lh-copy">
+            {{- . |truncate 180 -}}
+          </p>
+        {{end}}
+      </div>
+    </div>
+  </div>
+</a>

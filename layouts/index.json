@@ -1,0 +1,14 @@
+{{- $.Scratch.Add "index" slice -}}
+{{/* where .Site.Pages "Type" "not in"  (slice "page" "json")
+{{$content := where .Site.RegularPages ".Section" "not in"  (slice "links" "related_coverage" "backstory" "playlist") }}
+
+Need to have books show authors, etc. as well as ISBN and genre.
+Authors need to show books.
+ */}}
+{{$books := where .Site.RegularPages "Section" "book"}}
+{{$people := where (.Site.RegularPages) "Section" "author"}}
+{{$content := $books | union $people }}
+{{- range $content -}}
+{{- $.Scratch.Add "index" (dict "Section" (.Section | pluralize) "title" .Title "ref" .RelPermalink "author" .Params.authors "translator" .Params.translators "editor" .Params.editors "contributor" .Params.contributors  "content" .Plain) -}}
+{{- end -}}
+{{- $.Scratch.Get "index" | jsonify -}}

@@ -1,0 +1,32 @@
+{{define "main"}}
+  {{partial "books/genre-series-list.html" .}}
+
+  <div id="filter" class="{{ $.Param "classes.page_padding_classes" }}">
+      <div class="mb4">
+      {{partial "title-with-filter.html" .}}
+      </div>
+      {{partial "page-content.html" . }}
+    <div class="filteredlist flex flex-wrap justify-between dg g-columns-230 g-gap-10">
+    {{range .Params.new__and_forthcoming_books.titles}}
+      {{$favorites := where (where $.Site.RegularPages "Section" "book") ".File.Path" .}}
+      {{ range first 10 $favorites }}
+        {{ .Render "cover" }}
+      {{ end }}
+    {{ end }}
+    </div>
+
+    <h2 class="f2 text-color-primary">
+      Bestsellers
+    </h2>
+
+    <div class="flex flex-wrap justify-between dg g-columns-100 g-gap-10">
+      {{range (.Params.bestsellers.titles)}}
+        {{$favorites := where (where $.Site.RegularPages "Section" "book") ".File.Path" .}}
+        {{ range first 10 $favorites }}
+          {{ .Render "cover" }}
+        {{ end }}
+      {{ end }}
+    </div>
+
+  </div>
+{{ end }}

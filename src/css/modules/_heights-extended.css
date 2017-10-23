@@ -1,0 +1,17 @@
+.min-vh-50 { min-height: 50vh; }
+.min-vh-75 { min-height: 75vh; }
+
+@media (--breakpoint-not-small) {
+  .min-vh-50-ns { min-height: 50vh; }
+  .min-vh-75-ns { min-height: 75vh; }
+}
+
+@media (--breakpoint-medium) {
+  .min-vh-50-m { min-height: 50vh; }
+  .min-vh-75-m { min-height: 75vh; }
+}
+
+@media (--breakpoint-large) {
+  .min-vh-50-l { min-height: 50vh; }
+  .min-vh-75-l { min-height: 75vh; }
+}

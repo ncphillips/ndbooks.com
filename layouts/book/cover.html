@@ -1,0 +1,33 @@
+{{$edition := index (.Params.editions) 0}}
+{{$now := now.Format "20060102"}}
+{{$pubdate := $edition.date | dateFormat "20060102"}}
+{{$transforms := "w_300,q_80,dpr_auto"}}
+
+  <a href="{{.URL}}" class="bg-near-white black dib flex flex-column hide-child link mb3 ph3 pt3 pb2 pointer relative">
+    <div class="b date f7 o-90 tc pb3{{ if ge $pubdate $now }} red{{else}} gray{{ end }}">
+      {{$edition.date | dateFormat "January _2, 2006"}}
+    </div>
+    {{ with $edition.cover_image }}
+      {{$src := (.) | }}
+      <img src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'200'%20height%3D'300'%3E%3Crect%20width%3D'100%25'%20height%3D'100%25'%20fill%3D'white'%2F%3E%3Ctext%20x%3D'100'%20y%3D'155'%20font-size%3D'18'%20font%3D'Roboto%2C%20sans-serif'%20fill%3D'gray'%20text-anchor%3D'middle'%3ENew%20Directions%3C%2Ftext%3E%3C%2Fsvg%3E" data-src="{{$.Param "dev.image_url"}}{{$transforms}}/{{.}}" class="grow-large img lazyload mb4 shadow-5 w5-l" style="flex-grow:1;"/>
+
+      {{/* ?{{ (querify "w" "300" "ch" "Width,DPR" "q" "75" ) | safeURL }} */}}
+      <noscript>
+       <img src="{{$.Param "dev.image_url"}}{{.}}" class="grow-large img mb4 shadow-5 w5" />
+      </noscript>
+    {{ end }}
+    <div class="title center f6 font-family-brand gray pb2 tc">
+      {{ .Title }}
+    </div>
+    <div class="dn isbn">{{/* Title shows the edition's ISBN, which is here for filtering only */}}
+      {{$edition.isbn}}
+    </div>
+    <div class="dn author">
+      {{with .Params.authors}}{{.}}{{end}}
+      </div>
+  </a>
+{{/*
+<noscript>
+ <img src="{{ index . 0 }}" class="grow-large img shadow-5" />
+</noscript>
+*/}}

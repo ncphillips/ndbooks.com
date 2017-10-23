@@ -1,0 +1,20 @@
+{{ define "main" }}
+  <div class="flex-l mt2 mw8 center">
+    <article class="center cf pv5 ph3 ph4-ns mw7 w-100 w-70-ns">
+      <section class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
+        {{ .Content }}
+      </section>
+    </article>
+
+    <div class="center tc gray mh3 mt2 mt6-ns w-100 w-30-ns">
+      {{/* <div class="bg-near-white pa4">
+        {{ partial "menu-secondary.html" . }}
+      </div> */}}
+
+      {{range first 3 (where .Site.RegularPages "Section" "catalog")}}
+        {{.Render "summary"}}
+      {{end}}
+
+    </div>
+  </div>
+{{ end }}

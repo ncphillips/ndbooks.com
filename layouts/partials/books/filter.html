@@ -1,0 +1,4 @@
+{{ $headerClasses := $.Param "headerClasses" | default "bg-near-black silver"}}
+<div class="pa4 center{{ with $headerClasses }} {{ . }}{{ end }}">
+  <input class="search input-reset ba b--black-20 bg-black-70 gray center db f4 pa2 mb2 w-50  mb4" type="search" placeholder="Type to Filter by name or keyword" name="q" autocomplete="off">
+</div>

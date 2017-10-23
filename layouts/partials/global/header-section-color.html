@@ -1,0 +1,13 @@
+{{/* To set at the section level, get the section the current page belongs to */}}
+{{ $section := .Site.GetPage "section" .Section }}
+{{/* If the page belongs to a section,  */}}
+{{ if $section}}
+  {{/* get the section's headerClasses param value, defaulting to the global/page level. */}}
+  {{ $headerClasses := $section.Param "headerClasses" | default $headerClasses }}
+  {{/* Set the colors based on the page's setting, but if there isn't one, look to the section's settings above */}}
+  {{ $headerClasses := .Params.headerClasses | default $headerClasses }}
+  {{/* Add to Scratch so we can access it outside of the conditional */}}
+  {{ $.Scratch.Add "headerClasses" $headerClasses }}
+{{ end }}
+  {{/* Define the variable based on what's in Scratch, and if nothing there, get the first default values */}}
+{{ $headerClasses := $.Scratch.Get "headerClasses" | default $headerClasses }}

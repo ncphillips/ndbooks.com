@@ -1,0 +1,16 @@
+<blockquote class="add-quote-marks font-family-brand mb1">
+  {{- .Content -}}
+</blockquote>
+{{with .Params.attribution}}<span class="f6">— {{- . | markdownify -}}</span>{{end}}
+{{with .Params.nd_author_of_this_review -}}
+  {{$author := where $.Site.RegularPages "Section" "author"}}
+  {{$author_of_review := index (where ($author) ".File.Path" .) 0}}
+  <a href="{{$author_of_review.URL}}" class="link">
+    <img src="/icons/ic_link_black_24px.svg" class="h1 v-mid" />
+  </a>
+{{- end}}
+{{with .Params.link_to_original -}}
+  <a href="{{.}}" class="link">
+    <img src="/icons/ic_link_black_24px.svg" class="h1 v-mid" />
+  </a>
+{{- end}}

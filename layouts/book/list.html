@@ -1,0 +1,39 @@
+{{ define "main" }}
+  {{ partial "books/genre-series-list.html" . }}
+
+  <div id="filter" class="mb6 {{ $.Param "classes.page_padding_classes" }}">
+    {{partial "title-with-filter.html" .}}
+    {{ partial "page-content.html" . }}
+
+    {{/* HEADER */}}
+    <div class="b bb b--gray flex flex-wrap mb2 pb2">
+      <div class="w-100 w-40-ns">Title</div>
+      <div class="w-100 w-20-ns">Author</div>
+      <div class="w-100 w-20-ns">Publication Date</div>
+      <div class="w-100 w-20-ns">Genre</div>
+    </div>
+
+      {{- partialCached "books/list.html" . -}}
+
+
+    {{/* <div class="filteredlist striped--light-silver">{{ range .Data.Pages }}
+
+      <div class="f6 flex flex-wrap helvetica striped--light-gray text-color-primary w-100 pv2">
+        <div class="w-100 w-40-l"><a href="{{ .URL }}" class="dim link black title">{{- .Title -}}</a></div>
+        <div class="author w-100 w-20-l">
+
+            {{ $authors := where .Site.RegularPages "Section" "author" }}
+            {{ $b := where ($authors) ".File.Path" "in" .Params.authors -}}
+        {{ range $i, $b := $b }}{{ if $i }}, {{ end }}<a href="{{ .URL }}" class="dim link black">{{ .Title }}</a>{{ end }}
+
+        </div>
+        <div class="date w-100 w-20-l">{{- .Date.Format "January, 2006" -}}</div>
+        <div class="genre w-100 w-20-l">{{- humanize .Params.genre -}}</div>
+      </div>
+
+      {{- end }}</div> */}}
+
+    {{/* {{ template "_internal/pagination.html" . }} */}}
+  </div>
+
+{{ end }}

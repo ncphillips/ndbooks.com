@@ -1,0 +1,30 @@
+{{define "main"}}
+{{/* {{ $section := (.Paginate (.Data.Pages.ByDate).Reverse).Pages }} */}}
+{{ $section := (.Data.Pages.ByDate).Reverse }}
+
+
+    {{ partial "books/genre-series-list.html" . }}
+    {{/* set the padding for the page, and get the page title and any content directly for the page */}}
+    <div id="filter" class="{{ $.Param "classes.page_padding_classes" }}">
+      <div class="mb4">
+        {{partial "title-with-filter.html" .}}
+        <div class="f6 gray mt0-ns mt3 nt3-ns">
+          {{$section | len}} titles
+          {{/* note that $section count may not reflect the actual number of titles displayed because the title needs an edition. */}}
+        </div>
+      </div>
+
+      {{partial "page-title-and-description.html" .}}
+
+      <div class="filteredlist flex flex-wrap justify-between dg g-columns-100 g-gap-10">
+        {{range $section}}
+          {{if .Params.editions}}
+            {{ .Render "cover" }}
+          {{ end }}
+        {{ end }}
+      </div>
+
+    </div>
+  {{/* {{ template "_internal/pagination.html" . }} */}}
+
+{{ end }}

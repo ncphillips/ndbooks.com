@@ -1,0 +1,22 @@
+{{ define "main" }}
+{{/* {{$section := .Data.Pages.ByParam "last_name" }} */}}
+{{/* {{$section := (.Data.Pages.ByParam "last_name").GroupBy "weight" }} */}}
+{{$section := (.Data.Pages.GroupByParam "weight").Reverse }}
+{{/* {{$section := .Data.Pages.ByParam "last_name" }} */}}
+
+<div id="filter" class="{{ $.Param "classes.page_padding_classes" }}">
+  <div class="mb4">
+    {{partial "title-with-filter.html" .}}
+  </div>
+  {{ partial "page-content.html" . }}
+  <div class="filteredlist flex flex-wrap justify-between dg g-columns-300 g-gap-10">
+    {{range $section}}
+     {{range .Pages.ByParam "last_name" }}
+      {{.Render "view-grid"}}
+      {{end}}
+    {{end}}
+  </div>
+</div>
+
+
+{{ end }}

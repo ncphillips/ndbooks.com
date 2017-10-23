@@ -1,0 +1,24 @@
+.font-family-brand {
+  font-family: "Archer SSm A", "Archer SSm B";
+  font-style: normal;
+  font-weight: 500;
+}
+h1, h2, h3, h4 {
+  font-family: "Verlag A", "Verlag B";
+  font-style: normal;
+  font-weight: 700;
+}
+
+
+.sans-serif {
+  font-family: 'Raleway', -apple-system, BlinkMacSystemFont,
+               'avenir next', avenir,
+               'helvetica neue', helvetica,
+               ubuntu,
+               roboto, noto,
+               'segoe ui', arial,
+               sans-serif;
+}
+.pt-serif {
+  font-family: 'PT Serif' Palatino, "Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
+}

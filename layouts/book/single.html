@@ -1,0 +1,260 @@
+{{ define "main" }}
+
+{{$edition := .Params.editions}}
+{{$image_url := ($.Param "dev.image_url") }}
+{{$transforms := "w_256,h_256,c_fill,e_grayscale,q_80,dpr_auto"}}
+{{$transforms_related_bookss := "w_128,h_192,c_fill,q_80,dpr_auto"}}
+
+{{$events := where .Site.RegularPages "Section" "event"}}
+{{$events := $events.RelatedTo (keyVals "related_books" .File.Path)}}
+{{$events_upcoming := where $events.Reverse ".Date.Unix" "ge" now.Unix}}
+
+{{$articles := where .Site.RegularPages "Section" "article"}}
+{{$articles := $articles.RelatedTo (keyVals "related_books" .File.Path)}}
+
+{{$reviews := where (.Site.RegularPages) "Section" "review"}}
+{{$review := $reviews.RelatedTo (keyVals "related_books" .File.Path)}}
+{{$featured_review := where ($review) "Params.weight" 1}}
+
+{{$people := index (where (.Site.RegularPages) "Section" "author")}}
+{{$authors := where ($people) ".File.Path" "in" .Params.authors}}
+{{$translators := where ($people) ".File.Path" "in" .Params.translators}}
+{{$editors := where ($people) ".File.Path" "in" .Params.editors}}
+{{$contributors := where ($people) ".File.Path" "in" .Params.contributors}}
+
+{{$books := where (.Site.RegularPages) "Section" "book"}}
+{{$related_bookss := ($books).RelatedIndices . "authors" }}
+
+{{with $events_upcoming}}
+  <aside>
+    <div class="bg-light-gray center w-100 pv3">
+      <div class="center mw9 w-100 {{$.Param "classes.page_padding_classes"}}">
+        <h2 class="text-color-primary mb1">
+          Upcoming Events
+        </h2>
+        <ul class="dgTK g-columns-230 g-gap-2 flex flex-wrap justify-aroundTK dib list ma0 pa0">
+          {{ range first 4 . }}
+            <span class="mb2 w5 nb3TK">
+              {{.Render "li"}}
+            </span>
+          {{end}}
+        </ul>
+        {{if ge ($events_upcoming | len) 6 }}
+          <a href="/event/" class="br2 dib f7 ph3 pv2 hover-bg-near-black hover-white link tr text-color-primary">More Events &raquo;</a>
+        {{end }}
+      </div>
+    </div>
+  </aside>
+{{end}}
+
+{{/* {{ printf "%#v" $contributors}} */}}
+
+{{/* COVER AND QUOTES/TAGLINE */}}
+<section class="center mw9 pv5 w-100{{$.Param "classes.page_padding_classes"}}">
+  <div class="flex-l justify-around ">
+    {{with $edition}}
+      {{with (index $edition 0).cover_image}}
+        <div class="fb49 tc">
+          {{partial "books/c-cover-lazyload.html" (dict "this" . "image_url" $image_url "width" "500" "classes" "grow-large img max-vh-90 mb4 shadow-large")}}
+        </div>
+      {{end}}
+    {{end}}
+    <div class="fb49 pb">
+      {{with .Params.series}}
+        <h3 class="f2 tc">
+          <a href="/series/{{. | urlize }}" class="dim link red">{{- . | humanize -}}</a> series
+        </h3>
+      {{end }}
+
+      {{if $featured_review}}
+        {{ range first 1 $featured_review }}
+          <div class="center f3 lh-copy  pb4 pt2 tc">
+            {{- .Render "quote" -}}
+          </div>
+        {{end}}
+      {{else}}
+        {{ range first 1 $review }}
+          <div class="center f3 lh-copy pb4 pt2 tc">
+            {{- .Render "quote" -}}
+          </div>
+        {{end}}
+      {{end}}
+
+      {{/* Show the latest edition's description */}}
+      {{with $edition}}
+        {{with (index $edition 0).description}}
+          <div class="f3 nested-copy-line-height ph2 tc">
+            <p>{{. | markdownify}}</p>
+          </div>
+        {{end}}
+      {{end}}
+
+    {{/* Show the latest edition's publication Date, if Future */}}
+
+      {{with $edition}}
+        {{with (index $edition 0).date }}
+          {{$publish_date := .}}
+          {{$publish_date_unix := $publish_date | dateFormat "0601021504"}}
+          {{$now := now | dateFormat "0601021504"}}
+          {{if ge $publish_date_unix $now }}
+            <div class="f3 pv3 tc">
+              <p class="red">Available {{. | dateFormat "January 2, 2006"}}</p>
+            </div>
+          {{end}}
+        {{end}}
+      {{end}}
+
+    </div>
+  </div>
+</section>
+
+{{/* MAIN COPY */}}
+
+<article class="bg-white br2 center cf mb3 mw7 ph4 pv5 w-100 {{$.Param "page_padding_classes"}}">
+  <h1 class="f1 lh-title mb2">
+    {{ .Title }}
+  </h1>
+
+  {{/* AUTHOR/EDITOR/CONTRIBUTOR */}}
+
+  {{partial "books/bylines.html" (dict "c" . "authors" $authors "translators" $translators "editors" $editors "contributors" $contributors)}}
+
+
+  {{/* Synopsis */}}
+  <section class="nested-copy-line-height lh-copy f4 mt4 nested-links nested-img mid-gray">
+    {{ .Content }}
+  </section>
+
+  {{/* Available Bindings
+    TODO: these should be forsale only. Check that the data is right. */}}
+  <section id="buying-options" class="pt3">
+  {{with .Params.editions}}
+    <h3>Editions: {{range .}}<span class="delimit">{{- .binding | humanize -}}</span>{{end}}</h3>
+  {{end}}
+  </section>
+
+  {{/* Buy Links */}}
+  <section>
+  {{with .Params.editions}}
+    {{range first 1 .}}
+      {{ partial "books/buylinks" . }}
+    {{end}}
+  {{end}}
+  </section>
+
+  {{/* Editions and prices */}}
+  {{$id := "meta"}}
+  {{partial "components/c-show-hide-button.html" (dict "label" "Edition Data" "id" $id "classes" "bg-black f7 mt4 white")}}
+
+  <div class="hidden-{{$id}} cf child mw7 ph1 pb3 w-100 {{$.Param "page_padding_classes"}}">
+      {{partial "books/edition-meta-data.html" .}}
+  </div>
+</article>
+
+ {{/* Authors Showcase with Photo */}}
+    <div class="bg-light-gray">
+      <div class="center cf ph4 pv5 w-100 w-90-l {{$.Param "page_padding_classes"}}">
+        {{if $authors}}
+          <div class="flex-ns flex-wrap justify-around">
+            {{ range $authors }}
+            <div class="fb33 ma3">
+              <div class="flex-ns items-start justify-betwen">
+
+                  <a href="{{ .URL }}" class="dim link">
+                  {{with .Params.image}}
+                    <img class="lazyload w5" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="{{$.Param "dev.image_url"}}{{$transforms}}/{{.file}}" />
+                  {{end}}
+                  </a>
+
+
+                <div class="ph3">
+                  <h3 class="f2 mb1 mt0">
+                    <a href="{{ .URL }}" class="color-inherit dim link">
+                      {{- .Title -}}
+                    </a>
+                  </h3>
+                  {{with .Params.description}}
+                    <p class="measure lh-copy">
+                      {{- . | markdownify -}}
+                    </p>
+                  {{end}}
+                  {{with $related_bookss}}
+                    <span class="smooth-scroll">
+                      <a href="#related_bookss" class="f7 link gray ttl" >
+                        More by this author
+                      </a>
+                    </span>
+                  {{end}}
+                </div>
+              </div>
+            </div>
+          {{ end }}
+        </div>
+      {{end}}
+    </div>
+  </div>
+
+
+
+  {{/* RELATED ARTICLES */}}
+  <aside>
+  {{with $articles}}
+    <div class="bg-light-gray center w-100 pv3">
+    <div class="center mw9 w-100 {{$.Param "classes.page_padding_classes"}}">
+      <h2 class="text-color-primary mb1">
+        Articles
+      </h2>
+      <ul class="dgTK g-columns-230 g-gap-2 flex flex-wrap dib list ma0 pa0">
+        {{ range first 4 . }}
+          <span class="b--light-gray ba bw2 mb2 w5">
+            {{.Render "li"}}
+          </span>
+        {{end}}
+      </ul>
+      {{if ge ($articles | len) 4 }}
+      {{/* TODO: Related Articles need a link to actual related articles */}}
+        <a href="/blog/" class="br2 dib f7 ph3 pv2 hover-bg-near-black hover-white link tr text-color-primary">More Articles &raquo;</a>
+      {{end }}
+    </div>
+    </div>
+  {{end}}
+  </aside>
+
+
+  {{/* Reviews */}}
+
+
+    {{with $review}}
+      <section id="reviews" class="ph0 ph4-ns pv4">
+        {{range first 100 .}}
+          <div class="center f3 lh-copy measure-wide pb4 pt2 tc">
+            {{- .Render "quote" -}}
+          </div>
+        {{end}}
+      </section>
+    {{end}}
+
+
+
+
+  {{/* Books by this/these author(s) */}}
+    {{ with $related_bookss }}
+      <section id="related_bookss" class="bg-white center pa4 w-100">
+        <h3 class="black-70">More books by {{if ge ($.Params.authors | len) 2 }}these authors{{else}}this author{{end}}</h3>
+        <div class="flex flex-wrap"> 
+          {{ range . }}
+            <a href="{{ .RelPermalink }}" class="link text-color-primary">
+              {{with .Params.editions }}
+                {{with (index . 0) }}
+                  {{with .cover_image}}
+                    <img src="{{$image_url}}{{$transforms_related_bookss}}/{{.}}" class="dib grow mb3 mr3 w4 shadow-2" />
+                  {{end}}
+                {{end}}
+              {{end}}
+            </a>
+          {{ end }}
+        </div>
+      </section>
+    {{ end }}
+
+{{ end }}

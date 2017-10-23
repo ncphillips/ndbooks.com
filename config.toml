@@ -9,7 +9,6 @@ DefaultContentLanguage = "en"
 Paginate = 3000
 googleAnalytics = ""
 enableRobotsTXT = true
-theme = "ndbooks"
 disableKinds = [ "RSS", "sitemap"]
 #disableKinds = [ "page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT", "404"]
 #ignoreFiles = [ "\/book\/",  "\/author\/" ]
@@ -112,8 +111,8 @@ tumblr = "https://newdirectionspublishing.tumblr.com/"
 
 
   [params.dev]
-    js_path = "/themes/ndbooks/static/dist/js"
-    css_path = "/themes/ndbooks/static/dist/css"
+    js_path = "/static/dist/js"
+    css_path = "/static/dist/css"
     #image_url = "https://ndbooks.imgix.net/"
     #image_url = "/uploads/"
     #image_url = "https://res.cloudinary.com/the-new-dynamic/image/upload/"

@@ -1,0 +1,78 @@
+{{$people := index (where ($.Site.RegularPages) "Section" "author")}}
+{{$image_url := ($.Param "dev.image_url") }}
+{{$transforms := "w_400,q_80,dpr_auto"}}
+{{$linkClasses := "ba b--gray br2 dib hover-bg-near-black hover-near-white link ph3 pv2 text-color-primary"}}
+
+{{if .Params.editions}}
+  {{$edition := index (.Params.editions) 0}}
+  <div id="{{.File.TranslationBaseName}}" class="alternate_bg_color center flex-ns flex-wrap flex-row-reverseTK justify-center items-center mw8TK pb2 pt5">
+
+
+      {{/* COVER IMAGE */}}
+      {{ with $edition.cover_image }}
+        <a href="{{$.URL}}" class="db fb33 image tc">
+          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="{{$image_url}}{{$transforms}}/{{.}}" class="center flex-grow-1 grow-large img lazyload mb4 shadow-large"/>
+          <noscript>
+            <img src="{{$image_url}}{{.}}" class="flex-grow-1 grow-large img mb4 shadow-large" />
+          </noscript>
+        </a>
+      {{ end }}
+      {{/* END COVER IMAGE */}}
+
+      <div class="ph4 fb49">
+{{/* mw7 */}}
+        {{/* TITLE */}}
+        {{with .Title}}
+          <h2 class="f1 mb2">
+            <a href="{{$.URL}}" class="dim link text-color-primary">
+              {{- . -}}
+            </a>
+          </h2>
+        {{end}}
+        {{/* END TITLE */}}
+
+        {{/* BYLINE */}}
+        {{$authors := where ($people) ".File.Path" "in" .Params.authors}}
+        {{$translators := where ($people) ".File.Path" "in" .Params.translators}}
+        {{$editors := where ($people) ".File.Path" "in" .Params.editors}}
+        {{$contributors := where ($people) ".File.Path" "in" .Params.contributors}}
+        {{partial "books/bylines.html" (dict "c" . "authors" $authors "translators" $translators "editors" $editors "contributors" $contributors)}}
+        {{/* END BYLINE */}}
+
+        {{/* CONTENT */}}
+        {{with .Summary}}
+          <div class="text-color-primary lh-copy mb3 nested-copy-seperator nested-copy-line-height nested-links nested-copy-line-height nested-links">{{. }}{{ if $.Truncated }}…{{end}}</div>
+        {{end}}
+        {{/* END CONTENT */}}
+
+        {{/* BUTTONS */}}
+        <a href="{{.URL}}" class="{{$linkClasses}}">
+          More Information
+        </a>
+        {{$isbn := (index .Params.editions 0).isbn}}
+        {{/* {{$isbn_ebook := (index .Params.editions 0).isbn}} */}}
+        <label for="buy-button_{{$isbn}}" class="ml3 {{$linkClasses}}">Buy</label>
+        <input type="checkbox" name="buy-button_{{$isbn}}" class="o-0 buybutton_{{$isbn}}" value="buy" id="buy-button_{{$isbn}}" />
+        <div class="buy-links_{{$isbn}} mv3">
+          {{partial "books/buylinks" (dict "isbn" $isbn "buylinkClasses" $linkClasses "textcolor" "text-color-primary")}}
+        </div>
+
+        <style>
+        input.buybutton_{{$isbn}} + .buy-links_{{$isbn}} {
+          /*display: none;*/
+          opacity: 0;
+        }
+        input.buybutton_{{$isbn}}:checked + .buy-links_{{$isbn}} {
+          /*display: block;*/
+          opacity: 1;
+          transition: opacity 1s ease-out;
+        }
+        </style>
+        {{/* END BUTTONS */}}
+
+      </div>
+
+
+
+  </div>
+{{end}}

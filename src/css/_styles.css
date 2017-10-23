@@ -1,0 +1,112 @@
+/* Put your custom styles here and run `npm start` from the "src" directory on */
+
+@media (--breakpoint-not-small) {
+
+.alternate_bg_color:nth-child(odd) {
+  background-color: #eee;
+  flex-direction: row-reverse;
+}
+.alternate_bg_color:nth-child(even) a.image {
+  text-align: right;
+}
+
+.interior-ns {
+  transform: translateX(-50%);
+  }
+}
+/*Experimental*/
+.add-quote-marks p {
+  display: inline;
+}
+.add-quote-marks:before {
+  content: "“"
+}
+.add-quote-marks:after {
+  content: "”"
+}
+.min-vh-50 {
+    min-height: 50vh;
+}
+
+
+.min-vh-50 {
+    min-height: 50vh;
+}
+@media (--breakpoint-large) {
+
+  .min-vh-50-l {
+      min-height: 50vh;
+  }
+}
+@supports (display: grid) {
+  .dg {
+    display: grid
+  }
+
+
+
+
+
+  .g-gap-10 {
+    grid-gap: 1rem;
+  }
+
+  .g-columns-100 {
+    /*grid-template-columns: 100px;*/
+    /*grid-template-columns: repeat(6, 200px);*/
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr) ) ;
+  }
+  .g-columns-230 {
+    /*grid-template-columns: 100px;*/
+    /*grid-template-columns: repeat(6, 200px);*/
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr) ) ;
+  }
+
+  .g-columns-300 {
+    /*grid-template-columns: 100px;*/
+    /*grid-template-columns: repeat(6, 200px);*/
+    /*grid-template-columns: repeat(auto-fill, minmax(400px, 1fr) ) ;*/
+    /*grid-template-columns: repeat(2, 300px);*/
+     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr) ) ;
+  }
+
+}
+/*
+parallax
+*/
+
+.viewport {
+  height: 500px; /* fallback for older browsers */
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-perspective: 300px;
+  -webkit-overflow-scrolling: touch;
+  perspective: 300px;
+  }
+
+
+.preserve-3d {
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.parallax__layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .parallax__layer--base {
+   -webkit-transform: translateZ(0);
+   transform: translateZ(0);
+   z-index: 4;
+ }
+
+ .parallax__layer--back {
+   -webkit-transform: translateZ(-300px) scale(2);
+   transform: translateZ(-300px) scale(2);
+   z-index: 3;
+ }

@@ -1,0 +1,79 @@
+{{ $mainMenuLeft := where .Site.Menus.main ".Weight" "<=" 40 }}
+{{ $mainMenuRight := where .Site.Menus.main ".Weight" ">=" 50 }}
+{{partialCached "follow-panel.html" .}}
+<footer class="bg-light-gray pa3 silver w-100" role="contentinfo">
+  <div class="flex {{ .Site.Params.base_padding }}">
+    <div class="w-100 w-50-m w-40-l center">
+      <h1 class="f2 font-family-brand gray hover-black mt1 pt0 tc">
+        <a href="/" class="center db hover-black link pb3 pt4 silver tc">
+          {{ .Site.Title }}
+        </a>
+      </h1>
+      <div class="center measure pb4 tc">
+        {{ partialCached "social-follow.html" . }}
+      </div>
+      <div class="center f5 lh-copy measure-ns pb5 tc">
+        {{.Site.Params.description_long }}
+      </div>
+
+</div>
+
+
+
+  <div class="dn flex-ns font-family-brand pt4 w-40-l">
+  {{ if $mainMenuLeft }}
+     <ul class="pa0 w-100">
+       {{ range $mainMenuLeft }}
+       <li class="f5-m f3-l list mb3">
+         <a class="dim link gray pointer" href="{{ .URL }}" title="{{ .Name }} page">
+           {{ .Name }}
+         </a>
+       </li>
+       {{ end }}
+     </ul>
+   {{ end }}
+
+   {{ if $mainMenuRight }}
+      <ul class="pa0 w-100">
+        {{ range $mainMenuRight }}
+        <li class="f5-m f3-l list mb3">
+          <a class="dim link gray pointer" href="{{ .URL }}" title="{{ .Name }} page">
+            {{ .Name }}
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+    {{ end }}
+  </div>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+  <div class="flex justify-between pt5">
+    <a class="f7 hover-black link pv2 ph3 silver" href="{{ .Site.BaseURL }}" >
+      &copy; {{ now.Format "2006" }} {{ .Site.Title }}
+    </a>
+
+    <a class="f7 hover-black link pv2 ph3 silver" href="https://www.thenewdynamic.com">
+      site by the New Dynamic
+    </a>
+  </div>
+
+
+</footer>
+
+
+
+<div class="bg-primary-color pa2 db dn-ns fixed bottom-0 left-0 right-0 relative-ns">
+  {{ partial "global/menu-mobile.html" . }}
+</div>

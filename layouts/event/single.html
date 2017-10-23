@@ -1,0 +1,21 @@
+{{ define "main" }}
+<article class="center mw8">
+    <div class="flex-ns mt5">
+      <div class="mb4 ph3 ph0-ns measure w-100 w-30-ns">
+        <header class="b--light-silver bb mb3">
+          <time class="f5 db red sans-serif" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+            Event:<br /> {{ .Date.Format "January _2, 2006 3:04 pm" }}{{with .Params.end_date}} - {{ . | dateFormat "January 2, 2006" }}{{end}}
+          </time>
+          <h1 class="center dib f2 mw7 mb3 mt2">
+            {{ .Title | markdownify }}
+          </h1>          
+        </header>
+        {{partial "components/event-venue.html" .}}
+        {{partial "related-contributors-section.html" .}}
+      </div>
+      <section class="measure-wide nested-copy-line-height lh-copy f4 nested-links nested-img mw7 mid-gray ph3 ph4-ns w-100 w-70-ns">
+        {{ .Content }}
+      </section>
+    </div>
+  </article>
+{{ end }}

@@ -1,0 +1,5 @@
+{{$book_path := .book_path}}
+{{$classes := .classes}}
+{{with .related_books}}<span class="dib dn-ns">Related books:</span>
+  {{range .}}{{$edition := index (.Params.editions) 0}}<div><a href="{{.URL}}" class="dib dim link lh-copy text-color-primary {{with $classes}} {{.}}{{end}}">{{with $edition}}{{with .cover_image}}<img src="{{with $book_path}}{{.}}{{end}}{{.}}" class="dn db-ns grow img shadow-2">{{end}}{{end}}<span class="dib dn-ns i underline-hover">{{.Title}}</span></a></div>{{end}}
+{{end}}

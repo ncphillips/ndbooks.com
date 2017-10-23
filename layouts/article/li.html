@@ -1,0 +1,26 @@
+{{$transforms := "w_450,h_253,c_fill,q_80,dpr_auto"}}
+
+<a href="{{.URL}}" class="db link shadow-hover text-color-primary">
+  {{if .Params.featured_image.file}}
+    <img data-src="{{$.Param "dev.image_url"}}{{$transforms}}/{{ .Params.featured_image.file }}" class="img lazyload ma0 w-100" />
+  {{else if .Params.gallery }}
+    {{range first 1 .Params.gallery}}
+      {{ with .image }}
+        <img data-src="{{$.Param "dev.image_url"}}{{$transforms}}/{{ . }}" class="img lazyload ma0 w-100" />
+      {{end}}
+    {{end}}
+  {{end}}
+  <div class="pa3">
+    {{with .Date}}
+      <time class="f7 gray">{{.Format "January 2, 2006"}}</time>
+    {{end}}
+    <h1 class="f3 mt0 lh-title mt2 ">
+        {{- .Title | markdownify -}}
+    </h1>
+    {{with .Summary}}
+      <p class="f6 lh-copy">
+        {{- . |truncate 180 -}}
+      </p>
+    {{end}}
+  </div>
+</a>

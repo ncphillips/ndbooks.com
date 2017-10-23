@@ -1,0 +1,15 @@
+<div class="flex-ns mv4">
+  {{ with .Params.description }}
+    <div class="bg-near-white f3 flex font-family-brand lh-title mr1 pa4-l w-100 w-30-ns">
+    <div class="self-center">
+    {{ . }}
+    </div>
+
+    </div>
+  {{ end }}
+  {{ with .Content }}
+    <article class="bg-near-white gray f5 nested-copy-line-height pa4-l w-100 w-70-ns">
+      {{ . }}
+    </article>
+  {{ end }}
+</div>

@@ -1,0 +1,25 @@
+{{$contributors := where (.Site.RegularPages) "Section" "author"}}
+{{$authors := where ($contributors) ".File.Path" "in" .Params.authors}}
+
+<div class="flex-ns justify-between  pv4 color-inherit {{$.Param "classes.page_padding_classes"}}">
+
+    <div class="fb49">
+      <h1 class="color-inherit f3 f2-m f1-l mb0">
+      {{- .Title -}}
+      </h1>
+      {{with $authors}}
+        <h2 class="f4 fw3 lh-title sans-serif">
+        {{range .}}<a href="{{.URL }}" class="color-inherit delimit dim link 0-80">{{ .Title  }}</a>{{end}}
+        </h2>
+      {{end}}
+    </div>
+    <div class="smooth-scroll fb49 self-end"> 
+      {{$button_classes := "b--inherit bg-color-inherit dib color-inherit f7 f6-ns hover-bg-dark-gray hover-white mr2 o-70"}}
+      <div class="flex"> 
+      <div class="flex-auto">&nbsp;</div>
+      {{partial "components/c-button-with-link" (dict "copy" "buying options" "url" "#buying-options" "classes" $button_classes )}}
+      {{partial "components/c-button-with-link" (dict "copy" "reviews" "url" "#reviews" "classes" $button_classes  )}}
+      </div>
+    </div>
+
+</div>

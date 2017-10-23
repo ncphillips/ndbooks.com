@@ -1,0 +1,13 @@
+{{ define "main" }}
+    <div class="mw9 center">
+    {{ $section := where .Data.Pages "Section" .Section}}
+    <section class="flex-ns flex-wrap justify-between">
+      {{ range  $section }}
+        <div class="relative w-100 w-50-m w-25-l mb4">
+          {{ .Render "summary" }}
+        </div>
+      {{ end }}
+    </section>
+  {{/* {{ template "_internal/pagination.html" . }} */}}
+  </div>
+{{ end }}

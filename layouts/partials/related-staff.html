@@ -1,0 +1,1 @@
+{{ $staff := where .Site.RegularPages "Section" "staff" }}{{ $authors := .Params.authors }}{{with $authors -}}by {{range .}}{{ $author := where ($staff) ".File.Path" "in" . }}{{range $author}}<a href="{{.URL}}" class="delimit dib dim link text-color-primary underline-hover">{{- .Title -}}</a>{{end}}{{end}}{{end}}

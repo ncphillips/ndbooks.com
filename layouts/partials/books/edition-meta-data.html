@@ -1,0 +1,48 @@
+{{$dl_classes := "fl fn-l w-50 dib-l w-auto-l lh-title mr5-l"}}
+{{$dd_classes := "f6 gray helvetica ml0"}}
+{{$dd2_classes := "f5 ml0 mb1"}}
+
+{{with .Params.editions}}
+  {{range .}}
+    <div class="mb4">
+      <h4 class="f3 mb0">{{ .binding | humanize }} <small class="db dib-ns">(published {{.date | dateFormat "January _2, 2006"}})</small>
+      </h4>
+      <div class="cf">
+        {{with .isbn}}
+          <dl class="{{$dl_classes}}">
+            <dd class="{{$dd_classes}}">ISBN</dd>
+            <dd class="{{$dd2_classes}}">{{.}}</dd>
+          </dl>
+        {{end}}
+
+        {{with .sales_data.price_us}}
+          <dl class="{{$dl_classes}}">
+            <dd class="{{$dd_classes}}">Price US</dd>
+            <dd class="{{$dd2_classes}}">{{.}}</dd>
+          </dl>
+        {{end}}
+
+        {{with .sales_data.price_cn}}
+          <dl class="{{$dl_classes}}">
+            <dd class="{{$dd_classes}}">Price CN</dd>
+            <dd class="{{$dd2_classes}}">{{.}}</dd>
+          </dl>
+        {{end}}
+
+        {{with .trim_size}}
+          <dl class="{{$dl_classes}}">
+            <dd class="{{$dd_classes}}">Trim Size</dd>
+            <dd class="{{$dd2_classes}}">{{.}}</dd>
+          </dl>
+        {{end}}
+
+        {{with .page_count}}
+          <dl class="{{$dl_classes}}">
+            <dd class="{{$dd_classes}}">Page Count</dd>
+            <dd class="{{$dd2_classes}}">{{.}}</dd>
+          </dl>
+        {{end}}
+      </div>
+    </div>
+  {{end}}
+{{end}}

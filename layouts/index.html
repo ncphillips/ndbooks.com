@@ -1,0 +1,140 @@
+{{ define "main" }}
+{{$blog := where (.Site.RegularPages) "Section" "article"}}
+{{$blog_featured := where ($blog) ".Params.featured" true}}
+{{$blog_not_featured := where ($blog) ".Params.featured" "!=" true}}
+{{$books := where .Site.RegularPages "Section" "book"}}
+
+{{$books_list :=  where ($books) ".File.Path" "in" .Params.featured_books }}
+
+
+{{$image_url := ($.Param "dev.image_url") }}
+{{$people := index (where (.Site.RegularPages) "Section" "author")}}
+{{$transforms := "w_600,q_80,dpr_auto"}}
+  <main class="mw9">
+  {{with .Content}}
+  <article class="center f4 lh-copy measure-wide-l nested-links pt4 tc">
+  {{.}}
+  </article>
+
+  {{end}}
+
+  {{range first 1 $blog_featured}}
+    <div class="ph3 pv3">
+      <div class="center w-100"> 
+      <div class="flex-lTK flex-wrap justify-between">
+        <div class="fb33TK bg-white mb4">
+        {{.Render "side-by-side"}}
+        </div>
+      </div>
+      </div>
+    </div>
+  {{end}}
+
+
+  {{with .Params.gallery}}
+    <section class="gallery flex flex-columns items-center flex-wrap justify-center mv4">
+    {{range first 300 . -}}
+      <div class="gallery-item dib fb33{{with .class}} {{.}}{{end}}"{{with .quote}} style="padding:1em !important;"{{end}}>
+      {{with .link}}
+      <a href="{{.}}" class="link">
+      {{end}}
+      {{with .image }}
+
+      <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="{{$.Param "dev.image_url"}}{{$transforms}}/{{ . }}" class="grow img lazyload shadow-2" />{{end}}
+      {{with .quote -}}
+        <div class="f3 mid-gray georgia lh-copy">{{- . | markdownify -}}</div>
+      {{- end}}
+      {{with .caption -}}
+        <div class="f7 mid-gray helvetica lh-title">{{- . | markdownify -}}</div>
+      {{- end}}
+      </div>
+      {{with .link}}
+      </a>
+      {{end}}
+    {{- end}}
+    </section>
+  {{end}}
+
+
+
+
+  <section id="books-by-the-author" class="mt5">
+
+  {{ range $books_list }}
+    {{.Render "cover-with-description"}}
+  {{end}}
+  </section>
+
+  </main>
+
+
+
+
+
+
+  <div class="ph3 pv6">
+    <div class="center w-100"> 
+    <div class="flex-lTK flex-wrap justify-between">
+      {{range first 3 $blog_not_featured}}<div class="fb33TK bg-white mb4">{{.Render "side-by-side"}}</div>{{end}}
+    </div>
+    </div>
+  </div>
+
+
+<style>
+
+.gallery blockquote:before {
+  content: "“ ";
+  margin-left: -1.25rem;
+  font-size: 2rem;
+}
+.gallery blockquote:after {
+  content: "”";
+  font-size: 1.5rem;
+
+}
+.gallery cite:before {
+  content: "— ";
+}
+.gallery cite {
+  clear: both;
+  width: 100%;
+  font-size: .875rem;
+}
+
+input::placeholder {
+  color: inherit;
+}
+
+svg {
+  fill: red;
+}
+
+
+    /*.gallery-item:nth-child(6) {
+    transform: rotate(2deg);
+}*/
+
+.gallery-item:nth-child(odd) {  /* or 4n+1 */
+        padding: 3em;
+    }
+    .gallery-item:nth-child(even) {  /* or 4n+1 */
+        padding: 2em;
+        /*transform: rotate(-1deg);*/
+    }
+    .gallery-item:nth-child(odd), .gallery-item:nth-child(even) {
+      background-color: #f7f7f7;
+    }
+
+    .gallery-item:nth-child(4n-7) {
+        background-color: #f6f6f6;
+    }
+
+    .gallery-item:nth-child(3n-7) {
+        background-color: #f2f2f2;
+    }
+</style>
+
+
+
+{{ end }}

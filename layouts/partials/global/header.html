@@ -1,0 +1,29 @@
+{{/* <!--
+  Header Options:
+
+  1) default: NAV black background, no image
+  2) NAV transparent background, no image <== SET at SECTION level?
+  3) NAV transparent background, header bg image <== SET at PAGE level?
+
+  - Set header classes (e.g. colors scheme) at either the global, section, or page level
+  - Initially set $.Param "headerClasses" at the page or global (config) level, with a default if neither exist
+ --> */}}
+
+{{ $headerClasses := $.Param "headerClasses" | default "bg-near-black moon-gray bg-top"}}
+{{ $bgClasses := $.Param "bgClasses" | default "bg-top"}}
+{{/* {{ $headerClasses := $.Param "headerClasses" | default "bg-primary-color-light white-80 bg-top"}} */}}
+
+{{/* {{- partialCached "global/header-section-color.html" . -}} */}}
+{{ $featured_image := $.Param "featured_image.file" }}
+
+<header class="relative{{ with $featured_image }} cover min-vh-50-ns {{end}}{{ with $headerClasses }} {{ . }}{{ end }}{{ with $bgClasses }} {{ . }}{{ end }}"{{ with $featured_image }} style="background-image: url('{{$.Param "dev.image_url"}}{{.}}');"{{ end }}>
+  <div class="h-100 h-inherit{{ with $featured_image }} bg-black-60 min-vh-50-l{{end}}">
+    {{- partialCached "global/nav.html" . -}}
+    <div class="center flex-column flex-l h-50 justify-end mw9 w-100">
+      {{- partial "hero.html" . -}}
+    </div>
+  </div>
+  {{with $.Param "featured_image.caption"}}
+  <span class="absolute bottom-1 f7 right-1 white-70">{{. | markdownify}}</span>
+  {{end}}
+</header>

@@ -1,0 +1,28 @@
+{{/* venue:
+  name: "Powell's Books"
+  street1: "1005 W Burnside St."
+  street12:
+  city: "Portland"
+  state: "OR"
+  zip: "97209"
+  country:
+website: "http://www.powells.com/event" */}}
+
+{{with .Params.venue}}
+
+<h3>{{with .name}}{{.}}{{end}}</h3>
+<p>
+{{with .street1}}{{.}}{{end}}<br />
+{{with .street12}}{{.}}{{end}}<br />
+{{with .city}}{{.}}{{end}}{{with .state}}, {{.}}{{end}}{{with .zip}} {{.}}{{end}}<br />
+{{with .country}}{{.}}{{end}}<br />
+</p>
+
+{{end}}
+
+{{with .Params.website}}
+<a href="{{ . }}" class="db dim f6 link mb4 blue" target="_blank">
+      {{/* {{ . | replaceRE "http.\:\/\/" "g"}} */}}
+      {{ . | replaceRE "^https?://([^/]+).*" "$1" }}
+</a>
+{{end}}

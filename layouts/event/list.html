@@ -1,0 +1,22 @@
+{{ define "main" }}
+{{ $events_upcoming := where (.Data.Pages) ".Date.Unix" "ge" now.Unix }}
+{{ $events_upcoming := ($events_upcoming.GroupByDate "January").Reverse}}
+  <div class="w-100 {{$.Param "classes.page_padding_classes"}}">
+    <div class="center gray mb3 mt5 w-100 w-90-ns">
+      {{partialCached "forms/mailchimp.html" .}}
+    </div>
+
+    <div class="center cf pb5 mw7 ph3 w-100 w-70-ns">
+      {{range $events_upcoming }}
+        <h2 class="f2">{{ .Key }}</h2>
+        {{range .Pages.Reverse}}
+          {{.Render "li-full"}}
+        {{end}}
+      {{end}}
+    </div>
+  </div>
+
+  {{/* <div class="w-100 ph4"> 
+    {{ template "_internal/pagination.html" . }}
+  </div> */}}
+{{ end }}

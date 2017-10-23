@@ -1,0 +1,21 @@
+{{ define "main" }}
+  {{ $section :=  (.Paginator 30).Pages }}
+  <div class="w-100 mt4 {{$.Param "classes.page_padding_classes"}}">
+    <div class="center gray mb4 mt5 w-100 w-90-ns">
+      {{partialCached "forms/mailchimp.html" .}}
+    </div>
+    <div class="w-100 mb4"> 
+      {{range first 1 $section}}
+        {{.Render "side-by-side"}}
+      {{end}}
+    </div>
+    <div class="cf w-100 w-70-lTK">
+      <div class="flex-l flex-wrap justify-between">
+        {{range after 1 $section}}<div class="fb49 bg-white mb4">{{.Render "li"}}</div>{{end}}
+      </div>
+    </div>
+  </div>
+  <div class="w-100 ph4"> 
+    {{ template "_internal/pagination.html" . }}
+  </div>
+{{ end }}

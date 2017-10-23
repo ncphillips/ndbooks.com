@@ -1,0 +1,18 @@
+.column-count-2 {column-count: 1}
+.column-gap-1 {column-gap: 0}
+.break-inside-avoid {break-inside: auto}
+.columns-gap-4rem {column-gap: 4rem;}
+
+
+@media (--breakpoint-medium) {
+  .column-count-2-m {column-count: 2}
+  .column-gap-1-m {column-gap: 1}
+  .break-inside-avoid-m {break-inside: avoid}
+}
+
+
+@media (--breakpoint-large) {
+  .column-count-2-l {column-count: 2}
+  .column-gap-1-l {column-gap: 1}
+  .break-inside-avoid-l {break-inside: avoid}
+}

@@ -1,0 +1,9 @@
+{{$contributors := where (.Site.RegularPages) "Section" "author"}}
+{{$related_contributors := where ($contributors) ".File.Path" "in" .Params.related_contributors}}
+{{$books := where .Site.RegularPages "Section" "book"}}
+{{$related_books := where ($books) ".File.Path" "in" .Params.related_books}}
+{{$book_path := ($.Param "dev.image_url")}}
+{{$transforms := "q_98,dpr_auto"}}
+
+<div class="">{{partial "related-contributor.html" (dict "related_contributors" $related_contributors)}}</div>
+{{if $related_books}}<div class="flex-l flex-wrap justify-between mv4">{{partial "related-book.html" (dict "context" . "related_books" $related_books "book_path" $book_path "classes" "fb49")}}</div>{{end}}

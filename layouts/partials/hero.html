@@ -1,0 +1,16 @@
+{{if eq .Section "author"  }}
+  {{partial "author/hero.html" .}}
+{{else if eq .Section "book"}}
+  {{partial "books/hero.html" .}}
+{{else}}
+  <div class="pa4">
+    <h1 class="color-inherit f2 f1-ns lh-title mb0">
+    {{- .Title | markdownify -}}
+    </h1>
+    {{with .Params.description}}
+      <p class="measure lh-copy">
+        {{- . | markdownify -}}
+      </p>
+    {{end}}
+  </div>
+{{end}}

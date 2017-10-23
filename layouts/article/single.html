@@ -1,0 +1,33 @@
+{{ define "main" }}{{$transforms := "q_98,dpr_auto"}}
+<article class="center mw8">
+  <div class="flex-ns mt5">
+    <div class="mb4 ph3 ph0-ns measure w-100 w-30-ns">
+      <header class="b--light-silver bb mb3">
+        {{partial "components/time.html" (dict "context" . "show_time" false "classes" "f7 db color-inherit sans-serif")}}
+        <h1 class="center dib f2 mw7 mb3 mt2">
+          {{ .Title | markdownify }}
+        </h1>
+        {{- partial "related-staff.html" . -}}
+      </header>
+      {{partial "related-contributors-section.html" .}}
+    </div>
+    <section class="pt-serif measure-wide nested-copy-line-height lh-copy f4 nested-links nested-img mw7 mid-gray ph3 ph4-ns w-100 w-70-ns">
+      {{ .Content }}
+    </section>
+  </div>
+  {{with .Params.gallery}}
+    <section class="center mt4 ph3 ph0-ns w-100">
+      {{range .}}
+        <div class="center mb4 mw8 tc"> 
+          {{with .image }}
+            <img data-src="{{$.Param "dev.image_url"}}{{$transforms}}/{{ . }}" class="img lazyload shadow-2 mb2 tc" />
+          {{end}}
+          {{with .caption}}
+            <p class="f4 lh-copy mt2">{{.}}</p>
+          {{end}}
+        </div>
+      {{end}}
+    </section>
+  {{end}}
+</article>
+{{ end }}

@@ -1,0 +1,41 @@
+backend:
+  name: github
+  repo: theNewDynamic/ndbooks.com # Path to your Github repository
+  branch: master # Branch to update (master by default)
+
+media_folder: "static/uploads" # Folder where user uploaded files should go
+public_folder: "img"
+
+
+collections: # A list of collections the CMS should be able to edit
+  - name: "article" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Articles" # Used in the UI, ie.: "New Post"
+    folder: "content/article" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Foo", name: "foo", widget: "foo"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+  - name: "edition" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Editions" # Used in the UI, ie.: "New Post"
+    folder: "content/edition" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "ISBN", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Book Title", name: "book_title", widget: "string", tagname: "h1"}
+      - {label: "Binding", name: "binding", widget: "select", options: ["paperback", "clothbound", "ebook"]}
+      - name: author
+        label: Author
+        widget: relation
+        collection: author
+        searchFields: [name, last_name]
+        valueField: name
+  - name: "author" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Authors" # Used in the UI, ie.: "New Post"
+    folder: "content/author" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Last Name", name: "last_name", widget: "string", tagname: "h1"}
+      - {name: "bio", label: "Bio", widget: "text"}

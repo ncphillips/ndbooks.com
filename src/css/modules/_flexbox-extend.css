@@ -1,0 +1,37 @@
+.flex-grow-1 {
+flex-grow: 1;
+}
+.flex-grow-0 {
+flex-grow: 0;
+}
+.flex-1 {
+  flex:1;
+}
+
+@media (--breakpoint-not-small) {
+  .fb24{
+    flex-basis: 24%;
+  }
+  .fb33 {
+    flex-basis: 33%;
+  }
+  .fb49{
+    flex-basis: 49%;
+  }
+
+}
+
+.fb-100 {
+  flex-basis: 100%;
+}
+
+
+@media (--breakpoint-large) {
+.w-23-l {
+    width: 23%;
+  }
+
+.fb-19-l {
+  flex-basis: 19%;
+  }
+}

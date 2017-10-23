@@ -1,0 +1,64 @@
+{{$current_url := .URL}}
+{{$li_classes := "db dib-ns mv2"}}
+{{$link_classes := "b--light-silver ba gray br2 db f6 glow hover-bg-primary-color-light hover-white link ph3 pv2"}}
+{{$active_classes := "bg-primary-color-light white"}}
+<ul class="dn db-ns bg-near-white flex-ns flex-wrap list mt0 ph0 pv2 {{ $.Param "classes.page_padding_classes" }}">
+  <li class="{{ $li_classes }} mr2-ns">
+    <a href="/books/" class="{{ $link_classes }}{{if eq $current_url "/books/"}} {{$active_classes}}{{end}}">
+      New & Forthcoming
+    </a>
+  </li>
+
+
+  {{ range $name, $taxonomy := .Site.Taxonomies.genre }}{{ $URL := $name | urlize | printf "%s%s" "/genre/" | printf "%s/"  }}
+    <li class="{{ $li_classes }} mr2-ns">
+      <a href="{{$URL}}" class="{{ $link_classes }}{{if eq $current_url $URL }} {{$active_classes}}{{end}}">
+        {{ $name | humanize }}
+      </a>
+    </li>
+  {{ end }}
+
+
+  {{ range $name, $taxonomy := .Site.Taxonomies.series }}{{ $URL := $name | urlize | printf "%s%s" "/series/" | printf "%s/"  }}
+    <li class="{{ $li_classes }} mr2-ns">
+      <a href="{{$URL}}" class="{{ $link_classes }}{{if eq $current_url $URL }} {{$active_classes}}{{end}}">
+        {{ $name | humanize | title }}
+      </a>
+    </li>
+  {{ end }}
+  <div class="flex-auto-l">
+  <!-- this can be awkward on mid-size screens -->
+  </div>
+
+  <li class="{{ $li_classes }}">
+    <a href="/book/" class="{{ $link_classes }}{{if eq $current_url "/book/"}} {{$active_classes}}{{end}}">
+      All Titles
+    </a>
+  </li>
+</ul>
+
+<div class="dn-ns mv3 mh3"> 
+  <label for="bookPages" class="db f5 mb2">Select a Genre or Series</label>
+  <select id="bookPages" name="bookPages" class="b--transparent ph3 pv2">
+
+      <option class="bg-white ph3 pv2 red" value="/books/" {{if eq $current_url "/books/"}}selected{{end}}>New & Forthcoming</option>
+    {{ range $name, $taxonomy := .Site.Taxonomies.genre }}{{ $URL := $name | urlize | printf "%s%s" "/genre/" | printf "%s/"  }}
+      <option value="{{$URL}}" {{if eq $current_url $URL }}selected{{end}}>{{ $name | humanize }}</option>
+    {{ end }}
+    {{ range $name, $taxonomy := .Site.Taxonomies.series }}{{ $URL := $name | urlize | printf "%s%s" "/series/" | printf "%s/"  }}
+      <option value="{{$URL}}" {{if eq $current_url $URL }}selected{{end}}>{{ $name | humanize }}</option>
+    {{ end }}
+    <option value="/book/" {{if eq $current_url "/book/"}}selected{{end}}>All Titles</option>
+  </select>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded',function() {
+    document.querySelector('select[name="bookPages"]').onchange=changeEventHandler;
+},false);
+function changeEventHandler(event) {
+    // You can use “this” to refer to the selected element.
+    if(!event.target.value) alert('Please Select One');
+    else window.location.href=event.target.value;
+}
+</script>

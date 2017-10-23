@@ -1,0 +1,24 @@
+{{/* {{$image := .Params.images | }}
+?{{ (querify "w" 200 "h" 200 "sat" -100 "fit" "crop" ) | safeURL }}
+*/}}
+{{$transforms := "w_200,h_200,c_fill,e_grayscale,q_80,dpr_auto"}}
+<a href="{{.URL}}" class="bg-white black br2 dib flex flex-wrap hide-child link mb3 overflow-hidden pointer relative shadow-hover" style="min-height:8rem;">
+  <div class="bg-center cover lazyload white w-30" {{with .Params.image}}data-bg="{{$.Param "dev.image_url"}}{{$transforms}}/{{.file}}"{{end}}>
+    {{if not .Params.image}}
+      <img src="/logos/nd-logo-777.svg" class="center db img pt3 tc w-60"/>
+    {{end}}
+    <!-- Image only -->
+  </div>
+  <div class="copy ph3 pv3 w-70">
+    <h2 class="mv1 title">
+      {{.Title}}
+    </h2>
+    <span class="dn author">{{.File.BaseFileName | humanize }}</span>
+    {{with .Params.description}}
+      <p class="f6 gray lh-copy pb0 ma0">
+        {{.}}
+      </p>
+    {{end}}
+  </div>
+</a>
+{{/* nts: mobile needs works */}}

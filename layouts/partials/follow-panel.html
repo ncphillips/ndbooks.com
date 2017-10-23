@@ -1,0 +1,21 @@
+<div class="bg-left font-family-brand bg-primary-color-light mbg-blue moon-gray mt5 ph4 pv5 relative">
+
+  <div class="center color-inherit dib f2 f1-ns tc">
+    Keep up to date with New&nbsp;Directions
+  </div>
+
+
+  <div class="center pv5 h-100 flex-ns items-center justify-around  w-100 w-90-l"> 
+    {{ partial "components/form-newsletter-large.html" . }}
+    <div class="flex-l items-center"> 
+      <div class="color-inherit f3 gray pb2 pb0-l pr4-l mt4 mt0-ns">
+        Follow us
+      </div>
+      {{ partialCached "social-follow.html" . }}
+    </div>
+  </div>
+
+  <div class="dn db-ns absolute-l color-inherit left-0 mt6 h4 ml5 top-0 o-20 fill-current"> 
+    {{partialCached "svg/logo-ndbooks-large.svg" .}}
+  </div>
+</div>

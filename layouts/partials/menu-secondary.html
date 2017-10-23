@@ -1,0 +1,11 @@
+{{ $currentPage := .}}
+<ul class="list ma0 bg-red">
+{{ range .Site.Menus.secondary }}
+  <li class="ba b--light-silver db w-100">
+    <a class="color-inherit hover-white link ph3 pv2 w-100{{if $currentPage.IsMenuCurrent "main" . }} o-70{{end}}" href="{{ .URL }}" title="{{ .Name }} page">
+      {{ .Name | lower }}
+    </a>
+  </li>
+{{ end }}
+
+</ul>

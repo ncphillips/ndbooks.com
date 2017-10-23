@@ -1,0 +1,18 @@
+{{$mainMenuLeft := where .Site.Menus.main ".Weight" "<=" 40 }}
+{{$mainMenuRight := where .Site.Menus.main ".Weight" ">=" 50 }}
+{{$currentPage := .}}
+
+<nav class="flex font-family-brand justify-center items-center pt4 pb4" role="navigation">
+
+  {{partial "global/nav-links" (dict "menu" $mainMenuLeft "currentpage" $currentPage "list_class" "tr" )}}
+
+  <div class="tc w-100 w-50-m w-20-l">
+    <a href="/" class="color-inherit hover-white link tc">
+      {{ partialCached "svg/logo-ndbooks.svg" (dict "height" "82" "width" "65") }}
+    </a>
+    <div class="color-inherit f4 pt0 mt1 tc">New Directions</div>
+  </div>
+
+  {{partial "global/nav-links" (dict "menu" $mainMenuRight "currentpage" $currentPage )}}
+
+</nav>

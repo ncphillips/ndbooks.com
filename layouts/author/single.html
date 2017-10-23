@@ -1,0 +1,147 @@
+{{define "interiorLink"}}
+  <h3 class="f5 mb1 smooth-scroll">
+    <a href="#{{.File.TranslationBaseName}}" class="dim link text-color-primary">
+      {{.Title}}
+    </a>
+  </h3>
+{{end}}
+
+{{define "main"}}
+{{$image_url := ($.Param "dev.image_url") }}
+{{$transforms := "w_500,q_80,dpr_auto"}}
+
+{{$books := where .Site.RegularPages "Section" "book"}}
+{{$books_author := $books.RelatedTo (keyVals "authors" .File.Path)}}
+{{$books_editor := $books.RelatedTo (keyVals "editors" .File.Path)}}
+{{$books_translator := $books.RelatedTo (keyVals "translators" .File.Path)}}
+{{$books_contributor := $books.RelatedTo (keyVals "contributors" .File.Path)}}
+{{$books_list := $books_contributor | union $books_translator | union $books_editor | union $books_author}}
+
+{{$people := index (where (.Site.RegularPages) "Section" "author")}}
+
+
+{{$events := where .Site.RegularPages "Section" "event"}}
+{{$related_events := $events.RelatedTo (keyVals "related_contributors" .File.Path)}}
+{{/* Only show events in the future */}}
+{{$related_events := where ($related_events) ".Date" "ge" (now.AddDate 0 0 180)}}
+
+{{$articles := where .Site.RegularPages "Section" "article"}}
+{{$related_articles := $articles.RelatedTo (keyVals "related_contributors" .File.Path)}}
+
+{{$reviews := where (.Site.RegularPages) "Section" "review"}}
+{{$reviews_author := $reviews.RelatedTo (keyVals "related_author" .File.Path)}}
+{{/* {{$reviews_book := $reviews.RelatedTo (keyVals "related_books" .File.Path)}} */}}
+{{/* {{$reviews := $reviews_book | union $reviews_author }} */}}
+{{$reviews := $reviews_author }}
+
+
+<div id="top" class="{{ $.Param "classes.page_padding_classes" }}">
+  <article class="flex-ns flex-wrap justify-between mt3">
+    <div class="mb4 w-100 w-30-m w-20-l">
+      {{with .Params.image}}
+        <img src="{{$.Param "dev.image_url"}}{{$transforms}}/{{.file}}" class="ba bw2 b--light-gray db img mb1 mt4" />
+        <span class="f7 gray i">
+          {{$.Title}}{{with .caption}}: {{.}}{{end}}
+        </span>
+      {{ end }}
+      <div class="dn db-l mt4">
+        {{ with $books_author }}
+          <h2 class="gray">by {{$.Title}}</h2>
+          {{range .}}
+            {{template "interiorLink" .}}
+          {{end}}
+        {{end}}
+
+        {{with $books_editor}}
+          <h2 class="gray mb3">As editor</h2>
+          {{range .}}
+            {{template "interiorLink" .}}
+          {{end}}
+        {{end}}
+
+        {{with $books_translator }}
+          <h2 class="gray mb3">As translator</h2>
+          {{range .}}
+            {{template "interiorLink" .}}
+          {{end}}
+        {{end}}
+
+        {{with $books_contributor }}
+          <h2 class="gray mb3">As Contributor</h2>
+          {{range .}}
+            {{template "interiorLink" .}}
+          {{end}}
+        {{end}}
+      </div>
+    </div>
+
+    <div class="center w-100 w-70-m w-50-l">
+      <div class="center ph4-ns">
+      <h1 class="f1 lh-title mb2">{{.Title}}</h1>
+      <div class="f4 lh-copy measure-wide-ns  text-color-primary {{$.Param "classes.nested_paragraph"}} {{.WordCount}}">
+        {{- .Content -}}
+      </div>
+      </div>
+    </div>
+
+    <div class="pt5 w-100 w-20-l">
+      {{ with $related_events }}
+        <h2 class="gray">Upcoming Events</h2>
+        <div class="column-count-2-m columns-gap-4rem">
+          {{range .}}
+            <h3 class="f4">
+              <span class="db f6 mb1 red">
+                {{- .Date.Format "January _2, 2006" -}}
+              </span>
+              <a href="{{.URL}}" class="dim link text-color-primary">
+                {{- .Title -}}
+              </a>
+            </h3>
+          {{end}}
+        </div>
+      {{end}}
+
+      {{ with $related_articles }}
+        <h2 class="gray w-100">Related Articles</h2>
+        <div class="column-count-2-m columns-gap-4rem">
+          {{range first 5 .}}
+            <h3 class="f4">
+              <a href="{{.URL}}" class="dim link text-color-primary">
+                {{- .Title -}}
+              </a>
+            </h3>
+          {{end}}
+        </div>
+      {{end}}
+    </div>
+  </article>
+</div>
+
+<section id="books-by-the-author" class="mt5">
+  {{ range $books_list }}
+    {{.Render "cover-with-description"}}
+  {{end}}
+</section>
+
+<div class="mt5">
+  <div class="ph0 ph4-ns pv4">
+    {{with $reviews}}
+      {{ range first 100 .}}
+        <div class="center f3 lh-copy measure-wide pb4 pt2 tc">
+          {{- .Render "quote" -}}
+        </div>
+      {{end}}
+    {{end}}
+  </div>
+
+</div>
+
+<div class="text-color-secondary">
+  {{- partial "components/link-to-top-of-page" . -}}
+</div>
+
+<div class="bg-moon-gray flex justify-around pa4 text-color-secondary ">
+  {{partial "prev-next-insection.html" .}}
+</div>
+
+{{end}}

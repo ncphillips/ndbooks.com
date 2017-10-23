@@ -1,0 +1,29 @@
+{{$reviews := where (.Site.RegularPages) "Section" "review"}}
+{{$review := (where ($reviews) ".Params.related_author" .File.Path) }}
+{{$featured_review := where ($review) "Params.weight" 1}}
+
+{{if $featured_review}}
+  {{ range first 1 $featured_review }}
+    <div class="center lh-copy measure-wide pb5 pt4 tc{{if le .WordCount 5}} f2{{else}} f3{{end}}">
+      {{- .Render "quote" -}}
+    </div>
+  {{end}}
+{{else if $review}}
+  {{ range first 1 (shuffle $review) }}
+    <div class="center lh-copy measure-wide pb5 pt3 tc{{if le .WordCount 5}} f2{{else}} f3{{end}}">
+      {{- .Render "quote" -}}
+    </div>
+  {{end}}
+{{else}}
+  <div class="flex-auto ph3 pl5-l pv4">
+    <h1 class="f1 mb0 color-inherit">
+      {{.Title}}
+    </h1>
+    {{with .Params.description}}
+      <p class="measure lh-copy">
+        {{. | markdownify}}
+      </p>
+    {{end}}
+  </div>
+{{end}}
+{{/* <div class="pa4-lTK "></div> */}}

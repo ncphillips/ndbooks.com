@@ -1,0 +1,8 @@
+{{/* Button uses
+      .url
+      .classes
+      .copy
+ */}}
+<a href="{{ .url | default "#"}}" class="ba br2 dib link ph3 pv2 {{with .classes}}{{.}}{{end}}">
+{{.copy | default "yobitch"}}
+</a>

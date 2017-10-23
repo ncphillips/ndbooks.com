@@ -1,0 +1,17 @@
+{{$classes := .classes | default "center flex-grow-1 grow-large img mb4 shadow-large"}}
+{{$image_url := .image_url | default "/"}}
+{{$width := .width | default "400"}}
+{{$transforms := print "w_400,q_90,dpr_auto,w_" $width}}
+
+{{/* ?ch=Width%2CDPR&q=98&w={{$width}} */}}
+<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="{{$image_url}}{{$transforms}}/{{.this}}" class="lazyload {{$classes}}"/>
+<noscript>
+  <img src="{{$image_url}}{{.this}}" class="{{$classes}}" />
+</noscript>
+
+
+
+
+{{/*
+  this is just an invisible image
+data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7 */}}

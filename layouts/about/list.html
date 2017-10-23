@@ -1,0 +1,56 @@
+{{ define "main" }}
+{{$section := .Site.RegularPages.ByWeight  }}
+{{$section := where ($section) "Section" "staff"  }}
+
+{{$book := where .Site.RegularPages "Section" "book"}}
+
+<div class="{{.Site.Params.classes.page_padding_classes}} center">
+  <article class="cf pa3 pa4-m pa4-l">
+    <div class="measure-wide-l center f4 lh-copy nested-copy-line-height nested-links nested-img no-underline mid-gray">
+      {{ .Content }}
+    </div>
+  </article>
+
+
+    <section class="dgTK g-columns-300 g-gap-10 flex-ns flex-wrap justify-between">
+      {{ range $i, $section := $section }}
+        <a href="{{.URL}}" class="g-item-1 bg-white dib hover-near-black link mb4 pa4 shadow-hover{{ if  or (or (eq $i 0) (eq $i 3) (eq $i 4)) }} fb-65{{else}} fb-32{{end}}">
+          <h2 class="f3 db mb1 near-black">{{.Title }}</h2>
+          <p class="dib font-family-brand gray lh-copy mt0">
+            {{.Params.description | markdownify}}
+          </p>
+        </a>
+
+        {{/* {{with .Params.related_books}}
+          {{ $book := index (where ($book) ".File.Path" (index . 0)) 0}}
+        {{with (index $book.Params.editions 0).cover_image }}
+          <img src="{{$.Param "dev.image_url"}}{{.}}?{{ (querify "max-w" "360") | safeURL }}" class="g-item grow-large h5 img shadow-large" />
+        {{end}}
+
+        {{end}} */}}
+
+
+      {{ end }}
+    </section>
+
+    {{/* {{range (.Site.Data.favorites.popular)}}
+      {{$isbn := string .}}
+      {{$editions := where (where $.Site.RegularPages "Section" "edition") ".Title" $isbn}}
+      {{ range $editions }}
+        {{ .Render "cover-naked" }}
+      {{ end }}
+    {{ end }} */}}
+
+
+
+  </div>
+<style>
+.g-item-1 {
+  grid-row: 1 ;
+}
+.g-item-3-2 {
+  grid-row: 2 ;
+}
+</style>
+
+{{ end }}

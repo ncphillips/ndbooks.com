@@ -1,0 +1,19 @@
+{{$transforms := "w_765,c_fill,q_80,dpr_auto"}}
+<a href="{{.URL}}" class="db link mb4 shadow-hover text-color-primary bg-white">
+  {{with .Params.featured_image.file}}
+    <img data-src="{{$.Param "dev.image_url"}}{{$transforms}}/{{.}}" class="img lazyload ma0 w-100" />
+  {{end}}
+  <div class="pa3">
+  <time class="f3 db redf gray fw1 mb3 sans-serif" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+    {{ .Date.Format "January _2, 2006 3:04 pm" }}{{with .Params.end_date}} - {{ . | dateFormat "January 2, 2006" }}{{end}}
+  </time>
+    <h1 class="f3 mt0 lh-title mt2 ">
+      {{- .Title -}}
+    </h1>
+    {{with .Summary}}
+      <p class="f5 lh-copy">
+        {{- . |truncate 180 -}}
+      </p>
+    {{end}}
+  </div>
+</a>

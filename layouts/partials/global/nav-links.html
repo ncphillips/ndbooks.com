@@ -1,0 +1,12 @@
+{{$menu := .menu}}
+{{$currentPage := .currentpage}}
+
+<ul class="dn dib-ns ph0 w-40{{with .list_class}} {{.}}{{end}}">
+  {{ range $menu }}
+    <li class="db-m dib f5 f5-ns list mb3-m tc-m">
+      <a class="color-inherit dim link ph3 pv2{{if $currentPage.IsMenuCurrent "main" . }} o-70{{end}}" href="{{ .URL }}" title="{{ .Name }} page">
+        {{ .Name | lower }}
+      </a>
+    </li>
+  {{ end }}
+</ul>
