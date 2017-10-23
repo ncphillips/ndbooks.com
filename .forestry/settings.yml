@@ -7,26 +7,26 @@ auto_deploy: false
 admin_path: admin
 webhook_url: 
 sections:
-  staff:
-    default_front_matter_template: staff
-  series:
+  author:
+    default_front_matter_template: author
+  book:
+    default_front_matter_template: book
+  catalog:
+    default_front_matter_template: catalog
+  event:
+    default_front_matter_template: event
+  genre:
+    default_front_matter_template: default
+  product:
     default_front_matter_template: page
   review:
     default_front_matter_template: review
-  product:
+  series:
     default_front_matter_template: page
-  genre:
-    default_front_matter_template: default
-  event:
-    default_front_matter_template: event
-  catalog:
-    default_front_matter_template: catalog
-  book:
-    default_front_matter_template: book
-  author:
-    default_front_matter_template: author
-  article:
-    default_front_matter_template: article
+  staff:
+    default_front_matter_template: staff
   about:
     default_front_matter_template: page
+  article:
+    default_front_matter_template: article
 version: '0.28'

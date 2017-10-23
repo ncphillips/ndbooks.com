@@ -1,18 +1,20 @@
 ---
 title: Contact
 featured_image:
-#  file: newdirections80_09.jpg
-#  caption: photo by Sachyn Mital
-#headerClasses: vh-75-ns bg-near-white light-silver
-headerClasses:
+  file: ''
+  caption: ''
+headerClasses: ''
 weight: 0
+linktitle: ''
+date: ''
+description: ''
+layout: ''
+aliases: []
 menu:
   main:
     weight: 100
 
 ---
-
-
 **General & Editorial**
 
 Our offices are located at:
@@ -23,13 +25,13 @@ New York, NY 10011
 
 Or email us at [editorial@ndbooks.com](mailto:editorial@ndbooks.com?subject=From_the_NDBooks.com_site%3A_Editorial).
 
-Unfortunately, we cannot forward email to authors, nor can we give out authors' email or postal addresses. However, you can always contact New Directions authors by mailing a letter to [Author's Name] c/o New Directions at the address given above.
+Unfortunately, we cannot forward email to authors, nor can we give out authors' email or postal addresses. However, you can always contact New Directions authors by mailing a letter to \[Author's Name\] c/o New Directions at the address given above.
 
-**You must include the words "New Directions" in the subject line of your email. Emails that do not include these words in the subject line may be blocked by our junk mail filters.*
+\**You must include the words "New Directions" in the subject line of your email. Emails that do not include these words in the subject line may be blocked by our junk mail filters.*
 
 **Submissions**
 
-A New Policy Regarding Unsolicited Manuscripts:
+Our Policy Regarding Unsolicited Manuscripts:
 
 New Directions can no longer accept unsolicited manuscripts. We simply do not have the resources to properly assess the enormous amount of work submitted to us. New Directions is understaffed and we need all our resources to continue to publish books. We wish we could manage to read all the unsolicited manuscripts with the care that they deserve, but we cannot. We will make an effort to answer all brief queries, but please bear with us as we try to respond.
 
