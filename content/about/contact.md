@@ -6,7 +6,7 @@ featured_image:
 headerClasses: ''
 weight: 0
 linktitle: ''
-date: ''
+date: 2017-02-01 00:00:00 -0500
 description: ''
 layout: ''
 aliases: []
