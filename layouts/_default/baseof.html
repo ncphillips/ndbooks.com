@@ -6,8 +6,7 @@
     {{- partial "head/meta.html" . -}}
     {{- partialCached "head/manifest.html" . -}}
     {{- partialCached "head/additions.html" . .Section -}}
-  </head>
-  <body class="{{ $.Param "classes.body_classes"  | default "bg-near-white sans-serif"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
+  </head>  
   <body class="{{ $.Param "classes.body_classes"  | default "bg-near-white sans-serif"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
     {{ block "header" . }}{{ partial "global/header.html" .}}{{ end }}
     <div class="content">
