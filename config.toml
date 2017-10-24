@@ -100,6 +100,7 @@ tumblr = "https://newdirectionspublishing.tumblr.com/"
   twitter = "https://twitter.com/NewDirections"
   instagram = ""
   youtube = ""
+  mailchimp = "https://ndbooks.us8.list-manage.com/subscribe/post?u=94060051763b502e547df0464&amp;id=10d4efef0a"
   #headerClasses = "bg-purple mid-gray"
 
 [params.classes]
