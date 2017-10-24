@@ -60,7 +60,7 @@ weight = 100
 
 
 [outputs]
-  home = ["HTML", "HEADERS", "REDIRECTS", "JSON"]
+  home = ["HTML", "HEADERS", "REDIR", "JSON"]
   #page = ["HTML","JSON"]
 
 [mediaTypes]
@@ -69,11 +69,11 @@ weight = 100
   delimiter = ""
 
 [outputFormats]
-[outputFormats.REDIRECTS]
-  mediatype = "text/netlify"
-  baseName = "_redirects"
-  isPlainText = true
-  notAlternative = true
+[outputFormats.REDIR]
+baseName = "_redirects"
+isPlainText = true
+mediatype = "text/netlify"
+notAlternative = true
 [outputFormats.HEADERS]
   mediatype = "text/netlify"
   baseName = "_headers"
