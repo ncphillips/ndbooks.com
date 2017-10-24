@@ -1,0 +1,39 @@
+{{ if eq (getenv "HUGO_ENV") "production" }}
+
+  {{/* Images */}}
+  {{$image_url := ($.Param "dev.image_url") }}
+  {{if eq .Section "book"}}
+    {{with .Params.editions}}
+      {{with (index . 0).cover_image}}
+        <meta property="og:image" content="{{$image_url}}{{.}}" />
+        <meta itemprop="image" content="{{$image_url}}{{.}}">
+      {{ end }}
+    {{ end }}
+  {{else}}
+    {{ if $.Param "image.file" }}
+      {{$image := printf "%s%s" $image_url ($.Param "image.file")}}
+      <meta property="og:image" content="{{$image}}" />
+      <meta itemprop="image" content="{{$image}}">
+      <meta name="twitter:card" content="summary_large_image"/>
+      <meta name="twitter:image:src" content="{{$image}}"/>
+    {{else if $.Param "featured_image.file" }}
+        {{$image := printf "%s%s" $image_url ($.Param "featured_image.file")}}
+        <meta property="og:image" content="{{$image}}" />
+        <meta itemprop="image" content="{{$image}}">
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:image:src" content="{{$image}}"/>
+      {{ else }}
+        <meta name="twitter:card" content="summary"/>
+    {{ end }}
+  {{ end }}
+
+  {{/* TITLES/Descriptions etc */}}
+
+  {{- partial "head/meta-opengraph.html" . -}}
+  {{- partial "head/meta-google_news.html" . -}}
+  {{- partial "head/meta-schema.html" . -}}
+  {{- partial "head/meta-twitter_cards.html" . -}}
+  {{ partial "head/google_analytics.html" . }}
+
+
+{{ end }}

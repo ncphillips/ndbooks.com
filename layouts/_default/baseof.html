@@ -2,9 +2,12 @@
 <html  lang="{{ $.Site.LanguageCode | default "en" }}" class="no-js">
   <head>
     <title>{{ .Site.Title }} {{ with .Title }} | {{ . }}{{ end }}</title>
-    {{- partial "global/head-meta-and-links.html" . -}}
-    {{- partialCached "global/head-additions.html" . .Section -}}
+    {{- partial "head/links.html" . -}}
+    {{- partial "head/meta.html" . -}}
+    {{- partialCached "head/manifest.html" . -}}
+    {{- partialCached "head/additions.html" . .Section -}}
   </head>
+  <body class="{{ $.Param "classes.body_classes"  | default "bg-near-white sans-serif"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
   <body class="{{ $.Param "classes.body_classes"  | default "bg-near-white sans-serif"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
     {{ block "header" . }}{{ partial "global/header.html" .}}{{ end }}
     <div class="content">
