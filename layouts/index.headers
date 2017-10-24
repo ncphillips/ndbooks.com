@@ -14,9 +14,9 @@
   {{range $scripts}}
   Link: <{{- .Name  | add "/dist/js/" -}}>; rel=preload; as=script
   {{end}}
-  #Link: <{{ "files/muli-latin-200.woff2" | relURL }}>; rel=preload; as=font
-  #Link: <{{ "files/muli-latin-400.woff2" | relURL }}>; rel=preload; as=font
-  #Link: <{{ "files/muli-latin-800.woff2" | relURL }}>; rel=preload; as=font
+  Link: <{{ "dist/fonts/raleway-latin-200.woff2" | relURL }}>; rel=preload; as=font
+  Link: <{{ "dist/fonts/raleway-latin-400.woff2" | relURL }}>; rel=preload; as=font
+  Link: <{{ "dist/fonts/raleway-latin-800.woff2" | relURL }}>; rel=preload; as=font
 
   # Set a long cache expiry on asset urls
   {{range $stylesheet}}
