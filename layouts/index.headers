@@ -9,6 +9,7 @@
   {{$stylesheet := readDir ( $.Param "dev.css_path" | default "/themes/thenewdynamic-hugo-core-theme/static/dist/css")}}{{$scripts := readDir  ($.Param "dev.js_path" | default "/themes/thenewdynamic-hugo-core-theme/static/dist/js")}}
   {{range $stylesheet}}
   Link: <{{- .Name  | add "/dist/css/" -}}>; rel=preload; as=style
+  link: https://cloud.typography.com/7044452/6355752/css/fonts.css ; rel=preload; as=style
   {{end}}
   {{range $scripts}}
   Link: <{{- .Name  | add "/dist/js/" -}}>; rel=preload; as=script
@@ -26,3 +27,5 @@
   {{.Name  | add "/dist/js/"}}
   Cache-Control: public, max-age=31556926
   {{end}}
+  Cache-Control: public, max-age=31556926
+  https://cloud.typography.com/7044452/6355752/css/fonts.css
