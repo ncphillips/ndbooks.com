@@ -1,5 +1,5 @@
 title = "New Directions Publishers"
-baseURL = "https://ndbooks.netlify.com"
+baseURL = "https://www.ndbooks.com"
 languageCode = "en-us"
 buildFuture = true
 log = false
