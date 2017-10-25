@@ -10,16 +10,16 @@
 {{$image_url := ($.Param "dev.image_url") }}
 {{$people := index (where (.Site.RegularPages) "Section" "author")}}
 {{$transforms := "w_600,q_80,dpr_auto"}}
-  <main class="mw9">
+  <main class="">
   {{with .Content}}
-  <article class="center f4 lh-copy measure-wide-l nested-links pt4 tc">
+  <article class="center mw9 center f4 lh-copy measure-wide-l nested-links pt4 tc">
   {{.}}
   </article>
 
   {{end}}
 
   {{range first 1 $blog_featured}}
-    <div class="ph3 pv3">
+    <div class="center mw9 ph3 pv3">
       <div class="center w-100"> 
       <div class="flex-lTK flex-wrap justify-between">
         <div class="fb33TK bg-white mb4">
@@ -32,7 +32,7 @@
 
 
   {{with .Params.gallery}}
-    <section class="gallery flex flex-columns items-center flex-wrap justify-center mv4">
+    <section class="center mw9 gallery flex flex-columns items-center flex-wrap justify-center mv4">
     {{range first 300 . -}}
       <div class="gallery-item dib fb33{{with .class}} {{.}}{{end}}"{{with .quote}} style="padding:1em !important;"{{end}}>
       {{with .link}}
@@ -72,7 +72,7 @@
 
 
 
-  <div class="ph3 pv6">
+  <div class="center mw9 ph3 pv6">
     <div class="center w-100"> 
     <div class="flex-lTK flex-wrap justify-between">
       {{range first 3 $blog_not_featured}}<div class="fb33TK bg-white mb4">{{.Render "side-by-side"}}</div>{{end}}
