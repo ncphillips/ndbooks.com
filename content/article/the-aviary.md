@@ -14,7 +14,6 @@ related_books:
 - book/i-am-the-brother-of-xx.md
 headerClasses: ''
 cover_image: ''
-draft: true
 
 ---
 
