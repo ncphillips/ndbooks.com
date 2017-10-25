@@ -9,14 +9,13 @@
   </head>
   <body class="{{ $.Param "classes.body_classes"  | default "bg-near-white sans-serif"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
     {{ block "header" . }}{{ partial "global/header.html" .}}{{ end }}
-    <div class="content">
-      <main id="main" class="rellax{{with $.Param "content_classes"}} {{.}}{{end}}" role="main" data-rellax-speed="7" data-rellax-zindex="7">
-      <div class="bg-near-white "> 
-        {{ block "main" . }}{{ end }}
-        </div>
-      </main>
-      {{ block "footer" . }}{{ partialCached "global/footer.html" . .RelPermalink }}{{ end }}
-    </div>
+
+    <main id="main" class="content bg-near-white pb6 rellax{{with $.Param "content_classes"}} {{.}}{{end}}" role="main">      
+      {{ block "main" . }}{{ end }}
+    </main>
+
+
+    {{ block "footer" . }}{{ partialCached "global/footer.html" . .RelPermalink }}{{ end }}
     {{ block "scripts" . }}{{ partialCached "global/scripts.html" . }}{{ end }}
   </body>
 </html>
