@@ -1,5 +1,5 @@
 ---
-title: "Sebald\'s Contacts"
+title: "Sebald's Contacts"
 draft: false
 date: 2016-08-09T19:15:00-04:00
 featured: false
@@ -7,9 +7,12 @@ description: ""
 related_contributors:
   - author/W._G._Sebald.md
 related_books:
-
+featured_image:
+  file: Screen_Shot_2016-08-09_at_3.24.58_PM.png
+  caption:
+headerClasses: vh-100 bg-near-white white-70
 gallery:
-  - image: "Screen_Shot_2016-08-09_at_3.24.58_PM.png"
+  - image: ""
     caption: ""
 featured_image_position: "center"
 ---
@@ -22,5 +25,5 @@ featured_image_position: "center"
 
 **_faces_**
 
-<figure data-type="image">[![](http://lh3.googleusercontent.com/PKhT70bt-mrAbqpdBMcDMQaKAIWkv5dwJ71OENn5W8YOv9ImmZviP94zOnjM_6f4-SkEhxaW58_vW2Y04sabbUkymIIA=s1200)](Image-161821_1-2.jpg)</figure>
 
+{{< figure src="Image-161821_1-2.jpg" title="" caption="" >}}
