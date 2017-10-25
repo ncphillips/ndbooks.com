@@ -10,7 +10,8 @@ featured_image:
 featured: false
 authors: []
 description: ''
-related_books: []
+related_books:
+- book/i-am-the-brother-of-xx.md
 headerClasses: ''
 cover_image: ''
 draft: true
