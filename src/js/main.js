@@ -4,5 +4,6 @@ import style from './../css/app.css';
 import './lazysizes.js'
 import './listjs.js';
 import './menu-toggle.js';
+import './rellax.js'
 import './smoothscroll.js'
 import './nojs.js'
