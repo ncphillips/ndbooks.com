@@ -6,12 +6,16 @@
     {{- partial "head/meta.html" . -}}
     {{- partialCached "head/manifest.html" . -}}
     {{- partialCached "head/additions.html" . .Section -}}
-  </head>  
+  </head>
   <body class="{{ $.Param "classes.body_classes"  | default "bg-near-white sans-serif"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
     {{ block "header" . }}{{ partial "global/header.html" .}}{{ end }}
     <div class="content">
-      <main id="main" {{with $.Param "content_classes"}} class="{{.}}"{{end}}role="main">
+      <main id="main" class="rellax{{with $.Param "content_classes"}} {{.}}{{end}}" role="main" data-rellax-speed="7" data-rellax-zindex="7">
+      <div class="bg-near-white "> 
+
+
         {{ block "main" . }}{{ end }}
+        </div>
       </main>
       {{ block "footer" . }}{{ partialCached "global/footer.html" . .RelPermalink }}{{ end }}
     </div>
