@@ -19,7 +19,7 @@
 <header class="relative{{ with $featured_image }} cover min-vh-50-ns {{end}}{{ with $headerClasses }} {{ . }}{{ end }}{{ with $bgClasses }} {{ . }}{{ end }}"{{ with $featured_image }} style="background-image: url('{{$.Param "dev.image_url"}}{{.}}');"{{ end }}>
   <div class="h-100 h-inherit{{ with $featured_image }} bg-black-60 min-vh-50-l{{end}}">
     {{- partialCached "global/nav.html" . -}}
-    <div class="center rellax flex-column flex-l h-50 justify-end mw9 w-100" data-rellax-speed="9">
+    <div class="center flex-column flex-l h-50 justify-end mw9 w-100{{ with $featured_image }} rellax{{end}}" data-rellax-speed="9">
       {{- partial "hero.html" . -}}
     </div>
   </div>
