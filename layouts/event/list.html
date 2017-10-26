@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{ $events_upcoming := where (.Data.Pages) ".Date.Unix" "ge" now.Unix }}
 {{ $events_upcoming := ($events_upcoming.GroupByDate "January").Reverse}}
-  <div class="w-100 {{$.Param "classes.page_padding_classes"}}">
+  <div class="w-100 pt4 {{$.Param "classes.page_padding_classes"}}">
     <div class="center gray mb3 mt5 w-100 w-90-ns">
       {{partialCached "forms/mailchimp.html" .}}
     </div>

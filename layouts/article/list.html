@@ -1,6 +1,6 @@
 {{ define "main" }}
   {{ $section :=  (.Paginator 30).Pages }}
-  <div class="w-100 mt4 {{$.Param "classes.page_padding_classes"}}">
+  <div class="w-100 pt4 {{$.Param "classes.page_padding_classes"}}">
     <div class="center gray mb4 mt5 w-100 w-90-ns">
       {{partialCached "forms/mailchimp.html" .}}
     </div>
