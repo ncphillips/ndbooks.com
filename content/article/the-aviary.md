@@ -5,7 +5,7 @@ date: 2017-10-24 16:43:45 +0000
 related_contributors:
 - author/fleur-jaeggy.md
 featured_image:
-  file: fleur-jaeggy-opere-su-carta.jpg
+  file: 1478269502557.jpg
   caption: ''
 featured: false
 authors: []
@@ -16,8 +16,6 @@ headerClasses: ''
 cover_image: ''
 
 ---
-
-
 “You can’t forget,” a honeyed, babyish voice was saying.
 
 Stefan is sitting in the dark, the voice is behind the locked door. She cannot go in, he has forbidden it. He didn’t allow her to go into the room where his mother’s objects were. Once she had touched them and the boy had felt a queasiness in the stomach. But he didn’t let on. After all couldn’t his wife touch his mother’s things? There was no harm in his wife picking up a flower vase, or a picture off the floor to look at it. She had also touched the rugs, his wife, but a cloud of insects that had been disturbed emerged from one bag. They gave off a poisonous vapor. He let her. With his eyes and the pain in his stomach he followed those soft hands touching his mother’s things.
