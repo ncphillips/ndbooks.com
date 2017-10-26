@@ -1,6 +1,6 @@
 {{ define "main" }}{{$transforms := "q_98,dpr_auto"}}
-<article class="center mw8">
-  <div class="flex-ns mt5">
+<article class="center mw8 {{ $.Param "classes.page_padding_classes" }}">
+  <div class="flex-ns pt5">
     <div class="mb4 ph3 ph0-ns measure w-100 w-30-ns">
       <header class="b--light-silver bb mb3">
         {{partial "components/time.html" (dict "context" . "show_time" false "classes" "f7 db color-inherit sans-serif")}}
