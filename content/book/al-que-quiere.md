@@ -3,7 +3,7 @@ title: Al Que Quiere!
 subtitle: ''
 date: 2017-10-31 04:00:00 +0000
 series: []
-genre: Fiction
+genre: Poetry
 subgenre: []
 language: ''
 authors:
