@@ -15,7 +15,6 @@ featured_image:
   caption: ''
 headerClasses: ''
 cover_image: ''
-draft: true
 
 ---
 In honor of Ezra Pound's birth, on this day, 132 years ago, we share two musings by our publisher, James Laughlin, who started New Directions on Pound's advice in 1936.
