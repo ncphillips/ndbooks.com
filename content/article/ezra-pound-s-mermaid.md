@@ -11,7 +11,7 @@ authors: []
 description: ''
 related_books: []
 featured_image:
-  file: ''
+  file: TWIW_PPoint_209-1.jpg
   caption: ''
 headerClasses: ''
 cover_image: ''
