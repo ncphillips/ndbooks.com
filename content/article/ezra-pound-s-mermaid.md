@@ -13,7 +13,7 @@ related_books: []
 featured_image:
   file: TWIW_PPoint_209-1.jpg
   caption: ''
-headerClasses: ''
+headerClasses: vh-100 bg-near-white white-70
 cover_image: ''
 
 ---
