@@ -7,8 +7,8 @@ description: was founded in 1936, when James Laughlin (1914–1997), then a twen
   poems for months and had ruled them hopeless. He urged me to finish Harvard and
   then do 'something' useful."
 featured_image:
-  file: newdirections80_01.jpg
-  caption: From our 80th anniversary party
+  file: TWIW_PPoint_222.jpg
+  caption: James Laughlin
 headerClasses: vh-75 bg-near-white white-70
 layout: ''
 linktitle: About
