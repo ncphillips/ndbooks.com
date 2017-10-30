@@ -5,6 +5,5 @@ file: SS2018sm.pdf
 image:
   file: " SS2018.jpg"
 description: ''
-draft: true
 
 ---
