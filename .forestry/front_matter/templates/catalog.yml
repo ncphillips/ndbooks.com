@@ -24,7 +24,10 @@ fields:
   - type: text
     name: file
     label: File
+    description: Upload the image to Cloudinary in the "catalog" folder and paste
+      in the file name here.
 - type: text
   name: file
   label: File
-  description: Paste in the file name
+  description: Upload the file to Cloudinary in the "catalog" folder and paste in
+    the file name here.
