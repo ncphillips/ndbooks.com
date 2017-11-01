@@ -1,8 +1,8 @@
 ---
 title: Marcia Douglas
 date: 2017-11-01 16:43:42 +0000
-last_name: Dougla
-description: ''
+last_name: Douglas
+description: British writer, poet, and performer
 image:
   file: ''
   caption: ''
