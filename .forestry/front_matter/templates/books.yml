@@ -1,5 +1,6 @@
 ---
 pages:
+- book/some-trick.md
 - books.md
 hide_body: true
 fields:
