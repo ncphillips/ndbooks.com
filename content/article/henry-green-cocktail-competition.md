@@ -49,21 +49,23 @@ ND & NYRB
 
 \*\*\*
 
-  
 GRAND PRIZE
 
-"As she waited for him to say what he had come to say she poured herself more wine, bottle lifting and swinging and returning to stand between them, drops sliding down and pooling into a semi-circle stain, but still he kept quiet and pinched tight the stem of his glass, as though he were squeezing a tick off a dog."—Garen Torikian
+"As she waited for him to say what he had come to say she poured herself more wine, bottle lifting and swinging and returning to stand between them, drops sliding down and pooling into a semi-circle stain, but still he kept quiet and pinched tight the stem of his glass, as though he were squeezing a tick off a dog."  
+—Garen Torikian
 
 \*\*\*
 
 HONORABLE MENTIONS
 
-"Nearly all the gentleman were drinking as though they were tipping birdbaths."—Marina Schmidt
+"Nearly all the gentleman were drinking as though they were tipping birdbaths."  
+—Marina Schmidt
 
-"'When you have a history,' said Arthur, eyeing the dance floor where over the trampled remains of a peacock’s feather Mary was being spooled out into an ever-increasing state of disarrangement, 'you don’t need a personality.'"—Peter Jury  
-   
-  
-"'You call me Mister Lister, but I lost my watch betting cards,' to Alice he said, as if he were alone."—Donald Antenen   
-   
-  
-"As soon as Jane saw that it was impossible, she thought of this very tricky situation as something she would have to throw overboard, 'I’m not doing it,' she said putting her wooden leg back in place."—Eléna Rivera
+"'When you have a history,' said Arthur, eyeing the dance floor where over the trampled remains of a peacock’s feather Mary was being spooled out into an ever-increasing state of disarrangement, 'you don’t need a personality.'"  
+—Peter Jury
+
+"'You call me Mister Lister, but I lost my watch betting cards,' to Alice he said, as if he were alone."  
+—Donald Antenen
+
+"As soon as Jane saw that it was impossible, she thought of this very tricky situation as something she would have to throw overboard, 'I’m not doing it,' she said putting her wooden leg back in place."  
+—Eléna Rivera
