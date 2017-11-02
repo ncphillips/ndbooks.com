@@ -11,7 +11,6 @@ image:
 description:
 weight: 3
 aliases:
- - /author/dasa-drndic/
  - /author/da-a-drndi-/
 ---
 
