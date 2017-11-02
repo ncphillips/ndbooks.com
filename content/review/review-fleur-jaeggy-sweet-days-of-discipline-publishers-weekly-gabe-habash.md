@@ -13,4 +13,3 @@ weight:
 layout: none
 ---
 Like all great books, it’s really like nothing else. It’s like itself.
-
