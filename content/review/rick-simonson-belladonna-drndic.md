@@ -4,7 +4,7 @@ layout: none
 date: 2017-11-02 12:41:49 +0000
 attribution: Rick Simonson, Elliott Bay Book Company
 related_author: author/dasa-drndic.md
-related_book:
+related_books:
 - book/belladonna.md
 link_to_original: ''
 nd_author_of_this_review: ''

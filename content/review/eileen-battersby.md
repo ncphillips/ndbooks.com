@@ -3,7 +3,7 @@ title: Eileen Batters
 layout: none
 date: 2017-11-02 12:39:18 +0000
 related_author: author/dasa-drndic.md
-related_book:
+related_books:
 - book/belladonna.md
 attribution: Eileen Battersby, *Irish Times*
 link_to_original: ''

@@ -10,7 +10,7 @@ related_books:
 description: ''
 weight: ''
 layout: none
-related_book:
+related_books:
 - book/compass.md
 
 ---
