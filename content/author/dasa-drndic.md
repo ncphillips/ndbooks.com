@@ -11,7 +11,7 @@ image:
 description:
 weight: 3
 aliases:
- - /author/dasa-drndic.md
+ - /author/dasa-drndic/
 ---
 
 Daša Drndić is a Croatian novelist, playwright, critic, and author of radio plays and documentaries. _Trieste_, her first novel to be translated into English, was shortlisted for the Independent Foreign Fiction Prize in 2013.
