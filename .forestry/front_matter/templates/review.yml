@@ -25,8 +25,8 @@ fields:
       section: author
   label: Related Author
 - type: list
-  name: related_book
-  label: Related Book
+  name: related_books
+  label: Related Books
   config:
     use_select: true
     source:
