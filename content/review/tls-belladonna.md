@@ -3,7 +3,7 @@ title: TLS belladonna
 layout: none
 date: 2017-11-02 12:51:28 +0000
 attribution: "*TLS*"
-related_author: author/da-a-drndi-.md
+related_author: author/dasa-drndic.md
 related_book:
 - book/belladonna.md
 link_to_original: ''
