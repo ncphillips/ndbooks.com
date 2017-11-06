@@ -9,7 +9,6 @@ image:
 featured_image:
   file: ''
   caption: ''
-draft: true
 
 ---
 Lara Vergnaud is an editor and literary translator who currently lives in Washington, D.C.
