@@ -6,12 +6,11 @@ link_to_original: https://www.nytimes.com/2017/06/30/books/review/compass-mathia
 nd_author_of_this_review: ''
 related_author: author/mathias-enard.md
 related_books:
-- book/compass_2.md
+- book/compass.md
 description: ''
 weight: ''
 layout: none
-related_books:
-- book/compass.md
+draft: true
 
 ---
 [A] masterly new novel that attempts to redeem the specter of the Orient...
