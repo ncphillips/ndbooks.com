@@ -9,6 +9,5 @@ related_books:
 - book/mrs-caliban.md
 nd_author_of_this_review: ''
 weight: ''
-draft: true
 
 ---
