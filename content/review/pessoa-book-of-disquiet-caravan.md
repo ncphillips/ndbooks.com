@@ -6,7 +6,7 @@ attribution: "*Caravan*"
 link_to_original: http://www.caravanmagazine.in/bookshelf/book-disquiet-complete-edition
 related_books:
 - book/the-book-of-disquiet-the-complete-edition.md
-related_author: ''
+related_author: author/fernando-pessoa.md
 nd_author_of_this_review: ''
 weight: ''
 draft: true
