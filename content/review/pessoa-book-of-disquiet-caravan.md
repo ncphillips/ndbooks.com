@@ -9,7 +9,6 @@ related_books:
 related_author: author/fernando-pessoa.md
 nd_author_of_this_review: ''
 weight: ''
-draft: true
 
 ---
 This newly edited English edition is set to become the definitive version of Pessoa’s masterwork.
