@@ -6,7 +6,7 @@ related_author: author/marcel-proust.md
 link_to_original: https://www.asymptotejournal.com/criticism/marcel-proust-letters-to-his-neighbor/
 related_books:
 - book/letters-to-his-neighbor.md
-attribution: ''
+attribution: "*Aysmptote*"
 nd_author_of_this_review: ''
 weight: ''
 draft: true
