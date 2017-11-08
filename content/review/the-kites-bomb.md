@@ -2,7 +2,7 @@
 title: The Kites Bomb
 layout: none
 date: 2017-11-07 14:29:30 +0000
-attribution: "*Bomb*"
+attribution: "*BOMB*"
 link_to_original: http://bombmagazine.org/articles/romain-gary-books/
 related_author: author/romain-gary.md
 related_books:
