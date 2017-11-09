@@ -1,6 +1,6 @@
 ---
 title: Henry Green Cocktail Hour
-featured: true
+featured: false
 gallery:
 - image: HenryGreenNapkin.jpg
   caption: 
