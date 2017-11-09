@@ -27,4 +27,4 @@ featured_image:
 ---
 Please join us for a reading and celebration of the latest books by cult writer Fleur Jaeggy. Gini Alhadeff and Minna Zallman Proctor, translators of I AM THE BROTHER OF XX and THESE POSSIBLE LIVES respectively, will discuss the books with writer Claudia Steinberg. Bubbly to follow. 
 
-"Her hands, like the claws of a crustacean, clutched a little mound of dust." —Fleur Jaeggy, from the story, "The Asceptic Room" 
+"Her hands, like the claws of a crustacean, clutched a little mound of dust." —Fleur Jaeggy, from the story, "The Aseptic Room" 
