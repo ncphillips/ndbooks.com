@@ -1,12 +1,12 @@
 ---
 date: 2015-07-14 18:00:00 +0000
-description: Win five hundred dollars of New Directions and NYRB Classics.
+description: ''
 featured_books:
 - book/the-book-of-disquiet-the-complete-edition.md
 - book/letters-to-his-neighbor.md
 - book/sea-land-shadow.md
 featured_image:
-  file: Henry_Green.jpg
+  file: 9780811224192.jpg
   caption: ''
 featured_review: ''
 gallery:
@@ -48,7 +48,7 @@ gallery:
   link: "/book/letters-to-his-neighbor/"
   quote: 
 headerClasses: vh-100 bg-near-white white-70
-title: What would Henry Green write…after his third martini?
+title: ''
 type: home-page
 
 ---
