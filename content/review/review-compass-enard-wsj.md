@@ -4,7 +4,7 @@ date: 2017-03-27 14:54:00 +0000
 attribution: Sam Sacks, *Wall Street Journal*
 link_to_original: ''
 nd_author_of_this_review: ''
-related_author: author/elaine-kraf.md
+related_author: ''
 related_books:
 - book/compass.md
 description: ''
