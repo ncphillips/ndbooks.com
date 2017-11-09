@@ -3,10 +3,10 @@ date: 2015-07-14 18:00:00 +0000
 description: ''
 featured_books:
 - book/bakkhai.md
-- book/ferlinghettis-greatest-poems.md
 - book/the-poems-of-dylan-thomas.md
-- book/the-book-of-disquiet-the-complete-edition.md
+- book/ferlinghettis-greatest-poems.md
 - book/letters-to-his-neighbor.md
+- book/the-book-of-disquiet-the-complete-edition.md
 featured_image:
   file: 9780811224192.jpg
   caption: ''
