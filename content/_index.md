@@ -14,6 +14,7 @@ featured_review: ''
 gallery:
 - image: 9780811224192.jpg
   caption: ''
+  link: "/book/the-world-goes-on/"
 - image: WGO_pallet.jpg
   caption: 
 - image: Krasznahorkai_Manhattan_Project.jpg
