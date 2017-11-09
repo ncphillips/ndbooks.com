@@ -52,6 +52,10 @@ fields:
     label: Quote
     description: Add double asterisks  around **bold** items and on asterisk around       *italicized*
       items.
+  - type: text
+    name: link
+    label: Link
+    description: This will usually look like "/book/belladonna/"
   hidden: false
   default: []
   config:
