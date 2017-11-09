@@ -14,6 +14,8 @@ featured_review: ''
 gallery:
 - image: WGO_pallet.jpg
   caption: 
+- image: Krasznahorkai_Manhattan_Project.jpg
+  caption: 
 headerClasses: vh-100 bg-near-white white-70
 title: ''
 type: home-page
