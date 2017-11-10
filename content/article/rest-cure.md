@@ -13,7 +13,6 @@ featured_image:
   caption: ''
 headerClasses: ''
 cover_image: ''
-draft: true
 
 ---
 He sat in the sun with the blanket about him, considering, with his hands lying out like emaciated strangers before him, that today the sun would endure a little longer. Certainly it would survive until the trees below the terrace effaced it, toward four o’clock, like open parasols. A crime it had been, the invalid thought, turning his head this way and that, to have ever built up one house before another in such a way that one man’s habitation cast a shadow upon another’s. The whole sloping coast should have been left a wilderness with no order to it, stalked and leafed with the great strong trunks and foliage of these parts. Cactus plants with petals a yard wide and yucca tongues as thick as elephant trunks were sullenly and viciously flourishing all about the house. Upon the terrace had a further attempt at nicety and precision been made: there his wife had seen to it that the geraniums were potted into the wooden boxes that stood along the wall.
