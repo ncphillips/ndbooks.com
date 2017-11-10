@@ -17,6 +17,7 @@ gallery:
   link: "/book/the-world-goes-on/"
 - image: WGO_pallet.jpg
   caption: 
+  link: "/book/the-world-goes-on/"
 - image: Krasznahorkai_Laszlo_Subin.jpg
   caption: 
   link: "/book/the-world-goes-on/"
