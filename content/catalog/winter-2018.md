@@ -5,6 +5,5 @@ file: catalog/winter2018_catalog_text_revised_final_1_1.pdf
 image:
   file: " catalog/WINTER_2018_Cover.jpg"
 description: ''
-draft: true
 
 ---
