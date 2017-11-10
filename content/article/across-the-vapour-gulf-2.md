@@ -8,7 +8,8 @@ cover_image: Vapour.jpg
 featured: false
 authors: []
 description: ''
-related_books: []
+related_books:
+- book/across-the-vapour-gulf.md
 featured_image:
   file: ''
   caption: ''
