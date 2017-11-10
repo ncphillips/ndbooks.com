@@ -18,7 +18,7 @@ gallery:
 - image: Krasznahorkai_Laszlo_Subin.jpg
   caption: 
   link: "/book/the-world-goes-on/"
-- image: WGO_pallet.jpg
+- image: waterfall_laszlo.jpg
   caption: 
   link: "/book/the-world-goes-on/"
 headerClasses: vh-100 bg-near-white white-70
