@@ -7,7 +7,7 @@ image:
   file: ''
   caption: ''
 featured_image:
-  file: ''
+  file: Marcia_Douglas_wide.jpg
   caption: ''
 
 ---
