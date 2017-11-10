@@ -9,15 +9,13 @@ authors: []
 description: ''
 related_books: []
 featured_image:
-  file: ''
+  file: catalog/14761644646_0d9ec1a8e1_b.jpg
   caption: ''
 headerClasses: ''
 cover_image: ''
 draft: true
 
 ---
-
-
 He sat in the sun with the blanket about him, considering, with his hands lying out like emaciated strangers before him, that today the sun would endure a little longer. Certainly it would survive until the trees below the terrace effaced it, toward four o’clock, like open parasols. A crime it had been, the invalid thought, turning his head this way and that, to have ever built up one house before another in such a way that one man’s habitation cast a shadow upon another’s. The whole sloping coast should have been left a wilderness with no order to it, stalked and leafed with the great strong trunks and foliage of these parts. Cactus plants with petals a yard wide and yucca tongues as thick as elephant trunks were sullenly and viciously flourishing all about the house. Upon the terrace had a further attempt at nicety and precision been made: there his wife had seen to it that the geraniums were potted into the wooden boxes that stood along the wall.
 
 From his lounging chair he could reach out and, with no effort beyond that of raising the skeleton of his hand, finger the parched stems of the geraniums. The south, and the Mediterranean wind, had blistered them past all belief. They bore their rosy topknots or their soiled white flowers balanced upon their thick Italian heads. There they were, within his reach, a row of weary washerwomen leaning back from the villainous descent of the coast. What parched scions had thrust forth from their stems now served to obliterate in part the vision of the sun. With arms akimbo they surrounded him: thin burned Italian women with their meager bundles of dirty linen on their heads. One after another, with a flicker of irritation for his wife lightening eye, he fingered them at the waist a moment, and then snapped off each stem. One after another he broke their stalks in two and dropped them away onto the pavings beneath his lounging chair. When he had finished off what plants grew within his reach, he lay back exhausted, sank, thin as an archer’s bow, into the depths of his cushions.
