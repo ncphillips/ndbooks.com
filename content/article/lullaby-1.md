@@ -1,7 +1,7 @@
 ---
 title: Lullaby
 gallery: []
-date: 2017-10-01 08:50:10 -0400
+date: 2017-11-10 08:50:10 -0500
 related_contributors:
 - author/lesley-harrison.md
 related_books:
@@ -13,8 +13,7 @@ featured_image:
   file: ''
   caption: ''
 headerClasses: ''
-cover_image: ''
-draft: true
+cover_image: Kelp.jpg
 
 ---
   
