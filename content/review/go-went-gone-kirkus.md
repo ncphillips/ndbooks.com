@@ -9,7 +9,6 @@ link_to_original: ''
 related_author: ''
 nd_author_of_this_review: ''
 weight: ''
-draft: true
 
 ---
 A lyrical urgent response to a history that is still unfolding.
