@@ -17,7 +17,7 @@ gallery:
   link: "/book/the-world-goes-on/"
 - image: WGO_pallet.jpg
   caption: 
-- image: Krasznahorkai_Manhattan_Project.jpg
+- image: Krasznahorkai_Laszlo_Subin.jpg
   caption: 
 headerClasses: vh-100 bg-near-white white-70
 title: ''
