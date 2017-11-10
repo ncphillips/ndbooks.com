@@ -15,10 +15,10 @@ gallery:
 - image: 9780811224192.jpg
   caption: ''
   link: "/book/the-world-goes-on/"
-- image: WGO_pallet.jpg
+- image: Krasznahorkai_Laszlo_Subin.jpg
   caption: 
   link: "/book/the-world-goes-on/"
-- image: Krasznahorkai_Laszlo_Subin.jpg
+- image: WGO_pallet.jpg
   caption: 
   link: "/book/the-world-goes-on/"
 headerClasses: vh-100 bg-near-white white-70
