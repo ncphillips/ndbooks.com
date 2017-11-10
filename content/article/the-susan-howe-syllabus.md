@@ -1,6 +1,6 @@
 ---
 title: The Susan Howe Syllabus
-date: 2014-12-10 17:36:00 -0400
+date: 2017-01-11 16:36:00 -0500
 featured: false
 description: ''
 related_contributors: []
