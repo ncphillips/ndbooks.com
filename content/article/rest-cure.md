@@ -9,7 +9,7 @@ authors: []
 description: ''
 related_books: []
 featured_image:
-  file: catalog/14761644646_0d9ec1a8e1_b.jpg
+  file: restcure.jpg
   caption: ''
 headerClasses: ''
 cover_image: ''
