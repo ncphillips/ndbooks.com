@@ -19,6 +19,7 @@ gallery:
   caption: 
 - image: Krasznahorkai_Laszlo_Subin.jpg
   caption: 
+  link: "/book/the-world-goes-on/"
 headerClasses: vh-100 bg-near-white white-70
 title: ''
 type: home-page
