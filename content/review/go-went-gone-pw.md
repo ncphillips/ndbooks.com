@@ -9,7 +9,6 @@ link_to_original: ''
 related_author: ''
 nd_author_of_this_review: ''
 weight: ''
-draft: true
 
 ---
 An insightful call to conscience and an undeniable argument for our common humanity.
