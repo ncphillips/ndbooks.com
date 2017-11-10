@@ -1,26 +1,27 @@
 ---
-title: "The Susan Howe Syllabus"
-draft: false
-date: 2014-12-10T17:36:00-04:00
+title: The Susan Howe Syllabus
+date: 2014-12-10 17:36:00 -0400
 featured: false
-description: ""
-related_contributors:
-
-related_books:
-
+description: ''
+related_contributors: []
+related_books: []
 gallery:
-  - image: "HoweCole-8_copy_mini.jpg"
-    caption: ""
-featured_image_position: "center"
----
+- image: HoweCole-8_copy_mini.jpg
+  caption: ''
+featured_image_position: center
+featured_image:
+  file: sea-garden-h-d.jpg
+  caption: ''
+authors: []
+headerClasses: ''
+cover_image: ''
 
+---
 In 1996, Susan Howe taught an English class at the University of Buffalo. The syllabus recently surfaced online. Our publisher Barbara Epler described it as "the craziest syllabus I've ever seen."
 
 Howe confirmed its authenticity with this note: "I did teach it! That is my course. I always went over the top in my syllabi because I was so insecure about being in academia!" Adding: "Good god. Will wonders never cease. And to think I have no university degree."
 
 We publish the syllabus below.
-
-Susan Howe and her daughter, the artist R. H. Quaytman, will deliver the keynote address at the New York Art Book Fair **this Saturday evening** at MoMA PS1. [Full details here.](http://nyartbookfair.com/conference/)
 
 **Poetics: Sexuality and Space in 17th - 19th Century American Literature.**
 
@@ -110,4 +111,3 @@ Susan Gilbert Dickinson to Thomas Wentworth Higginson.
 Just why they came=Is the same way=In which they waited=In liking having bought it=Which made them go=They went away at once.=XIX=It is easy to keep count.=One two three all out but she.= It is easy to keep count and make a mistake.=Slenderness keeps them busy.=Ought they to be kept busy=With it=anything artificial is an annoyance example artificial silk.=All history is cautious.
 
 "Gertrude Stein- from “We Came. A History."
-
