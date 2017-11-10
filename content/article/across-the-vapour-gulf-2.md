@@ -6,14 +6,14 @@ gallery:
 date: 2017-10-01 08:45:56 -0400
 related_contributors:
 - author/will-alexander.md
-cover_image: Vapour.jpg
+cover_image: ''
 featured: false
 authors: []
 description: ''
 related_books:
 - book/across-the-vapour-gulf.md
 featured_image:
-  file: ''
+  file: vapour.jpg
   caption: ''
 headerClasses: ''
 
