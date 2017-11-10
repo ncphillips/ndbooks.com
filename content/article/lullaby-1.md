@@ -1,7 +1,7 @@
 ---
 title: Lullaby
 gallery: []
-date: 2017-11-10 08:50:10 -0500
+date: 2017-10-27 08:50:10 -0400
 related_contributors:
 - author/lesley-harrison.md
 related_books:
