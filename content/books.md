@@ -2,7 +2,7 @@
 title: New & Forthcoming Books
 linktitle: Books
 type: books
-headerClasses: "bg-primary-color-light white-80"
+headerClasses: bg-primary-color-light white-80
 new__and_forthcoming_books:
   titles:
   - book/the-book-of-disquiet-the-complete-edition.md
@@ -40,6 +40,10 @@ new__and_forthcoming_books:
   - book/the-desert-and-its-seed.md
 bestsellers:
   titles:
+  - book/cat-on-a-hot-tin-roof.md
+  - book/nox.md
+  - book/the-emigrants.md
+  - book/the-glass-menagerie4.md
   - book/the-great-enigma.md
   - book/labyrinths.md
   - book/a-coney-island-of-the-mind.md
@@ -50,8 +54,8 @@ bestsellers:
   - book/a-streetcar-named-desire.md
   - book/nightwood.md
   - book/journey-to-the-end-of-the-night.md
-  - book/i-served-the-king-of-england.md
   - book/amerika.md
+  - book/beauty-is-a-wound.md
   - book/nausea.md
   - book/woolgathering.md
   - book/the-gorgeous-nothings.md
@@ -59,10 +63,7 @@ bestsellers:
   - book/nikolai-gogol.md
   - book/the-complete-stories.md
   - book/love-poems.md
-  - book/beauty-is-a-wound.md
   - book/oreo.md
-  - book/all-the-poems.md
-  - book/the-musical-brain-and-other-stories.md
 menu:
   main:
     weight: 10
