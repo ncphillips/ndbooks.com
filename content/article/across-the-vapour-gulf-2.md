@@ -1,6 +1,8 @@
 ---
 title: Across the Vapour Gulf
-gallery: []
+gallery:
+- image: Vapour.jpg
+  caption: 
 date: 2017-10-01 08:45:56 -0400
 related_contributors:
 - author/will-alexander.md
