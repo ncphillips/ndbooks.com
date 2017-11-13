@@ -9,8 +9,10 @@ language: ''
 authors:
 - author/dylan-thomas.md
 translators: []
-editors: []
-contributors: []
+editors:
+- author/john-goodby.md
+contributors:
+- author/john-goodby.md
 editions:
 - binding: clothbound
   isbn: 9780811221146
