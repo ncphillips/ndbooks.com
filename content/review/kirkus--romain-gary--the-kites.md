@@ -2,7 +2,7 @@
 title: Kirkus, Romain Gary, The Kites
 layout: none
 date: 2017-11-13 17:55:48 +0000
-attribution: Kirkus
+attribution: "*Kirkus*"
 related_books:
 - book/the-kites.md
 link_to_original: ''
