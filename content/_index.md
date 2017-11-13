@@ -14,7 +14,7 @@ featured_review: ''
 gallery:
 - image: gary_photo.jpg
   caption: 
-  link: https://www.ndbooks.com/author/romain-gary/
+  link: "/author/romain-gary/"
 - image: 9780811226547.jpg
   caption: ''
   link: https://www.ndbooks.com/book/the-kites/
