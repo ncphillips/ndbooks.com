@@ -41,7 +41,7 @@ editions:
   - author/thomas-keith.md
   cover_image: thepoemsofdylanthomas.JPG
 featured_image:
-  file: 9780811221146.jpg
+  file: ''
   caption: ''
 _slug: the-poems-of-dylan-thomas
 headerClasses: ''
