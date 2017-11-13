@@ -10,8 +10,7 @@ authors:
 - author/dylan-thomas.md
 translators: []
 editors: []
-contributors:
-- author/thomas-keith.md
+contributors: []
 editions:
 - binding: clothbound
   isbn: 9780811221146
