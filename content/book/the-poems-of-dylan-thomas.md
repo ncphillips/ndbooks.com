@@ -3,7 +3,7 @@ title: The Poems Of Dylan Thomas
 subtitle: ''
 date: 2003-04-01 06:00:46 +0000
 series: []
-genre: Fiction
+genre: Poetry
 subgenre: []
 language: ''
 authors:
