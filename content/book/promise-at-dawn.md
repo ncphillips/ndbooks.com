@@ -13,19 +13,16 @@ editors: []
 contributors: []
 editions:
 - binding: paperback
-  isbn: 9780811210164
-  date: 1987-04-01 06:00:11 +0000
-  description: ''
-  trim_size: ''
-  page_count: ''
-  sales_data:
-    forsale: false
-    saleprice: 
-    shipping_charge: 
-    price_us: 21.95
-    price_cn: 
-  contributors: 
-  cover_image: Promise_At_Dawn.jpg
+  isbn: 9780811221986
+  date: 2017-10-31 00:00:00 -0400
+  description: |-
+    A classic of modern French literature, the thrilling
+    real-life story of the military hero, ambassador,
+    ladies man, writer, and loving son
+  trim_size: 5.6 x 1 x 8.3
+  page_count: 336
+  contributors: []
+  cover_image: 9780811221986.jpg
 featured_image:
   file: ''
   caption: ''
