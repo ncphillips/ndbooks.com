@@ -9,7 +9,6 @@ related_books:
 - book/dandelions.md
 nd_author_of_this_review: ''
 weight: ''
-draft: true
 
 ---
 A gentle study of madness. Enchanting.
