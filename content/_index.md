@@ -12,6 +12,9 @@ featured_image:
   caption: ''
 featured_review: ''
 gallery:
+- image: 9780811221986.jpg
+  caption: ''
+  link: "/book/promise-at-dawn/"
 - image: 9780811224192.jpg
   caption: ''
   link: "/book/the-world-goes-on/"
