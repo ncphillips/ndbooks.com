@@ -12,15 +12,6 @@ featured_image:
   caption: ''
 featured_review: ''
 gallery:
-- image: gary_photo.jpg
-  caption: 
-  link: "/author/romain-gary/"
-- image: 9780811226547.jpg
-  caption: ''
-  link: https://www.ndbooks.com/book/the-kites/
-- image: 9780811221986.jpg
-  caption: ''
-  link: "/book/promise-at-dawn/"
 - image: 9780811224192.jpg
   caption: ''
   link: "/book/the-world-goes-on/"
@@ -30,6 +21,15 @@ gallery:
 - image: waterfall_laszlo.jpg
   caption: 
   link: "/book/the-world-goes-on/"
+- image: 9780811221986.jpg
+  caption: ''
+  link: "/book/promise-at-dawn/"
+- image: gary_photo.jpg
+  caption: 
+  link: "/author/romain-gary/"
+- image: 9780811226547.jpg
+  caption: ''
+  link: https://www.ndbooks.com/book/the-kites/
 headerClasses: vh-100 bg-near-white white-70
 title: ''
 type: home-page
