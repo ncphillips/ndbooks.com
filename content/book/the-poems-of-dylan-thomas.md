@@ -8,14 +8,14 @@ subgenre: []
 language: ''
 authors:
 - author/dylan-thomas.md
-translators: ''
+translators: []
 editors: []
 contributors:
 - author/thomas-keith.md
 editions:
 - binding: clothbound
   isbn: 9780811221146
-  date: 2017-10-31 00:00:00 -0400
+  date: 2017-10-31 04:00:00 +0000
   description: ''
   trim_size: 5 1/2 x 8 1/2
   page_count: 512
@@ -46,5 +46,6 @@ _slug: the-poems-of-dylan-thomas
 headerClasses: ''
 
 ---
-In 1952, when Dylan Thomas published his _Collected Poems_, with a specially written "Author’s Prologue," he took for granted that many years of work lay ahead of him. But his death a year later and his widening importance have made every poem he ever finished a significant part of the heritage his short life bequeathed us. It has taken years to sort out texts and manuscripts and to determine the best way to present them. Daniel Jones, collaborator and close friend of Thomas’s since boyhood, has added 102 works to the 90 originally published, and has endeavored to arrange them chronologically, in the order in which they were completed. Moreover, 26 poems written by Thomas before he was 16, often humorous and delightful pieces, are included in an Appendix, together with two others unfinished at his death; while the majestic "Prologue" ("to my readers, the strangers") comes first––as Thomas intended. Dr. Jones’s Introduction and notes show how this revised order of the 90 poems, interlarded with the many others, reveals new relationships among poems written at the same time and the poet’s development of his technique and imagery, illuminating both with a fresh light. It is hoped this collection will increase the pleasure of reading well-known poems as well as make accessible the "new" works that partake of Thomas’s peculiar vitality and magic.
+The reputation of Dylan Thomas as one of the greatest poets of the twentieth century has not wanted in the six decades since his death. A Welshman with a passion for the English language, "Thomas's singular poetic voice has been admired and imitated, but never matched. 
 
+This exciting, newly edited, annotated volumes offers a more complete collection of Dylan Thomas's poetic works than any previous edition. Edited by the leading Dylan Thomas scholar John Goodby, The Poems of Dylan Thomas contains all the poems that appeared in Collected Poems 1934–1952, edited by Dylan Thomas himself, as well as poems from the 1930–1934 notebooks and letters, amatory verses, occasional poems, the verse script for "Our Country," and the poems that appear in his radio "play for voices," Under Milk Wood. Showing the broad range of Dylan Thomas's oeuvre as never before, this new edition places Thomas in the twenty-first century with an up-to-date introduction by Goodby, whose notes and annotations take a full yet succinct approach. 
