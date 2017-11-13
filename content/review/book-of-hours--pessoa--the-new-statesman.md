@@ -9,7 +9,6 @@ attribution: "*The New Statesman*"
 related_author: ''
 nd_author_of_this_review: ''
 weight: ''
-draft: true
 
 ---
 _The Book of Disquiet_, a literary vortex that, even in completeness, remains incomplete. A reading experience like no other. It is thrilling, confusing, upsetting, joyous, tedious and profound. You will never forget it, or stop wanting to return to it.
