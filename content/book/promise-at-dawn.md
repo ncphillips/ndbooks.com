@@ -4,7 +4,8 @@ subtitle: ''
 date: 2017-10-31 00:00:00 -0400
 series: []
 genre: Fiction
-subgenre: []
+subgenre:
+- Memoir
 language: ''
 authors:
 - author/romain-gary.md
