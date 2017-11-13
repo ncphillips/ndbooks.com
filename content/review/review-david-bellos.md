@@ -1,16 +1,15 @@
 ---
-title: "David Bellos"
-draft: false
-date: 2011-10-20T01:01:28.000Z
-attribution: "David Bellos"
-link_to_original:
-nd_author_of_this_review:
-related_author: .md
+title: David Bellos, Promise Dawn, Romain Gary
+date: 2017-10-31 21:01:28 -0400
+attribution: David Bellos
+link_to_original: ''
+nd_author_of_this_review: ''
+related_author: ''
 related_books:
-
-description:
-weight:
+- book/promise-at-dawn.md
+description: ''
+weight: ''
 layout: none
----
-Gary’s life was shaped by war, revolution, emigration, anti-Semitism, defeat, and murderous low-altitude bombing runs. But he never wallowed in victimhood – quite the contrary. He wrote scathing satires of the victim syndrome, and never claimed that his changes of country and language were anything but opportunities to be someone else.
 
+---
+A celebrated and infinitely seductive portrait of his early life, which is still often described as an unprecedented innovation in the writing of autobiography in France.
