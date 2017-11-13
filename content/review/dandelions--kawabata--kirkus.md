@@ -9,7 +9,6 @@ related_books:
 - book/dandelions.md
 nd_author_of_this_review: ''
 weight: ''
-draft: true
 
 ---
 Flowers, bells, wounded trees: the natural and human worlds meet and mingle in this slender, sharply honed narrative.
