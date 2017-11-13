@@ -5,7 +5,7 @@ date: 2017-11-13 14:56:09 +0000
 related_books:
 - book/the-book-of-disquiet-the-complete-edition.md
 link_to_original: https://www.newstatesman.com/culture/books/2017/10/hunt-complete-edition-fernando-pessoa-s-fragmentary-masterpiece
-attribution: ''
+attribution: "*The New Statesman*"
 related_author: ''
 nd_author_of_this_review: ''
 weight: ''
