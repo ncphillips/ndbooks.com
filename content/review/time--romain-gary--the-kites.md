@@ -4,7 +4,7 @@ layout: none
 date: 2017-11-13 17:53:26 +0000
 related_books:
 - book/the-kites.md
-attribution: ''
+attribution: TIMES
 link_to_original: ''
 related_author: ''
 nd_author_of_this_review: ''
