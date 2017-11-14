@@ -1,4 +1,4 @@
-title = "New Directions Publishers"
+title = "New Directions Publishing"
 baseURL = "https://www.ndbooks.com"
 languageCode = "en-us"
 buildFuture = true
