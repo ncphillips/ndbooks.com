@@ -76,4 +76,4 @@ new_and_forthcoming_books_test:
   - book/across-the-vapour-gulf.md
   - book/blue-pearl.md
   - book/vengeance-is-mine-all-others-pay-cash.md
-  ---
+---
