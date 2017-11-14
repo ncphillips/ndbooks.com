@@ -67,5 +67,13 @@ bestsellers:
 menu:
   main:
     weight: 10
-
----
+new_and_forthcoming_books_test:
+  titles:
+  - book/the-book-of-disquiet-the-complete-edition.md
+  - book/letters-to-his-neighbor.md
+  - book/sea-land-shadow.md
+  - book/21-poems.md
+  - book/across-the-vapour-gulf.md
+  - book/blue-pearl.md
+  - book/vengeance-is-mine-all-others-pay-cash.md
+  ---
