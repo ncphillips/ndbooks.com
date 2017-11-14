@@ -3,7 +3,7 @@ title: New & Forthcoming Books
 linktitle: Books
 type: books
 headerClasses: bg-primary-color-light white-80
-new__and_forthcoming_books:
+new_and_forthcoming_books:
   titles:
   - book/the-book-of-disquiet-the-complete-edition.md
   - book/letters-to-his-neighbor.md

@@ -21,7 +21,7 @@ fields:
     name: titles
     type: list
   label: New  & Forthcoming Books
-  name: new__and_forthcoming_books
+  name: new_and_forthcoming_books
   type: field_group
 - fields:
   - config:
