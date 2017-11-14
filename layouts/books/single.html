@@ -19,7 +19,7 @@
       Bestsellers
     </h2>
 
-    <div class="flex flex-wrap justify-between dg g-columns-100 g-gap-10">
+    <div class="flex flex-wrap justify-between dg g-columns-100 g-gap-10 mb7">
       {{range (.Params.bestsellers.titles)}}
         {{$favorites := where (where $.Site.RegularPages "Section" "book") ".File.Path" .}}
         {{ range first 10 $favorites }}

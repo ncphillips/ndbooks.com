@@ -239,7 +239,7 @@
 
   {{/* Books by this/these author(s) */}}
     {{ with $related_bookss }}
-      <section id="related_bookss" class="bg-white center pa4 w-100">
+      <section id="related_bookss" class="bg-white center pa4 w-100 mb6">
         <h3 class="black-70">More books by {{if ge ($.Params.authors | len) 2 }}these authors{{else}}this author{{end}}</h3>
         <div class="flex flex-wrap"> 
           {{ range . }}
