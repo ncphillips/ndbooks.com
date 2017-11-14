@@ -40,15 +40,3 @@ fields:
   label: Type
   hidden: true
   description: to select a template
-- fields:
-  - config:
-      source:
-        section: book
-        type: pages
-      use_select: true
-    label: Titles
-    name: titles
-    type: list
-  label: New & Forthcoming Books
-  name: new_and_forthcoming_books_test
-  type: field_group
