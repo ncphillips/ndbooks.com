@@ -7,7 +7,7 @@
       </div>
       {{partial "page-content.html" . }}
     <div class="filteredlist flex flex-wrap justify-between dg g-columns-230 g-gap-10">
-    {{range .Params.new__and_forthcoming_books.titles}}
+    {{range .Params.new_and_forthcoming_books.titles}}
       {{$favorites := where (where $.Site.RegularPages "Section" "book") ".File.Path" .}}
       {{ range first 10 $favorites }}
         {{ .Render "cover" }}
