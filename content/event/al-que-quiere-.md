@@ -1,6 +1,6 @@
 ---
 title: AL QUE QUIERE!
-date: Invalid date
+date: 2017-12-07 19:00:00 -0500
 description: Al Que Quiere! at the Cervantes Institute
 related_contributors:
 - author/william-carlos-williams.md
