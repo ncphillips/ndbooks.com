@@ -8,7 +8,7 @@ related_books:
 - book/the-kites.md
 related_author: ''
 nd_author_of_this_review: ''
-weight: ''
+weight: 1
 draft: true
 
 ---
