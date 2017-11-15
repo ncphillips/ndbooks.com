@@ -23,3 +23,7 @@ featured_image:
 draft: true
 
 ---
+_Al Que Quiere!_ is William Carlos Williams's third collection of poems, and demonstrates his mature poetic voice. Williams, a great American poet of the 20th century, had close ties to the Spanish language through his Puerto Rican mother as well as his Spanish-speaking father, and he had a deep appreciation for Spanish literature. In collaboration with New Directions on issue of the "Centennial Edition" of Williams's poetry book, editor Jonathan Cohen together with poet-critics Julio Marzán and Mónica de la Torre will guide us through the work and highlight its essential Spanish elements.
+
+  
+RSVP: bec3cultny@cervantes.org
