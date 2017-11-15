@@ -9,7 +9,6 @@ related_books:
 related_author: ''
 nd_author_of_this_review: ''
 weight: ''
-draft: true
 
 ---
 Jaeggy seems to have crushed a glass in her palm and tweezed out a few shards for the page. Her prose is indeed extraordinary...it is also frightening.
