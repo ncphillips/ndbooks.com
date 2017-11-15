@@ -2,7 +2,7 @@
 title: Publisher's Weekly, Gary, The Kites
 layout: none
 date: 2017-11-15 11:57:00 +0000
-attribution: "*Publisher's Weekly*"
+attribution: "*Publishers Weekly*"
 link_to_original: https://www.publishersweekly.com/978-0-8112-2655-4
 related_books:
 - book/the-kites.md
