@@ -9,12 +9,12 @@ description: ''
 related_books:
 - book/the-emissary.md
 venue:
-  name: ''
-  street1: ''
+  name: 92Y
+  street1: 1395 Lexington Avenue
   street12: ''
-  city: ''
+  city: New York
   state: ''
-  zip: ''
+  zip: 10128
   country: ''
 featured_image:
   file: ''
