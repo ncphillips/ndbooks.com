@@ -9,7 +9,6 @@ related_books:
 related_author: ''
 nd_author_of_this_review: ''
 weight: ''
-draft: true
 
 ---
 Gary handles the emotional tightrope of espionage and the brutal reality of battle with clarity and precision, all captured magnificently by Mouillot’s translation...This is a wonderful translation of a French classic.
