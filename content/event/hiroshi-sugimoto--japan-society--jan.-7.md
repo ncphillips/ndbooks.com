@@ -22,3 +22,4 @@ featured_image:
 draft: true
 
 ---
+This fall, explore one of the earliest, and largely unknown, encounters between Japan and the West in the 16th century, as seen through the eyes of artist **Hiroshi Sugimoto**. In celebration of Japan Society's 110th anniversary, _Hiroshi Sugimoto: Gates of Paradise_ charts the story of four Japanese boys, who were swept up in the tide of religion, commerce and politics during the first Global Age and sent to the princely and papal courts of Europe. Journey in their footsteps through Sugimoto's new monumental photographs of the sites they visited, and navigate the germination of cultural exchange between East and West with classical masterpieces of visually hybrid (_nanban_) art from Japanese and American collections.
