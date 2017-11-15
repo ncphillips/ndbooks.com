@@ -16,9 +16,9 @@ venue:
   zip: 10017
   country: ''
 show_time: false
-website: ''
+website: http://nyork.cervantes.es/FichasCultura/Ficha116815_27_2.htm
 featured_image:
-  file: ''
+  file: Williams_Williams_Carlos_2.jpg
   caption: ''
 draft: true
 
