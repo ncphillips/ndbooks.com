@@ -8,12 +8,12 @@ show_time: false
 description: ''
 related_books: []
 venue:
-  name: ''
-  street1: ''
+  name: 92Y
+  street1: 1395 Lexington Ave
   street12: ''
-  city: ''
-  state: ''
-  zip: ''
+  city: New York
+  state: New York
+  zip: 10128
   country: ''
 website: ''
 featured_image:
