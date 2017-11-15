@@ -21,3 +21,4 @@ featured_image:
 draft: true
 
 ---
+Yoko Tawada, beloved for _Memoirs of a Polar Bear_ and _The Bridegroom was a Dog_, now publishes _Emissary_, a joyous novel of children and grandparents set in post-disaster Japan. “Her work might be compared to that of Bruno Schulz, Silvina Ocampo or Franz Kafka,” wrote Rivka Galchen. “Magnificent strangeness.” In a rare U.S. appearance, Tatyana Tolstaya reads from _Aetherial Worlds_, her new story collection. “She has a wholly distinctive voice, a quirky yet lyrical voice that blurs the line between poetry and prose, visionary magic and plain, old-fashioned description,” wrote Michiko Kakutani.
