@@ -1,7 +1,7 @@
 ---
 title: Contact
 featured_image:
-  file: ''
+  file: door.jpg
   caption: ''
 headerClasses: ''
 weight: 0
