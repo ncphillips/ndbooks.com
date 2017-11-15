@@ -6,7 +6,8 @@ related_contributors:
 website: https://www.92y.org/event/yoko-tawada-and-tatyana-tolstaya
 show_time: false
 description: ''
-related_books: []
+related_books:
+- book/the-emissary.md
 venue:
   name: ''
   street1: ''
