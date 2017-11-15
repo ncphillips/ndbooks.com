@@ -1,6 +1,6 @@
 ---
 title: These Possible Fleurs at 192 Books
-date: 2017-11-22 19:00:08 -0500
+date: 2017-11-21 19:00:08 -0500
 show_time: true
 description: Gini Alhadeff, Minna Zallman Proctor and Claudia Steinberg discuss Fleur
   Jaeggy's latest books
