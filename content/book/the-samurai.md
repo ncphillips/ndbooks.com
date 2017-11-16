@@ -1,39 +1,38 @@
 ---
-title: "The Samurai"
-subtitle:
-date: 1997-04-01T06:00:27.000Z
-series:
-genre: "fiction"
-subgenre:
-language:
+title: The Samurai
+subtitle: ''
+date: 2018-08-28 00:00:00 -0400
+series: []
+genre: Fiction
+subgenre: []
+language: ''
 authors:
-  - author/shusaku-endo.md
+- author/shusaku-endo.md
 translators:
-  - author/van-c.-gessel.md
-editors:
-
-contributors:
-
+- author/van-c.-gessel.md
+editors: []
+contributors: []
 editions:
-  - binding: paperback
-    isbn: 9780811213462
-    date: 1997-04-01T06:00:27.000Z
-    description: ""
-    trim_size: "5x8"
-    page_count: "272"
-    sales_data:
-      forsale: false
-      saleprice:
-      shipping_charge:
-      price_us: 13.95
-      price_cn:
-    contributors:
-    cover_image: The_Samurai.jpg
+- binding: paperback
+  isbn: 9780811227902
+  date: 1997-04-01 06:00:27 +0000
+  description: One of the finest novels, from "a masterly historical writer" (David
+    Mitchell)
+  trim_size: 5x8
+  page_count: 272
+  sales_data:
+    forsale: false
+    saleprice: 
+    shipping_charge: 
+    price_us: 15.95
+    price_cn: 21.95
+  contributors: []
+  cover_image: 9780811227902.jpg
 featured_image:
-  file:
-draft: false
+  file: ''
+  caption: ''
 _slug: the-samurai
+headerClasses: ''
+
 ---
-
-_The Samurai_, without doubt one of the late Shusaku Endo’s finest works, seamlessly combines historical fact with a novelist’s imaginings. Set in the period preceding the Christian persecutions in Japan, The Samurai traces the steps of some of the first Japanese to set foot on European soil. Rokuemon Hasekura, a low-ranking warrior, is chosen as one of Japan’s envoys to the Viceroy of Mexico and Pope Paul V. The emissaries set sail in 1613, accompanied by an ambitious Franciscan missionary who hopes to bargain trading privileges with the West for the right to head his order in Japan. The arduous journey lasts four years, and the Japanese travel from Mexico to Rome, where they are persuaded that the success of their mission depends on their conversion willy-nilly to Christianity. In fact, the enterprise has been futile from the start and the mission returns to Japan where the political tides have shifted: the authorities are pursuing an isolationist policy and a ruthless stamping out of all Western influences. In the face of disillusionment and death, samurai Rokuemon’s only support and solace come from the spiritual lord he is not even sure he believes in.
-
+In 1613, four low-ranking Japanese samurai, accompanied by a Spanish priest, set sail for Mexico to bargain for trading rights with the West in exchange for a Catholic crusade through Japan. Their arduous journey lasts four years, as they travel onward to Mexico then Rome, where they are persuaded that the success of their mission depends on their conversion to Christianity. In fact, the enterprise seems to have been futile from the start: the mission returns to Japan to find that the political tides have shifted. The authorities are now pursuing an isolationist policy and a ruthless stamping out of Western influences. In the face of disillusionment and death, the samurai can only find solace in a savior they’re not sure they believe in.
