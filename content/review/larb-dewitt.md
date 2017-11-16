@@ -9,7 +9,6 @@ related_books:
 link_to_original: ''
 nd_author_of_this_review: ''
 weight: ''
-draft: true
 
 ---
 Her books assert (and often attest) that a work of fiction can encompass many kind of knowledge - probability theory, scatterplots of data, tables of non-Roman alphabets - without compromising its form.
