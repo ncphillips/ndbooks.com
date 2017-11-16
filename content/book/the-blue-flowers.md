@@ -1,53 +1,54 @@
 ---
-title: "The Blue Flowers"
-subtitle:
-date: 1985-04-01T06:00:00.000Z
-series:
-genre: "fiction"
-subgenre:
-language:
+title: The Blue Flowers
+subtitle: ''
+date: 1985-04-01 06:00:00 +0000
+series: []
+genre: Fiction
+subgenre: []
+language: ''
 authors:
-  - author/raymond-queneau.md
+- author/raymond-queneau.md
 translators:
-  - author/barbara-wright.md
-editors:
-
-contributors:
-
+- author/barbara-wright.md
+editors: []
+contributors: []
 editions:
-  - binding: paperback
-    isbn: 9780811209458
-    date: 1985-04-01T06:00:00.000Z
-    description: ""
-    trim_size: ""
-    page_count: "232"
-    sales_data:
-      forsale: false
-      saleprice:
-      shipping_charge:
-      price_us: 16.95
-      price_cn:
-    contributors:
-    cover_image: The_Blue_Flowers.jpg
-  - binding: ebook
-    isbn: 9780811220859
-    date: 1985-04-01T06:00:00.000Z
-    description: ""
-    trim_size: ""
-    page_count: ""
-    sales_data:
-      forsale: false
-      saleprice:
-      shipping_charge:
-      price_us: 16.95
-      price_cn:
-    contributors:
-    cover_image: The_Blue_Flowers.jpg
+- binding: paperback
+  isbn: 9780811227926
+  date: 2018-08-28 00:00:00 -0400
+  description: A romp through the ages, by a writer "who inspires newsletters, fan
+    clubs, and passionate exegeses" (Michael Dirda, *The Washington Post*
+  trim_size: 5x8
+  page_count: 244
+  sales_data:
+    forsale: false
+    saleprice: 
+    shipping_charge: 
+    price_us: 14.95
+    price_cn: 19.95
+  contributors: 
+  cover_image: 9780811227926.jpg
+- binding: ebook
+  isbn: 9780811220859
+  date: 2018-08-28 00:00:00 -0400
+  description: ''
+  trim_size: ''
+  page_count: ''
+  sales_data:
+    forsale: false
+    saleprice: 
+    shipping_charge: 
+    price_us: 16.95
+    price_cn: 
+  contributors: 
+  cover_image: ''
 featured_image:
-  file:
-draft: false
+  file: ''
+  caption: ''
 _slug: the-blue-flowers
+headerClasses: ''
+
 ---
+_The Blue Flowers_ follows two unlikely characters: Cidrolin, who alternates between drinking and napping on a barge parked along the Seine in the 1960s, and the Duke d’Auge as he rages through history—about 700 years of it—refusing to crusade, clobbering his king with a cannon, and dabbling in alchemy. But is it just a coincidence that the Duke appears only when Cidrolin is dozing? And vice versa? As Raymond Queneau explains: “There is an old Chinese saying: ‘I dream that I am a butterfly and pray there is a butterfly dreaming he is me.’ The same can be said of the characters in this novel—those who live in the past dream of those who live in the modern era—and those who live in the modern era dream of those who live in the past.” 
 
-At his death in 1976, Raymond Queneau was one of France’s most eminent men of letters — novelist, poet, essayist, editor, scientist, mathematician, and, more to the point, pataphysician. And only a pataphysician nurtured lovingly on surrealist excess could have come up with _The Blue Flowers_, Queneau’s 1964 novel, now reissued as a New Directions Paperbook. To a pataphysician all things are equal, there is no improvement or progress in the human condition, and a "message" is an invention of the benighted reader, certainly not the author or his perplexing creations — the sweet, fennel-drinking Cidrolin and the rampaging Duke d’Auge. History is mostly what the duke rampages through — 700 years of it at 175-year clips. He refuses to crusade, clobbers his king with the "in" toy of 1439 — the cannon — dabbles in alchemy, and decides that those musty caves down at Altamira need a bit of sprucing up. Meanwhile, Cidrolin in the 1960s lolls on his barge moored along the Seine, sips essence of fennel, and ineffectually tries to catch the graffitist who nightly defiles his fence. But mostly he naps. Is it just a coincidence that the duke appears only when Cidrolin is dozing? And vice versa? In the tradition of Villon and Céline, Queneau attempted to bring the language of the French streets into common literary usage, and his mad word-plays, bad puns, bawdy jokes, and anachronistic wackiness have been kept amazingly and glitteringly intact by the incomparable translator Barbara Wright.
-
+Channeling Villon and Céline, Queneau attempts to bring the language of the French streets into common literary usage, and his mad wordplays, puns, bawdy jokes, and anachronistic wackiness have been kept amazingly and glitteringly intact by the incomparable translator Barbara Wright.
