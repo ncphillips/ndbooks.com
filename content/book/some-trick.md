@@ -20,7 +20,7 @@ editions:
     price_cn: 29.95
   cover_image: 9780811227827.jpg
 - isbn: 9780811227834
-  date: Invalid date
+  date: 2018-05-30 00:00:00 -0400
 language: ''
 editors: []
 translators: []

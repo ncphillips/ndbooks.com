@@ -128,8 +128,8 @@
   {{/* Available Bindings
     TODO: these should be forsale only. Check that the data is right. */}}
   <section id="buying-options" class="pt3">
-  {{with .Params.editions}}
-    <h3>Editions: {{range .}}<span class="delimit">{{- .binding | humanize -}}</span>{{end}}</h3>
+  {{with $.Param "editions.binding"}}
+    <h3>Editions: {{range .}}<span class="delimit">{{- . | humanize -}}</span>{{end}}</h3>
   {{end}}
   </section>
 

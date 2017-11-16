@@ -4,7 +4,7 @@ date: 2017-11-16 14:26:08 +0000
 editions:
 - binding: paperback
   isbn: 9780811227360
-  date: Invalid date
+  date: 
   cover_image: 9780811227360.jpg
 - {}
 subtitle: ''

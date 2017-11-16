@@ -5,8 +5,10 @@
 {{with .Params.editions}}
   {{range .}}
     <div class="mb4">
-      <h4 class="f3 mb0">{{ .binding | humanize }} <small class="db dib-ns">(published {{.date | dateFormat "January _2, 2006"}})</small>
+      {{if .date}}
+      <h4 class="f3 mb0">{{if .binding}}{{ .binding | humanize }}{{end}} <small class="db dib-ns">(published {{.date | dateFormat "January _2, 2006"}})</small>
       </h4>
+      {{end}}
       <div class="cf">
         {{with .isbn}}
           <dl class="{{$dl_classes}}">

@@ -25,11 +25,11 @@ editions:
   page_count: 288
   sales_data:
     forsale: false
-    saleprice: 
-    shipping_charge: 
+    saleprice:
+    shipping_charge:
     price_us: 27.95
     price_cn: 36.95
-  contributors: 
+  contributors:
   cover_image: 9780811224192.jpg
 - binding: ebook
   isbn: 9780811224208
@@ -39,11 +39,11 @@ editions:
   page_count: ''
   sales_data:
     forsale: false
-    saleprice: 
-    shipping_charge: 
-    price_us: 
-    price_cn: 
-  contributors: 
+    saleprice:
+    shipping_charge:
+    price_us:
+    price_cn:
+  contributors:
   cover_image: 9780811224192.jpg
 featured_image:
   file:
