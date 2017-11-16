@@ -7,7 +7,6 @@ new_and_forthcoming_books:
 bestsellers:
   titles: []
 editions:
-- {}
 - binding: paperback
   isbn: 9780811225960
   date: Invalid date
@@ -32,6 +31,5 @@ featured_image:
   file: ''
   caption: ''
 headerClasses: ''
-draft: true
 
 ---
