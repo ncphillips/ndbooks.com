@@ -1,6 +1,7 @@
 ---
 pages:
 - books.md
+- book/dog-symphony.md
 hide_body: true
 fields:
 - label: Title
