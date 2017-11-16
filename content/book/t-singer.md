@@ -6,7 +6,24 @@ new_and_forthcoming_books:
   titles: []
 bestsellers:
   titles: []
-type: ''
+editions:
+- binding: paperback
+  isbn: 9780811225960
+  date: Invalid date
+  cover_image: 9780811225960.jpg
+- {}
+subtitle: ''
+genre: ''
+subgenre: []
+language: ''
+authors: []
+editors: []
+translators: []
+contributors: []
+featured_image:
+  file: ''
+  caption: ''
+headerClasses: ''
 draft: true
 
 ---

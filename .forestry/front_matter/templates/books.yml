@@ -1,7 +1,6 @@
 ---
 pages:
 - books.md
-- book/t-singer.md
 - book/armand-v.md
 hide_body: true
 fields:
