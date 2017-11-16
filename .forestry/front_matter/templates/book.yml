@@ -24,6 +24,7 @@ fields:
       - paperback
       - clothbound
       - ebook
+      - paperback w/ flaps
     label: Binding
   - type: text
     name: isbn
