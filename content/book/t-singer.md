@@ -1,24 +1,32 @@
 ---
 title: T Singer
-date: 2017-11-16 14:08:50 +0000
+date: 2017-11-16 09:08:50 -0500
 linktitle: ''
 new_and_forthcoming_books:
   titles: []
 bestsellers:
   titles: []
 editions:
+- {}
 - binding: paperback
   isbn: 9780811225960
   date: Invalid date
   cover_image: 9780811225960.jpg
-- {}
+  trim_size: 5x8"
+  page_count: 176pp
+  contributors:
+  - author/tiina-nunnally.md
+- binding: ebook
+  isbn: 9780811225960
+  date: 2018-05-20 00:00:00 -0400
 subtitle: ''
-genre: ''
+genre: Fiction
 subgenre: []
 language: ''
 authors: []
 editors: []
-translators: []
+translators:
+- author/tiina-nunnally.md
 contributors: []
 featured_image:
   file: ''
