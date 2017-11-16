@@ -15,7 +15,7 @@ contributors: []
 editions:
 - binding: paperback
   isbn: 9780811227902
-  date: 1997-04-01 06:00:27 +0000
+  date: 2018-08-28 14:53:38 -0400
   description: One of the finest novels, from "a masterly historical writer" (David
     Mitchell)
   trim_size: 5x8
