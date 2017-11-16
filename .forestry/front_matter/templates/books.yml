@@ -1,6 +1,7 @@
 ---
 pages:
 - books.md
+- book/armand-v.md
 hide_body: true
 fields:
 - label: Title
