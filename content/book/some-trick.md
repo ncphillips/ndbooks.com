@@ -1,6 +1,6 @@
 ---
 title: Some Trick
-date: 2018-05-30 08:27:29 -0400
+date: 2017-11-16 08:27:29 -0500
 subtitle: Thirteen Stories
 genre: Fiction
 subgenre:
@@ -18,6 +18,9 @@ editions:
   sales_data:
     price_us: 22.95
     price_cn: 29.95
+  cover_image: 9780811227827.jpg
+- isbn: 9780811227834
+  date: Invalid date
 language: ''
 editors: []
 translators: []
