@@ -7,7 +7,17 @@ subgenre:
 - Stories
 authors:
 - author/helen-dewitt.md
-editions: []
+editions:
+- binding: clothbound
+  isbn: 9780811227827
+  date: 2018-05-30 00:00:00 -0400
+  description: 'At last a new book: a baker’s dozen of stories all with Helen DeWitt’s
+    razor-sharp genius'
+  trim_size: 5 x 8
+  page_count: 224
+  sales_data:
+    price_us: 22.95
+    price_cn: 29.95
 language: ''
 editors: []
 translators: []
