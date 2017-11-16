@@ -31,5 +31,6 @@ featured_image:
   file: ''
   caption: ''
 headerClasses: ''
+draft: true
 
 ---
