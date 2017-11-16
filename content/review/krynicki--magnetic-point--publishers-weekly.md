@@ -9,7 +9,6 @@ attribution: "*Publishers Weekly*"
 related_author: ''
 nd_author_of_this_review: ''
 weight: ''
-draft: true
 
 ---
 Master of luminous detail and a well-turned phrase, Krynicki’s poems, even the exceedingly short, rarely fail to move us.
