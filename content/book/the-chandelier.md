@@ -18,13 +18,13 @@ editions:
   description: 'Now, for the first time in English we have Clarice Lispector’s second
     novel—a radical part of what made her a Brazilian legend '
   trim_size: 5 x 8
-  page_count: 144
+  page_count: 304
   sales_data:
     forsale: false
     saleprice: 
     shipping_charge: 
-    price_us: 21.95
-    price_cn: 28.95
+    price_us: 26.95
+    price_cn: 35.95
   contributors: 
   cover_image: 9780811223133.jpg
 - binding: ebook
