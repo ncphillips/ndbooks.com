@@ -1,11 +1,11 @@
 ---
-title: Galloping Hour
+title: The Galloping Hour
 date: 2017-11-16 14:27:17 +0000
 editions:
 - binding: paperback
   isbn: 9780811227742
   cover_image: 9780811227742.jpg
-  date: 2018-07-27 00:00:00 -0400
+  date: 2018-07-27 04:00:00 +0000
   description: A beautifully produced and exquisitely translated edition of French
     poems by “the best exponent of the poetry of introversion and metaphorical delirium”
     (Italo Calvino)
