@@ -4,7 +4,7 @@ layout: none
 date: 2017-11-17 10:59:06 +0000
 attribution: "*Bookforum*"
 related_books:
-- book/t-singer.md
+- book/be-with.md
 link_to_original: ''
 related_author: ''
 nd_author_of_this_review: ''
