@@ -5,7 +5,7 @@ date: 2018-03-27 04:00:00 +0000
 series: []
 genre: Fiction
 subgenre: []
-language: Albanian
+language: Portugese
 authors:
 - author/clarice-lispector.md
 translators: []
