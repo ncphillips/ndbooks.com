@@ -1,11 +1,11 @@
 ---
-title: 'LA Mag, The World Goes On '
+title: LA Mag, Mrs. Caliban
 layout: none
 date: 2017-11-17 14:31:32 +0000
 attribution: "*Los Angeles Magazine*"
 link_to_original: http://www.lamag.com/culturefiles/five-books-need-read-november/
 related_books:
-- book/the-world-goes-on.md
+- book/mrs-caliban.md
 related_author: ''
 nd_author_of_this_review: ''
 weight: ''
