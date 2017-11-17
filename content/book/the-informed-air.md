@@ -48,6 +48,6 @@ _slug: the-informed-air
 headerClasses: ''
 
 ---
-In this monumental collection, the inimitable Muriel Spark addresses all of her favorite subjects: the writing life; love; cats; favorite writers (T. S. Eliot, Robert Burns, the Brontës, Mary Shelley); Piero della Francesca; life in wartime London and in glamorous “Hollywood-on-the-Tiber” 1960s Rome; faith; and parties (of course). 
+A fantastic essayist, the inimitable Muriel Spark addresses here the writing life, cats, favorite writers (the Brontës, T. S. Eliot, Robert Burns, Mary Shelley), love, Piero della Francesca, life in wartime London and in glamorous “Hollywoodon-the-Tiber” 1960s Rome, faith, and parties (on her first New Year’s Eve, as a baby sipping her mother’s sherry: “I always loved a party”). 
 
-Spark’s scope is amazing, and her striking, glancing insights are precise and unforgettable. From the mysteries of Job’s sufferings, she glides to Dame Edith Sitwell’s cocktail-party advice on how to handle a nasty publisher, and on to the joys of success.
+No one was as “fearless and original” (_TLS_) as Muriel Spark, who believed that “art is an act of daring.” Here she glides from the mysteries of Job’s sufferings to Dame Edith Sitwell’s cocktail advice about how to handle a nasty publisher: “‘My dear,’ she said, ‘you must acquire a pair of lorgnettes, make an occasion to see that man again, focus the glasses on him and sit looking at him through them as if he was an insect. Just look and look.’” 
