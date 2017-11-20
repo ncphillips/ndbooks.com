@@ -9,7 +9,6 @@ related_books:
 related_author: ''
 nd_author_of_this_review: ''
 weight: ''
-draft: true
 
 ---
 Thought-provoking and meditative...From Russian cosmonauts to despairing bishops to beleaguered bankers, the threads of forsaking and being forsaken weave like a nervous system through dense, philosophical prose.
