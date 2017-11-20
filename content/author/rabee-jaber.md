@@ -8,7 +8,7 @@ image:
   file: Jaber_Rabee.jpg
   caption: ''
 description: Lebanese novelist and journalist
-weight: ''
+weight: 3
 featured_image:
   file: ''
   caption: ''
