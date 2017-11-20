@@ -4,7 +4,7 @@ date: 2017-11-13 11:45:52 +0000
 last_name: Goodby
 description: ''
 image:
-  file: ''
+  file: GoodbyJohn.jpg
   caption: ''
 featured_image:
   file: ''
