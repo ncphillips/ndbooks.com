@@ -31,3 +31,11 @@ fields:
   - type: text
     name: caption
     label: Caption
+- type: number
+  name: weight
+  label: Weight
+  description: You only need this for authors you want to show at the top of the list.
+    3 is highest.
+  config:
+    max: '3'
+    step: '1'
