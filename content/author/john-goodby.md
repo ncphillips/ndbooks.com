@@ -9,6 +9,7 @@ image:
 featured_image:
   file: ''
   caption: ''
+weight: 0
 
 ---
 John Goodby holds Personal Chair in the English Department at Swansea University. He has lectured widely on Thomas and is the author of _The Poetry of Dylan Thomas: Under the Spelling Wall_ (2013) and _Discovering Dylan Thomas: A Companion to the Collected Poems and Notebook Poems_ (2017). 
