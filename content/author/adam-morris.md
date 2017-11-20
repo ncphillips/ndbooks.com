@@ -9,6 +9,6 @@ image:
 featured_image:
   file: ''
   caption: ''
-
+weight:
 ---
 A writer and translator based in California, ADAM MORRIS has translated novels by Hilda Hilst and João Gilberto Noll.

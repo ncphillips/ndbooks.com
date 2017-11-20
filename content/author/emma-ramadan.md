@@ -9,6 +9,6 @@ image:
 featured_image:
   file: ''
   caption: ''
-
+weight:
 ---
 Emma Ramadan is a literary translator based in Providence, Rhode Island. She is the recipient of a PEN/Heim grant, an NEA Translation Fellowship, and a Fulbright for her work on Bouanani.

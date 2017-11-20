@@ -9,6 +9,6 @@ image:
 featured_image:
   file: ''
   caption: ''
-
+weight:
 ---
 Patricio Ferrari was born in Argentina and has translated Fernando Pessoa, António Osório, and Laynie Browne. A polyglot, his work as a poet, editor, and translator bridges a life between languages. He resides in New York City and teaches at Rutgers University.
