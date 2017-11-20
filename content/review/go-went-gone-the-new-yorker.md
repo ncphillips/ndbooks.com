@@ -11,4 +11,4 @@ nd_author_of_this_review: ''
 weight: ''
 
 ---
-Among the _Go, Went, Gone_'s many virtues is that it is not only alive to the suffering of people who are very different from us but alive to the false consolations of telling 'moving' stories about people who are very different from us. Magnificent.
+Among the _Go, Went, Gone_'s many virtues is that it is not only alive to the suffering of people who are very different from us but alive to the false consolations of telling 'moving' stories about people who are very different from us....Magnificent.

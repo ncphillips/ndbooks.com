@@ -7,10 +7,10 @@ auto_deploy: false
 admin_path: admin
 webhook_url: 
 sections:
-  staff:
-    default_front_matter_template: staff
   series:
     default_front_matter_template: page
+  staff:
+    default_front_matter_template: staff
   review:
     default_front_matter_template: review
   product:
