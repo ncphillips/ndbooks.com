@@ -9,7 +9,6 @@ related_books:
 related_author: ''
 nd_author_of_this_review: ''
 weight: ''
-draft: true
 
 ---
 _Belladonna_ forces us to remember. Grotesque imagery abounds—this is a novel that does not turn its gaze away. But then, sometimes the writing surprises us with humor, or beauty. A complicated, moving book which engages with the horrors of the past.
