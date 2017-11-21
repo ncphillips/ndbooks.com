@@ -10,6 +10,7 @@ authors:
 - author/clarice-lispector.md
 translators:
 - author/benjamin-moser.md
+- author/magdalena-edwards.md
 editors: []
 contributors: []
 editions:
