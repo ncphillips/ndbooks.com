@@ -8,7 +8,8 @@ subgenre: []
 language: Portugese
 authors:
 - author/clarice-lispector.md
-translators: []
+translators:
+- author/benjamin-moser.md
 editors: []
 contributors: []
 editions:
