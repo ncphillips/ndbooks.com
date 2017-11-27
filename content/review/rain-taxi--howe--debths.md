@@ -1,7 +1,7 @@
 ---
 title: Rain Taxi, Howe, Debths
 layout: none
-date: 2017-11-27 13:18:59 +0000
+date: 2017-11-27 08:18:59 -0500
 attribution: "*Rain Taxi*"
 link_to_original: http://www.raintaxi.com/fast-by-jorie-graham-and-debths-by-susan-howe/
 related_author: ''
