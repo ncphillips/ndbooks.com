@@ -1,5 +1,5 @@
 ---
-title: Beekeeper, Elliot Bay Book Company, Mikhail
+title: Beekeeper, Elliott Bay Book Company, Mikhail
 layout: none
 date: 2017-11-29 10:19:33 +0000
 attribution: "*Elliott Bay Book Company*"
