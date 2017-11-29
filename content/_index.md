@@ -12,6 +12,8 @@ featured_image:
   caption: ''
 featured_review: ''
 gallery:
+- caption: ''
+  link: "/book/mrs-caliban/"
 - image: 9780811226691.jpg
   caption: 
   link: "/book/mrs-caliban/"
@@ -38,3 +40,4 @@ title: ''
 type: home-page
 
 ---
+"A perfect novel."—_The New Yorker_
