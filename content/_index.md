@@ -12,6 +12,9 @@ featured_image:
   caption: ''
 featured_review: ''
 gallery:
+- image: 9780811226691.jpg
+  caption: 
+  link: "/book/mrs-caliban/"
 - image: 9780811224192.jpg
   caption: ''
   link: "/book/the-world-goes-on/"
