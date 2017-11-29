@@ -8,7 +8,7 @@ featured_books:
 - book/letters-to-his-neighbor.md
 - book/the-book-of-disquiet-the-complete-edition.md
 featured_image:
-  file: 9780811224192.jpg
+  file: 9780811226691.jpg
   caption: ''
 featured_review: ''
 gallery:
