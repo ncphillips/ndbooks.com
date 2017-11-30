@@ -37,7 +37,7 @@ gallery:
 - image: Kawabata1929.jpg
   caption: ''
   link: "/book/dandelions"
-- image: hongmei-zhao-dandelion
+- image: kawabata_dandelions_coverback.jpg
   caption: ''
   link: "/book/dandelions/"
 headerClasses: vh-100 bg-near-white white-70
