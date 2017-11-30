@@ -13,15 +13,6 @@ featured_image:
   caption: ''
 featured_review: ''
 gallery:
-- image: Kawabata1929.jpg
-  caption: ''
-  link: "/book/dandelions"
-- image: hongmei-zhao-dandelion
-  caption: ''
-  link: "/book/dandelions/"
-- image: 9780811224093.jpg
-  caption: ''
-  link: "/book/dandelions/"
 - image: 9780811224192.jpg
   caption: ''
   link: "/book/the-world-goes-on/"
@@ -40,6 +31,15 @@ gallery:
 - image: 9780811226547.jpg
   caption: ''
   link: https://www.ndbooks.com/book/the-kites/
+- image: 9780811224093.jpg
+  caption: ''
+  link: "/book/dandelions/"
+- image: Kawabata1929.jpg
+  caption: ''
+  link: "/book/dandelions"
+- image: hongmei-zhao-dandelion
+  caption: ''
+  link: "/book/dandelions/"
 headerClasses: vh-100 bg-near-white white-70
 title: ''
 type: home-page
