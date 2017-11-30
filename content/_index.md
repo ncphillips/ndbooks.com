@@ -13,6 +13,9 @@ featured_image:
   caption: ''
 featured_review: ''
 gallery:
+- image: hongmei-zhao-dandelion
+  caption: ''
+  link: "/book/dandelions/"
 - image: 9780811224093.jpg
   caption: ''
   link: "/book/dandelions/"
