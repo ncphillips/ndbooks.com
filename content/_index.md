@@ -2,6 +2,7 @@
 date: 2015-07-14 18:00:00 +0000
 description: ''
 featured_books:
+- book/mrs-caliban.md
 - book/bakkhai.md
 - book/the-poems-of-dylan-thomas.md
 - book/ferlinghettis-greatest-poems.md
@@ -12,20 +13,23 @@ featured_image:
   caption: ''
 featured_review: ''
 gallery:
+- image: 9780811224093.jpg
+  caption: ''
+  link: "/book/dandelions/"
 - image: 9780811224192.jpg
   caption: ''
   link: "/book/the-world-goes-on/"
 - image: Krasznahorkai_Laszlo_Subin.jpg
-  caption:
+  caption: 
   link: "/book/the-world-goes-on/"
 - image: waterfall_laszlo.jpg
-  caption:
+  caption: 
   link: "/book/the-world-goes-on/"
 - image: 9780811221986.jpg
   caption: ''
   link: "/book/promise-at-dawn/"
 - image: gary_photo.jpg
-  caption:
+  caption: 
   link: "/author/romain-gary/"
 - image: 9780811226547.jpg
   caption: ''
