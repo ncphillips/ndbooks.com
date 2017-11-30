@@ -13,6 +13,9 @@ featured_image:
   caption: ''
 featured_review: ''
 gallery:
+- image: Kawabata1929.jpg
+  caption: ''
+  link: "/book/dandelions"
 - image: hongmei-zhao-dandelion
   caption: ''
   link: "/book/dandelions/"
