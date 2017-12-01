@@ -4,19 +4,20 @@ date: 2017-11-16 14:24:20 +0000
 editions:
 - binding: paperback
   isbn: 9780811227865
-  date: 2018-07-24 00:00:00 -0400
+  date: 2018-07-24 04:00:00 +0000
   description: The ancestors have awakened. Somebody has called them. The long-dead
     are stirring. Jah ways are mysterious ways
   trim_size: 5x8"
   page_count: 304pp
 - binding: ebook
   isbn: 9780811227872
-  date: 2017-11-16 15:43:15 -0500
+  date: 2017-11-16 20:43:15 +0000
 subtitle: A Novel in Bass Riddim
 genre: Fiction
 subgenre: []
 language: ''
-authors: []
+authors:
+- author/marcia-douglas.md
 editors: []
 translators: []
 contributors: []
