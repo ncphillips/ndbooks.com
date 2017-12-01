@@ -5,7 +5,7 @@ last_name: Bracher
 description: Brazilian writer
 image:
   file: BracherBeatriz.jpg
-  caption: ''
+  caption: Courtesy of the Lucia Riff Agency
 featured_image:
   file: ''
   caption: ''
