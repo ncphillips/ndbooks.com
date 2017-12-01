@@ -13,6 +13,9 @@ featured_image:
   caption: ''
 featured_review: ''
 gallery:
+- image: Erpenbeck_Jenny_CREDIT_NINA_SUBIN
+  caption: ''
+  link: "/book/go-went-gone/"
 - image: gowentgonesliderodrigowood.jpg
   caption: ''
   link: "/book/go-went-gone/"
