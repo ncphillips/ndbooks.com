@@ -13,6 +13,9 @@ featured_image:
   caption: ''
 featured_review: ''
 gallery:
+- image: gowentgonesliderodrigowood.jpg
+  caption: ''
+  link: "/book/go-went-gone/"
 - image: Gowentgonesliderodrigo.jpg
   caption: ''
   link: "/book/go-went-gone/"
