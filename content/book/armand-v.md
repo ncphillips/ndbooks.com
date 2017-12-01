@@ -5,7 +5,7 @@ editions:
 - binding: clothbound
   isbn: 9780811226288
   cover_image: 9780811226288.jpg
-  date: 2018-05-18 00:00:00 -0400
+  date: 2018-05-18 04:00:00 +0000
   description: New Directions proudly introduces two novels in English by the Norwegian
     master, who is “without question, Norway’s bravest, most intelligent novelist”
     (Per Petterson)
@@ -16,12 +16,13 @@ editions:
     price_cn: 31.95
 - binding: ebook
   isbn: 9780811226295
-  date: 2018-05-18 00:00:00 -0400
+  date: 2018-05-18 04:00:00 +0000
 subtitle: ''
 genre: Fiction
 subgenre: []
 language: ''
-authors: []
+authors:
+- author/dag-solstad.md
 editors: []
 translators:
 - author/steven-t.-murray.md
