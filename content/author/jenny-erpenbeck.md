@@ -8,7 +8,7 @@ image:
   file: Erpenbeck_Jenny_CREDIT_NINA_SUBIN.jpg
   caption: Nina Subin
 description: German writer and former opera director
-weight: ''
+weight: 3
 featured_image:
   file: ''
   caption: ''
