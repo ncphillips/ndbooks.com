@@ -5,7 +5,7 @@ editions:
 - binding: paperback
   isbn: 9780811225762
   cover_image: 9780811225762.jpg
-  date: 2018-06-20 00:00:00 -0400
+  date: 2018-06-20 04:00:00 +0000
   description: 'A tour de force: an utterly singular modern Moroccan classic'
   trim_size: 5x8"
   page_count: 128pp
@@ -16,12 +16,13 @@ editions:
     price_cn: 18.95
 - binding: ebook
   isbn: 9780811225779
-  date: 2017-11-16 15:33:00 -0500
+  date: 2017-11-16 20:33:00 +0000
 subtitle: ''
 genre: ''
 subgenre: []
 language: French
-authors: []
+authors:
+- author/ahmed-bouanani.md
 editors: []
 translators:
 - author/lara-vergnaud.md
