@@ -21,7 +21,9 @@ genre: Poetry
 subgenre: []
 language: French
 authors: []
-editors: []
+editors:
+- author/patricio-ferrari.md
+- author/forrest-gander.md
 translators:
 - author/forrest-gander.md
 - author/patricio-ferrari.md
