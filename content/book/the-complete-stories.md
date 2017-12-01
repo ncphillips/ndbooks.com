@@ -17,7 +17,7 @@ contributors:
 editions:
 - binding: paperback
   isbn: 9780811227933
-  date: 2018-06-26 00:00:00 -0400
+  date: 2018-06-26 04:00:00 +0000
   description: One of the  most phenomenally acclaimed and successful books of recent
     years is now available as a paperback–with three just-discovered stories
   trim_size: 5x8
@@ -25,7 +25,7 @@ editions:
   cover_image: 9780811227933.jpg
   sales_data:
     price_us: 21.95
-    price_cn: 28.95
+    price_cn: 24.95
 - binding: clothbound
   isbn: 9780811219631
   date: 2015-08-04 04:00:00 +0000
@@ -38,7 +38,7 @@ editions:
     saleprice: 
     shipping_charge: 
     price_us: 28.95
-    price_cn: 33
+    price_cn: '33.00'
   contributors:
   - author/benjamin-moser.md
   cover_image: lispector_collected_stories_for_web.jpg
