@@ -36,3 +36,6 @@ _slug: a-good-comb-the-sayings-of-muriel-spark
 headerClasses: ''
 
 ---
+_A Good Comb_, a small gift edition of Muriel Spark’s brilliant asides, sayings, and aphorisms, is a book for sheer enjoyment. No writer offers such lively, pointed, puckish insights: “Neurotics are awfully quick to notice other people’s mentalities.” “It is impossible to persuade a man who does not disagree, but smiles.” “The sacrifice of pleasure is of course itself a pleasure.” “It is impossible to repent of love. The sin of love does not exist.” “She wasn’t a person to whom things happen.” “You look for one thing and you find another.” “It calms you down, a good comb.” 
+
+Her scope is great and her striking insights are precise and unforgettable. This book will entertain you—it will even help you live your life. Drink in the pleasures of this little volume along with the benefits of taking up such advice as “Never make excuses but if you must, never make more than one—it gives the appearance of insincerity.
