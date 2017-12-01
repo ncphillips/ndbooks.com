@@ -13,15 +13,6 @@ featured_image:
   caption: ''
 featured_review: ''
 gallery:
-- image: Erpenbeck_Jenny_CREDIT_NINA_SUBIN
-  caption: ''
-  link: "/book/go-went-gone/"
-- image: gowentgonesliderodrigowood.jpg
-  caption: ''
-  link: "/book/go-went-gone/"
-- image: Gowentgonesliderodrigo.jpg
-  caption: ''
-  link: "/book/go-went-gone/"
 - image: 9780811224192.jpg
   caption: ''
   link: "/book/the-world-goes-on/"
@@ -49,6 +40,15 @@ gallery:
 - image: kawabata_dandelions_coverback.jpg
   caption: ''
   link: "/book/dandelions/"
+- image: gowentgonesliderodrigowood.jpg
+  caption: ''
+  link: "/book/go-went-gone/"
+- image: Erpenbeck_Jenny_CREDIT_NINA_SUBIN
+  caption: ''
+  link: "/book/go-went-gone/"
+- image: Gowentgonesliderodrigo.jpg
+  caption: ''
+  link: "/book/go-went-gone/"
 headerClasses: vh-100 bg-near-white white-70
 title: ''
 type: home-page
