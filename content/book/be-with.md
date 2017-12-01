@@ -13,14 +13,15 @@ editions:
   description: 'Forrest Gander’s first book of poems since his Pulitzer finalist *Core
     Samples from the World*: a startling look through loss, grief, and regret into
     the exquisite nature of intimacy'
-  date: 2018-05-18 00:00:00 -0400
+  date: 2018-05-18 04:00:00 +0000
 - binding: ebook
   isbn: 9780811226974
 subtitle: ''
 genre: ''
 subgenre: []
 language: ''
-authors: []
+authors:
+- author/forrest-gander.md
 editors: []
 translators: []
 contributors: []
