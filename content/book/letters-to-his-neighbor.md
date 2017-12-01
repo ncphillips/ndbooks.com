@@ -1,54 +1,54 @@
 ---
-title: "Letters to His Neighbor"
-subtitle:
-date: 2017-08-22T04:00:00.000Z
-series:
-genre: "nonfiction"
-subgenre:
+title: Letters to His Neighbor
+subtitle: ''
+date: 2017-08-22 04:00:00 +0000
+series: []
+genre: Fiction
+subgenre: []
 language: French
 authors:
-  - author/marcel-proust.md
+- author/marcel-proust.md
 translators:
-  - author/lydia-davis.md
-editors:
-
-contributors:
-
+- author/lydia-davis.md
+editors: []
+contributors: []
 editions:
-  - binding: clothbound
-    isbn: 9780811224116
-    date: 2017-08-22T04:00:00.000Z
-    description: "**Brilliantly translated by Lydia Davis, here are Proust's tormented, touching, and often very funny letters to his noisy neighbor** "
-    trim_size: "6x9"
-    page_count: "112"
-    sales_data:
-      forsale: false
-      saleprice:
-      shipping_charge:
-      price_us: 19.95
-      price_cn: 25.95
-    contributors:
-    cover_image: revised_Proust_cover.jpg
-  - binding: ebook
-    isbn: 9780811224123
-    date: 2017-08-22T04:00:00.000Z
-    description: ""
-    trim_size: ""
-    page_count: ""
-    sales_data:
-      forsale: false
-      saleprice:
-      shipping_charge:
-      price_us:
-      price_cn:
-    contributors:
-    cover_image: revised_Proust_cover.jpg
+- binding: clothbound
+  isbn: 9780811224116
+  date: 2017-08-22 04:00:00 +0000
+  description: "**Brilliantly translated by Lydia Davis, here are Proust's tormented,
+    touching, and often very funny letters to his noisy neighbor** "
+  trim_size: 6x9
+  page_count: 112
+  sales_data:
+    forsale: false
+    saleprice: 
+    shipping_charge: 
+    price_us: 19.95
+    price_cn: 25.95
+  contributors: 
+  cover_image: revised_Proust_cover.jpg
+- binding: ebook
+  isbn: 9780811224123
+  date: 2017-08-22 04:00:00 +0000
+  description: ''
+  trim_size: ''
+  page_count: ''
+  sales_data:
+    forsale: false
+    saleprice: 
+    shipping_charge: 
+    price_us: 
+    price_cn: 
+  contributors: 
+  cover_image: revised_Proust_cover.jpg
 featured_image:
-  file:
-draft: false
+  file: ProustText.jpg
+  caption: ''
 _slug: letters-to-his-neighbor
----
+headerClasses: ''
 
+---
 Marcel Proust’s genius for illuminating pain is on spectacular display in this recently discovered trove of his correspondence, _Letters to His Neighbor._ Already suffering from noise within his cork-lined walls, Proust’s poor soul was not ready for the fresh hell of his new upstairs neighbor, Dr. Williams, a dentist with a thriving practice directly above his head.
 
 Chiefly to Mme Williams, these ever-polite letters (often accompanied by flowers, books, or compliments) are frequently hilarious—Proust couches his pained frustration in gracious eloquence. In Lydia Davis’s hands, the digressive brilliance of his sentences shines: “Don’t speak of annoying neighbors, but of neighbors so charming (an association of words contradictory in principle since Montesquiou claims that most horrible of all are 1) neighbors 2) the smell of post offices) that they leave the constant tantalizing regret that one cannot take advantage of their neighborliness.”
