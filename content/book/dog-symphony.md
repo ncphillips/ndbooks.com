@@ -5,7 +5,7 @@ editions:
 - binding: paperback
   isbn: 9780811227681
   cover_image: 9780811227681.jpg
-  date: 2018-08-27 00:00:00 -0400
+  date: 2018-08-27 04:00:00 +0000
   description: A breakthrough novel from the acclaimed young American writer
   trim_size: 5x7"
   page_count: 144pp
@@ -18,7 +18,8 @@ subtitle: ''
 genre: Fiction
 subgenre: []
 language: ''
-authors: []
+authors:
+- author/sam-munson.md
 editors: []
 translators: []
 contributors: []
