@@ -5,7 +5,7 @@ editions:
 - binding: paperback
   isbn: 9780811227886
   cover_image: 9780811227886.jpg
-  date: 2018-08-31 00:00:00 -0400
+  date: 2018-08-31 04:00:00 +0000
   description: 'Here is a perfect little gift: the most beloved poems by the most
     essential American poet of the last century'
   trim_size: 4x6"
@@ -19,7 +19,8 @@ subtitle: ''
 genre: Poetry
 subgenre: []
 language: ''
-authors: []
+authors:
+- author/william-carlos-williams.md
 editors: []
 translators: []
 contributors: []
