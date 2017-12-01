@@ -16,15 +16,15 @@ contributors:
 editions:
 - binding: paperback
   isbn: 9780811227674
-  date: 2018-01-30 00:00:00 -0500
+  date: 2018-01-30 05:00:00 +0000
   description: Now in paperback, here are the sparkling essays of Muriel Spark, author
     of “the best sentences in English” (*The New Yorker*)
   trim_size: 5.5x8.5
   page_count: 304
   cover_image: 9780811227674.jpg
   sales_data:
-    price_us: 18.95
-    price_cn: 24.95
+    price_us: 15.95
+    price_cn: 21.95
 - binding: clothbound
   isbn: 9780811221597
   date: 2014-04-29 16:21:00 +0000
@@ -37,7 +37,7 @@ editions:
     saleprice: 
     shipping_charge: 
     price_us: 24.95
-    price_cn: 26.5
+    price_cn: ''
   contributors:
   - author/penelope-jardin.md
   cover_image: 9780811221597.jpg
