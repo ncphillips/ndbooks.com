@@ -4,7 +4,7 @@ date: 2017-11-16 14:22:00 +0000
 editions:
 - binding: paperback
   isbn: 9780811227841
-  date: 2018-06-29 00:00:00 -0400
+  date: 2018-06-29 04:00:00 +0000
   cover_image: 9780811227841.jpg
   description: This surreal poetry maps Morocco’s cultural history, as Bouanani hauntingly
     evokes all of the violence inflicted on his country
@@ -15,13 +15,14 @@ editions:
     price_cn: 24.95
 - binding: ebook
   isbn: 9780811227858
-  date: 2018-06-29 00:00:00 -0400
+  date: 2018-06-29 04:00:00 +0000
 subtitle: ''
 genre: ''
 subgenre:
 - Selections
 language: French
-authors: []
+authors:
+- author/ahmed-bouanani.md
 editors: []
 translators:
 - author/emma-ramadan.md
