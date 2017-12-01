@@ -41,6 +41,8 @@ editions:
   contributors:
   - author/penelope-jardin.md
   cover_image: 9780811221597.jpg
+- binding: ebook
+  isbn: 9780811227612
 featured_image:
   file: ''
   caption: ''
