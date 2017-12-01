@@ -11,5 +11,4 @@ nd_author_of_this_review: ''
 weight: ''
 
 ---
-  
-"\[A\] slim surrealist masterpiece."
+A slim surrealist masterpiece.
