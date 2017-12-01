@@ -13,6 +13,9 @@ featured_image:
   caption: ''
 featured_review: ''
 gallery:
+- image: Gowentgonesliderodrigo.jpg
+  caption: ''
+  link: "/book/go-went-gone/"
 - image: 9780811224192.jpg
   caption: ''
   link: "/book/the-world-goes-on/"
