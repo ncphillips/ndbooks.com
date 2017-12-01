@@ -9,6 +9,7 @@ editions:
     are stirring. Jah ways are mysterious ways
   trim_size: 5x8"
   page_count: 304pp
+  cover_image: 9780811227865.jpg
 - binding: ebook
   isbn: 9780811227872
   date: 2017-11-16 20:43:15 +0000
