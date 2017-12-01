@@ -9,7 +9,7 @@ bestsellers:
 editions:
 - binding: paperback
   isbn: 9780811225960
-  date: 2018-05-20 00:00:00 -0400
+  date: Invalid date
   cover_image: 9780811225960.jpg
   trim_size: 5x8"
   page_count: 176pp
@@ -17,12 +17,13 @@ editions:
   - author/tiina-nunnally.md
 - binding: ebook
   isbn: 9780811225960
-  date: 2018-05-20 00:00:00 -0400
+  date: 2018-05-20 04:00:00 +0000
 subtitle: ''
 genre: Fiction
 subgenre: []
 language: ''
-authors: []
+authors:
+- author/dag-solstad.md
 editors: []
 translators:
 - author/tiina-nunnally.md
