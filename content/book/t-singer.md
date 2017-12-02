@@ -9,7 +9,7 @@ bestsellers:
 editions:
 - binding: paperback
   isbn: 9780811225960
-  date: Invalid date
+  date: 2018-05-20 04:00:00 +0000
   cover_image: 9780811225960.jpg
   trim_size: 5x8"
   page_count: 176pp
