@@ -1,13 +1,13 @@
 ---
 title: The Marvellous Equations of the Dread
-date: 2017-11-16 14:24:20 +0000
+date: 2017-11-16 09:24:20 -0500
 editions:
 - binding: paperback
   isbn: 9780811227865
   date: 2018-07-24 04:00:00 +0000
   description: The ancestors have awakened. Somebody has called them. The long-dead
     are stirring. Jah ways are mysterious ways
-  trim_size: 5x8"
+  trim_size: 5x8
   page_count: 304pp
   cover_image: 9780811227865.jpg
 - binding: ebook
