@@ -5,7 +5,8 @@ date: 2017-12-04 15:22:40 +0000
 attribution: "*Los Angeles Review of Books*"
 link_to_original: https://lareviewofbooks.org/article/eerie-exalted-fantasy/#
 related_author: ''
-related_books: []
+related_books:
+- book/mrs-caliban.md
 nd_author_of_this_review: ''
 weight: ''
 draft: true
