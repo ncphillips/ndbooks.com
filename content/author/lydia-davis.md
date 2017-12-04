@@ -12,6 +12,7 @@ featured_image:
   caption: ''
 description: American translator, novelist, poet, and essayist
 weight: ''
+headerClasses: vh-75 bg-near-white white-70
 
 ---
 Lydia Davis, a MacArthur Fellow, is the author of _The Collected Stories of Lydia Davis_ and the translator of Gustave Flaubert’s _Madame Bovary_.
