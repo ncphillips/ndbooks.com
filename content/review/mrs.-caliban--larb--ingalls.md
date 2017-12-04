@@ -9,7 +9,6 @@ related_books:
 - book/mrs-caliban.md
 nd_author_of_this_review: ''
 weight: ''
-draft: true
 
 ---
 Perhaps Ingalls’s finest accomplishment in the novel is the unflappable gentleness of her tone, which records supernatural surprise and flaming horror simply, almost tranquilly. The result is paradoxically quotidian and dreamlike, like a fable or folktale.
