@@ -31,6 +31,14 @@ fields:
   - type: text
     name: caption
     label: Caption
+- type: select
+  name: headerClasses
+  config:
+    source:
+      type: datafiles
+      file: page-designs-yaml
+      path: page-designs
+  label: Hero Design
 - type: number
   name: weight
   label: Weight
