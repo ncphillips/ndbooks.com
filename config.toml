@@ -12,9 +12,9 @@ enableRobotsTXT = true
 disableKinds = [ "RSS", "sitemap"]
 #disableKinds = [ "page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT", "404"]
 #ignoreFiles = [ "\/book\/",  "\/author\/" ]
-# [blackfriday]
-#   angledQuotes = false
-#   smartypantsQuotesNBSP =false
+
+[blackfriday]
+  extensionsmask = ["noIntraEmphasis"]
 
 [related]
 includeNewer = true
