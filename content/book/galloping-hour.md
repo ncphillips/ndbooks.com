@@ -24,8 +24,8 @@ authors: []
 editors:
 - author/patricio-ferrari.md
 translators:
-- author/forrest-gander.md
 - author/patricio-ferrari.md
+- author/forrest-gander.md
 contributors: []
 featured_image:
   file: ''
