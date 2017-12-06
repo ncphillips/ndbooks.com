@@ -20,7 +20,8 @@ subtitle: French Poems
 genre: Poetry
 subgenre: []
 language: French
-authors: []
+authors:
+- author/alejandra-pizarnik.md
 editors:
 - author/patricio-ferrari.md
 translators:
