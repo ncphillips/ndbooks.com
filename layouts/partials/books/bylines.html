@@ -1,31 +1,48 @@
-{{$authors := .authors}}
-{{$translators := .translators}}
-{{$editors := .editors}}
-{{$contributors := .contributors}}
+{{$people := index (where (.Site.RegularPages) "Section" "author")}}
+{{$authors := .Params.authors}}
+{{$translators := .Params.translators}}
+{{$editors := .Params.editors}}
+{{$contributors := .Params.contributors}}
 
-
+{{define "linkTemplate"}}
+  <a href="{{ .URL }}" class="color-inherit delimit dim link">{{ .Title }}</a>
+{{end}}
 
 <h2 class="f3 lh-title mb3">
-{{ with .c.Params.genre }}{{ . | humanize }}{{end}}
+{{ with .Params.genre }}{{ . | humanize }}{{end}}
 {{with $authors}}by
-{{ range . }}<a href="{{ .URL }}" class="color-inherit delimit dim link">{{ .Title }}</a>{{ end }}
+  {{ range . }}
+    {{$contributors := where ($people) ".File.Path" .}}
+    {{range $contributors}}{{template "linkTemplate" .}}{{ end }}
+  {{end}}
 {{end}}
 </h2>
 
-<p class="f4 lh-title">
-{{if $translators}}Translated {{with .Params.language}}from the {{.}} {{end}}by
-{{ range $translators }}<a href="{{ .URL }}" class="color-inherit delimit dim link">{{ .Title }}</a>{{ end }}
+{{with .Params.translators}}
+  <p class="f4 lh-title">
+    Translated {{with $.Params.language}}from the {{.}} {{end}}by
+    {{range .}}
+      {{$contributors := where ($people) ".File.Path" .}}
+      {{range $contributors}}{{template "linkTemplate" .}}{{end}}
+    {{end}}
+  </p>
 {{end}}
-</p>
 
-<p class="f4 lh-title">
-{{with $editors}}Edited by
-{{ range .}}<a href="{{ .URL }}" class="color-inherit delimit dim link">{{ .Title }}</a>{{ end }}
+{{with $editors}}
+  <p class="f4 lh-title">
+    Edited by
+    {{ range .}}
+      {{$contributors := where ($people) ".File.Path" .}}
+      {{range $contributors}}{{template "linkTemplate" .}}{{end}}
+    {{ end }}
+  </p>
 {{end}}
-</p>
 
-<p class="f4 lh-title">
-{{with $contributors}}With a contribution by
-{{ range .}}<a href="{{ .URL }}" class="color-inherit delimit dim link">{{ .Title }}</a>{{ end }}
+{{with $contributors}}
+  <p class="f4 lh-title">
+    With a contribution by
+    {{ range .}}{{$contributors := where ($people) ".File.Path" .}}
+      {{range $contributors}}{{template "linkTemplate" .}}{{end}}
+    {{ end }}
+  </p>
 {{end}}
-</p>

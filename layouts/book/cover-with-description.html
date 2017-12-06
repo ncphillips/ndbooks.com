@@ -31,12 +31,7 @@
         {{end}}
         {{/* END TITLE */}}
 
-        {{/* BYLINE */}}
-        {{$authors := where ($people) ".File.Path" "in" .Params.authors}}
-        {{$translators := where ($people) ".File.Path" "in" .Params.translators}}
-        {{$editors := where ($people) ".File.Path" "in" .Params.editors}}
-        {{$contributors := where ($people) ".File.Path" "in" .Params.contributors}}
-        {{partial "books/bylines.html" (dict "c" . "authors" $authors "translators" $translators "editors" $editors "contributors" $contributors)}}
+        {{partial "books/bylines.html" .}}
         {{/* END BYLINE */}}
 
         {{/* CONTENT */}}
