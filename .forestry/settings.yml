@@ -7,14 +7,14 @@ auto_deploy: false
 admin_path: admin
 webhook_url: 
 sections:
-  series:
-    default_front_matter_template: page
-  staff:
-    default_front_matter_template: staff
   review:
     default_front_matter_template: review
   product:
     default_front_matter_template: page
+  series:
+    default_front_matter_template: page
+  staff:
+    default_front_matter_template: staff
   genre:
     default_front_matter_template: default
   event:
