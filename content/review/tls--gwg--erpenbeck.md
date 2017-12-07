@@ -11,5 +11,4 @@ nd_author_of_this_review: ''
 weight: ''
 
 ---
-  
-"The conviction that doing nothing, staying out of it, is not an option is an urgent guiding thought in _Go, Went Gone_. Jenny Erpenbeck shows us that we are involved already, whether we want to be or not."
+The conviction that doing nothing, staying out of it, is not an option is an urgent guiding thought in _Go, Went Gone_. Jenny Erpenbeck shows us that we are involved already, whether we want to be or not.
