@@ -9,7 +9,6 @@ related_books:
 related_author: ''
 nd_author_of_this_review: ''
 weight: ''
-draft: true
 
 ---
 One wonders if the headaches of apartment living might even have inspired him, as a worthy enemy might goad one to action.
