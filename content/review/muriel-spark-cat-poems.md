@@ -5,7 +5,7 @@ date: 2017-12-08 12:56:17 +0000
 nd_author_of_this_review: author/muriel-spark.md
 related_books:
 - book/cat-poems.md
-attribution: ''
+attribution: Muriel Spark
 link_to_original: ''
 related_author: ''
 weight: ''
