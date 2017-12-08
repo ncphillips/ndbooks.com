@@ -9,7 +9,6 @@ related_books:
 related_author: ''
 nd_author_of_this_review: ''
 weight: ''
-draft: true
 
 ---
 Acclaimed German novelist Jenny Erpenbeck has gone further than most in examining the ephemeral nature of human life. A heart-rending plea for universal tolerance and respect.
