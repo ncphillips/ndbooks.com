@@ -11,4 +11,4 @@ nd_author_of_this_review: ''
 weight: ''
 
 ---
-"Krasznahorkai's fiction is apocalyptic in the original sense: concerned with the time when ordinary, blinkered perception gives way to revelation, when the veil is rent and we see things in their true and terrifying form. _The World Goes On_, a collection of 20 short stories plus a coda, serves as a wonderful primer to the 'invisible gigasystem' that is the Krasznahorkai universe."
+Krasznahorkai's fiction is apocalyptic in the original sense: concerned with the time when ordinary, blinkered perception gives way to revelation, when the veil is rent and we see things in their true and terrifying form. _The World Goes On_, a collection of 20 short stories plus a coda, serves as a wonderful primer to the 'invisible gigasystem' that is the Krasznahorkai universe.
