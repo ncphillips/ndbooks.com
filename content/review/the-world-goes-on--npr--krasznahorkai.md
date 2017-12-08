@@ -8,7 +8,7 @@ related_books:
 - book/the-world-goes-on.md
 related_author: ''
 nd_author_of_this_review: ''
-weight: ''
+weight: 1
 
 ---
 A celebration of tiny moments of odd, inexplicable joy.
