@@ -25,22 +25,22 @@ cover_image: ''
  6. Surfing
  7. The art of the novel
  8. Glass painting
- 9. Tennis 
+ 9. Tennis
 10. Water colors
-11. Oil painting 
-12. Rhetoric 
+11. Oil painting
+12. Rhetoric
 13. The art of cooking
-14. Architecture 
+14. Architecture
 15. Squash
-16. Weight lifting 
-17. Politics 
+16. Weight lifting
+17. Politics
 18. High trapeze
-19. Parachute jumping 
+19. Parachute jumping
 20. Mountain climbing
-21. Sculpture 
+21. Sculpture
 22. Bicycle acrobatics
 23. Juggling
 24. The art of aphorisms
-25. Building fountains 
-26. Fencing 
+25. Building fountains
+26. Fencing
 27. Artillery
