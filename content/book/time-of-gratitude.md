@@ -44,8 +44,8 @@ editions:
   contributors: 
   cover_image: 9780811227193.jpg
 featured_image:
-  file: ''
-  caption: ''
+  file: alex-machado-435966.jpg
+  caption: Alex Machado
 _slug: time-of-gratitude
 headerClasses: ''
 
