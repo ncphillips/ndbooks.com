@@ -3,7 +3,7 @@ title: Contact
 featured_image:
   file: door.jpg
   caption: ''
-headerClasses: ''
+headerClasses: vh-100 moon-gray
 weight: 0
 linktitle: ''
 date: 2017-02-01 00:00:00 -0500
