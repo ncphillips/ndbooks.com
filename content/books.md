@@ -39,6 +39,15 @@ new_and_forthcoming_books:
   - book/these-possible-lives.md
 bestsellers:
   titles:
+  - book/the-musical-brain-and-other-stories.md
+  - book/paterson.md
+  - book/on-booze.md
+  - book/siddhartha.md
+  - book/the-rings-of-saturn.md
+  - book/envelope-poems.md
+  - book/new-seeds-of-contemplation.md
+  - book/the-book-of-disquiet-the-complete-edition.md
+  - book/go-went-gone.md
   - book/cat-on-a-hot-tin-roof.md
   - book/nox.md
   - book/the-emigrants.md
