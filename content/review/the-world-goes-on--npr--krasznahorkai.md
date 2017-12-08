@@ -9,7 +9,6 @@ related_books:
 related_author: ''
 nd_author_of_this_review: ''
 weight: ''
-draft: true
 
 ---
 A celebration of tiny moments of odd, inexplicable joy.
