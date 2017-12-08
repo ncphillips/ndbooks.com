@@ -6,7 +6,7 @@ weight: 1
 related_books:
 - book/cat-poems.md
 nd_author_of_this_review: author/charles-olson.md
-attribution: ''
+attribution: Charles Olson
 link_to_original: ''
 related_author: ''
 
