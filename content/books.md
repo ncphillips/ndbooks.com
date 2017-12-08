@@ -37,6 +37,10 @@ new_and_forthcoming_books:
   - book/letters-to-his-neighbor.md
   - book/i-am-the-brother-of-xx.md
   - book/these-possible-lives.md
+  - book/debths.md
+  - book/gondwana.md
+  - book/investigations-of-a-dog-other-creatures.md
+  - book/vengeance-is-mine-all-others-pay-cash.md
 bestsellers:
   titles:
   - book/the-musical-brain-and-other-stories.md
