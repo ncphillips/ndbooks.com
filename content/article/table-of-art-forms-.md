@@ -4,7 +4,7 @@ gallery: []
 date: 2017-12-08 14:01:06 +0000
 featured: false
 authors: []
-description: Table of art forms according to their difficulty
+description: Table of art forms according to their difficulty, according to Lars Gustafsson
 related_contributors:
 - author/lars-gustafsson.md
 related_books:
