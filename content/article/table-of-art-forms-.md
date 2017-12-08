@@ -10,11 +10,11 @@ related_contributors:
 related_books:
 - book/the-death-of-a-beekeeper.md
 featured_image:
-  file: ''
-  caption: ''
+  file: DT11554
+  caption: "“The Cathedrals of Art” by Florine Stettheimer (American, Rochester, New
+    York 1871–1944 New York, New York) via The Metropolitan Museum of Art"
 headerClasses: ''
 cover_image: ''
-draft: true
 
 ---
  1. Eroticism
