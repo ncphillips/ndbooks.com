@@ -1,6 +1,6 @@
 ---
 title: A Celebration of Muriel Spark
-date: 2017-12-08 13:59:43 +0000
+date: 2018-02-01 20:00:00 -0500
 description: A Celebration of Muriel Spark
 website: https://www.92y.org/event/a-celebration-of-muriel-spark
 venue:
@@ -18,7 +18,6 @@ featured_image:
   file: ''
   caption: ''
 headerClasses: ''
-draft: true
 
 ---
 **with Rivka Galchen, Joseph O’Neill and others**
