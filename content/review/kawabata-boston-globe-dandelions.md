@@ -9,7 +9,6 @@ weight: 1
 link_to_original: ''
 related_author: ''
 nd_author_of_this_review: ''
-draft: true
 
 ---
 Kawabata lusted for purity: his characters live the contradictions.
