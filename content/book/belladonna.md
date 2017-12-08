@@ -5,7 +5,7 @@ date: 2017-10-31 04:00:00 +0000
 series: []
 genre: Fiction
 subgenre: []
-language: Croation
+language: Croatian
 authors:
 - author/dasa-drndic.md
 translators:
@@ -22,12 +22,12 @@ editions:
   page_count: 400
   sales_data:
     forsale: false
-    saleprice:
-    shipping_charge:
+    saleprice: 
+    shipping_charge: 
     price_us: 19.95
     price_cn: 25.95
-  contributors:
-  cover_image: Belladonna.jpg
+  contributors: 
+  cover_image: 9780811227216.jpg
 - binding: ebook
   isbn: 9780811227223
   date: 2017-10-31 04:00:00 +0000
@@ -36,11 +36,11 @@ editions:
   page_count: ''
   sales_data:
     forsale: false
-    saleprice:
-    shipping_charge:
-    price_us:
-    price_cn:
-  contributors:
+    saleprice: 
+    shipping_charge: 
+    price_us: 
+    price_cn: 
+  contributors: 
   cover_image: Belladonna.jpg
 featured_image:
   file: ''
