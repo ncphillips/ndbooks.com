@@ -47,7 +47,7 @@ featured_image:
   file: alex-machado-435966.jpg
   caption: Alex Machado
 _slug: time-of-gratitude
-headerClasses: ''
+headerClasses: vh-100 bg-near-white white-70
 
 ---
 Gennady Aygi’s longtime translator and friend Peter France has compiled this moving collection of tributes dedicated to some of the writers and artists who sustained him while living in the Moscow "underground." Written in a quiet intensely expressive poetic style, Aygi's inventive essays blend autobiography with literary criticism, social commentary, nature writing, and enlightening homage. He addresses such literary masters as Pasternak, Kafka, Mayakovsky, Celan, and Tomas Tranströmer, along with other writers from the Russian avant-garde and his native Chuvashia. Related poems by Aygi are also threaded between the essays. Reminiscent of Mandelstam's elliptical travel musings and Kafka's intensely spiritual jottings in his notebooks, _Time of Gratitude_ glows with the love and humanity of a sacred vocation. “These leaves of paper,” Aygi says, “are swept up by the whirlwind of festivity; everything whirls—from Earth to Heaven—and perhaps the Universe too begins to swirl. Everything flows together in the rainbow colors and lights of the infinite world of Poetry.”
