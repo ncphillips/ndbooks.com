@@ -42,7 +42,7 @@ editions:
   contributors: 
   cover_image: 9780811224093.jpg
 featured_image:
-  file: kawabata_dandelions_coverback.jpg
+  file: Kawabatahero.jpg
   caption: ''
 _slug: dandelions
 headerClasses: ''
