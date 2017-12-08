@@ -10,9 +10,9 @@ language: Hungarian
 authors:
 - author/laszlo-krasznahorkai.md
 translators:
-- author/john-batki.md
-- author/ottilie-mulzet.md
 - author/george-szirtes.md
+- author/ottilie-mulzet.md
+- author/john-batki.md
 editors: []
 contributors: []
 editions:
@@ -52,4 +52,4 @@ _slug: the-world-goes-on
 headerClasses: ''
 
 ---
-In _The World Goes On_, a narrator first speaks directly, then tells twenty-one unforgettable stories, and then bids farewell (“for here I would leave this earth and these stars, because I would take nothing with me”). As László Krasznahorkai himself explains: “Each text is about drawing our attention away from this world, speeding our body toward annihilation, and immersing ourselves in a current of thought or a narrative...” A Hungarian interpreter obsessed with waterfalls, at the edge of the abyss in his own mind, wanders the chaotic streets of Shanghai. A traveler, reeling from the sights and sounds of Varanasi, encounters a giant of a man on the banks of the Ganges ranting on the nature of a single drop of water. A child laborer in a Portuguese marble quarry wanders off from work one day into a surreal realm utterly alien from his daily toils. _The World Goes On_ is another amazing masterpiece by the winner of the 2015 Man Booker International Prize. “The excitement of his writing,” Adam Thirlwell proclaimed in the New York Review of Books, “is that he has come up with his own original forms—there is nothing else like it in contemporary literature.”
+In _The World Goes On_, a narrator first speaks directly, then narrates a number of unforgettable stories, and then bids farewell (“here I would leave this earth and these stars, because I would take nothing with me”). As László Krasznahorkai himself explains: “Each text is about drawing our attention away from this world, speeding our body toward annihilation, and immersing ourselves in a current of thought or a narrative...” A Hungarian interpreter obsessed with waterfalls, at the edge of the abyss in his own mind, wanders the chaotic streets of Shanghai. A traveler, reeling from the sights and sounds of Varanasi, India, encounters a giant of a man on the banks of the Ganges ranting on the nature of a single drop of water. A child laborer in a Portuguese marble quarry wanders off from work one day into a surreal realm utterly alien from his daily toils. _The World Goes On_ is another amazing masterpiece by the winner of the 2015 Man Booker International Prize. “The excitement of his writing,” Adam Thirlwell proclaimed in _The New York Review of Books_, “is that he has come up with his own original forms—there is nothing else like it in contemporary literature.”
