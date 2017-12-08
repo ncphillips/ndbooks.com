@@ -5,7 +5,7 @@ date: 2017-12-08 13:03:31 +0000
 related_books:
 - book/cat-poems.md
 nd_author_of_this_review: author/kenneth-rexroth.md
-attribution: ''
+attribution: Kenneth Rexroth
 link_to_original: ''
 related_author: ''
 weight: ''
