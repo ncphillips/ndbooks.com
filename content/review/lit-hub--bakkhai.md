@@ -11,4 +11,4 @@ nd_author_of_this_review: ''
 weight: ''
 
 ---
-"Her translation of this Greek tragedy, first performed in 405 BC, reawakens the original’s sublimity and gives us the opportunity to be absorbed and shocked anew by the story of Dionysus."
+Her translation of this Greek tragedy, first performed in 405 BC, reawakens the original’s sublimity and gives us the opportunity to be absorbed and shocked anew by the story of Dionysus.
