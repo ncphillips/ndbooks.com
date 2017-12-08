@@ -18,7 +18,7 @@ contributors: []
 editions:
 - binding: clothbound
   isbn: 9780811224192
-  date: 2017-11-28 05:00:00 +0000
+  date: 2017-12-05 00:00:00 -0500
   description: 'A magnificent new collection of stories by “the contemporary Hungarian
     master of apocalypse” (Susan Sontag) '
   trim_size: 5x8
