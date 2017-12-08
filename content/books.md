@@ -5,39 +5,38 @@ type: books
 headerClasses: bg-primary-color-light white-80
 new_and_forthcoming_books:
   titles:
-  - book/the-book-of-disquiet-the-complete-edition.md
-  - book/letters-to-his-neighbor.md
-  - book/sea-land-shadow.md
-  - book/21-poems.md
-  - book/across-the-vapour-gulf.md
-  - book/blue-pearl.md
-  - book/vengeance-is-mine-all-others-pay-cash.md
-  - book/i-am-the-brother-of-xx.md
-  - book/these-possible-lives.md
-  - book/gondwana.md
-  - book/debths.md
-  - book/the-little-buddhist-monk-the-proof.md
-  - book/investigations-of-a-dog-other-creatures.md
-  - book/the-illustrious-house-of-ramires-new.md
-  - book/the-maids.md
-  - book/devils-in-daylight.md
-  - book/walks-with-walser.md
-  - book/the-teeth-of-the-comb-other-stories.md
-  - book/go-went-gone.md
+  - book/temple-of-the-scapegoat.md
+  - book/poems-from-the-book-of-hours.md
+  - book/cat-poems.md
+  - book/a-good-comb-the-sayings-of-muriel-spark.md
+  - book/the-informed-air.md
+  - book/the-poems-of-octavio-paz.md
+  - book/the-beekeeper.md
+  - book/the-solitary-twin.md
+  - book/the-chandelier.md
+  - book/compass.md
+  - book/the-linden-tree.md
+  - book/the-emissary.md
+  - book/the-desert-and-its-seed.md
+  - book/negative-space.md
+  - book/time-of-gratitude.md
+  - book/bakkhai.md
+  - book/dandelions.md
+  - book/ferlinghettis-greatest-poems.md
+  - book/mrs-caliban.md
+  - book/the-world-goes-on.md
+  - book/belladonna.md
+  - book/magnetic-point-selected-poems.md
   - book/concluding.md
   - book/the-kites.md
   - book/promise-at-dawn.md
   - book/al-que-quiere.md
   - book/the-poems-of-dylan-thomas.md
-  - book/belladonna.md
-  - book/ferlinghettis-greatest-poems.md
-  - book/magnetic-point-selected-poems.md
-  - book/mrs-caliban.md
-  - book/the-world-goes-on.md
-  - book/time-of-gratitude.md
-  - book/bakkhai.md
-  - book/dandelions.md
-  - book/the-desert-and-its-seed.md
+  - book/go-went-gone.md
+  - book/the-book-of-disquiet-the-complete-edition.md
+  - book/letters-to-his-neighbor.md
+  - book/i-am-the-brother-of-xx.md
+  - book/these-possible-lives.md
 bestsellers:
   titles:
   - book/cat-on-a-hot-tin-roof.md
@@ -67,4 +66,5 @@ bestsellers:
 menu:
   main:
     weight: 10
+
 ---
