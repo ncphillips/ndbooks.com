@@ -3,7 +3,7 @@ title: Negative Space
 subtitle: ''
 date: 2018-04-24 04:00:00 +0000
 series: []
-genre: Fiction
+genre: Poetry
 subgenre: []
 language: ''
 authors:
