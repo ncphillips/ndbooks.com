@@ -9,7 +9,6 @@ related_books:
 related_author: ''
 nd_author_of_this_review: ''
 weight: ''
-draft: true
 
 ---
 Calls to mind J.M. Coetzee, whose flat, affectless prose wrests coherence from immense social turmoil. By making the predicament of the refugee banal and quotidian, Erpenbeck helps it become visible.
