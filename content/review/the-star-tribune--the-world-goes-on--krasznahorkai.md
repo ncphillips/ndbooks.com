@@ -9,7 +9,6 @@ related_books:
 related_author: ''
 nd_author_of_this_review: ''
 weight: ''
-draft: true
 
 ---
 The stories in _The World Goes On_ are the reading equivalent of climbing a volcano instead of sitting by the beach on your honeymoon. But the rewards — the sudden, knife-like insights so cerebral they seem the work of an alien intelligence — are worth the effort.
