@@ -1,5 +1,5 @@
 ---
-title: Finantical Times, Vengeance is Mine, Kuriawan
+title: Financial Times, Vengeance is Mine, Kuriawan
 layout: none
 date: 2017-12-11 12:08:51 +0000
 link_to_original: https://www.ft.com/content/353af6ce-7dc8-11e7-ab01-a13271d1ee9c
