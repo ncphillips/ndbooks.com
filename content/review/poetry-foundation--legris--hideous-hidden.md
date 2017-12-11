@@ -9,7 +9,6 @@ related_books:
 related_author: ''
 nd_author_of_this_review: ''
 weight: ''
-draft: true
 
 ---
 Legris isn’t interested in solving the “riddle of meat,” preferring instead a jangling, sound-dense poetry that ruminates on the substance of the human body...
