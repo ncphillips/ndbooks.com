@@ -2,7 +2,7 @@
 title: Poetry Foundation, Legris, Hideous Hidden
 layout: none
 date: 2017-12-11 16:04:57 +0000
-attribution: "*Poetry Foundation*"
+attribution: "*Poetry Magazine*"
 link_to_original: https://www.poetryfoundation.org/poetrymagazine/articles/144803/lengthening-the-short-street
 related_books:
 - book/the-hideous-hidden.md
