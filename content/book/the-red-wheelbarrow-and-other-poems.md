@@ -1,6 +1,6 @@
 ---
 title: The Red Wheelbarrow and Other Poems
-date: 2017-11-16 14:29:23 +0000
+date: 2018-05-29 09:29:23 -0400
 editions:
 - binding: paperback
   isbn: 9780811227886
