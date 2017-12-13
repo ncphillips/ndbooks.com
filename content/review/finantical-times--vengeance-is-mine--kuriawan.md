@@ -11,4 +11,4 @@ nd_author_of_this_review: ''
 weight: ''
 
 ---
-A tragicomedy Indonesian thriller... By turns a soft porn flick, a manic road thriller and a martial arts movie... A blast of a book
+A tragicomedy Indonesian thriller... By turns a soft porn flick, a manic road thriller and a martial arts movie... A blast of a book.
