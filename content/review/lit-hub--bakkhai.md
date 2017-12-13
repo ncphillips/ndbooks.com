@@ -3,7 +3,7 @@ title: Lit Hub, Bakkhai
 layout: none
 date: 2017-12-08 12:35:40 +0000
 attribution: "*Lit Hub*"
-link_to_original: " http://lithub.com/9-books-you-should-read-this-december/"
+link_to_original: http://lithub.com/9-books-you-should-read-this-december/
 related_books:
 - book/bakkhai.md
 related_author: ''
