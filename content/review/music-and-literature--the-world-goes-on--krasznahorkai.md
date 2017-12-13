@@ -9,7 +9,6 @@ related_books:
 related_author: ''
 nd_author_of_this_review: ''
 weight: ''
-draft: true
 
 ---
 The World Goes On is a labyrinth of parallel universes that echo and correspond to one another, creating, with each new story, a déjà vu like effect that renders the reader’s escape into linear clarity nearly impossible. Moreover, the broad scope of this collection clarifies the various links between Krasznahorkai’s recurrent themes and the importance of his stylistic innovation...
