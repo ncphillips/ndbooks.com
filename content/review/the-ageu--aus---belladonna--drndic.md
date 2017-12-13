@@ -9,7 +9,6 @@ link_to_original: ''
 related_author: ''
 nd_author_of_this_review: ''
 weight: ''
-draft: true
 
 ---
 Croatian novelist Dasa Drndic continue\[s\] her impassioned interrogation of human failing in the obsessive, intense _Belladonna._
