@@ -11,7 +11,7 @@ related_books: []
 featured_image:
   file: restcure.jpg
   caption: ''
-headerClasses: ''
+headerClasses: vh-100 bg-near-white white-70
 cover_image: ''
 
 ---
