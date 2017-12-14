@@ -17,7 +17,7 @@ featured_image:
   file: Lispectorlookingback.jpg
   caption: ''
 cover_image: Lispectorlookingback.jpg
-featured: false
+featured: true
 authors: []
 description: ''
 related_contributors: []
