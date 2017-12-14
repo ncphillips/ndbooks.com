@@ -13,7 +13,7 @@ featured_image:
   file: DT11554
   caption: "“The Cathedrals of Art” by Florine Stettheimer (American, Rochester, New
     York 1871–1944 New York, New York) via The Metropolitan Museum of Art"
-headerClasses: ''
+headerClasses: vh-75 bg-near-white white-70
 cover_image: ''
 
 ---
