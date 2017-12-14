@@ -29,7 +29,7 @@ together in Brazil, Paris, Madrid, Lisbon, Frankfurt, Buenos Aires, Mexico City,
 
 On Sunday, December 10th, 2017, Group .BR, New York's only Brazilian theater company partnered with Salles Institute, Brazil, for an evening of installations and performances from its latest show, _Inside the Wild Heart_, an adaptation of Lispector's first novel. Special guests Katrina Dodson, translator of _Complete Stories of Clarice Lispector_, and Rebecca Ariel Porte discussed Lispector's stories "Mineirinho" and "The Egg and the Chicken" with moderator Mila Burns.
 
-Thank you to all who came to celebrate Hurricane Clarice. For those who couldn't be there, we offer solace in the form of photograph's of Group. BR's venue and stage, with dark romantic lighting, and, for your reading pleasure, the story "Mineirinho."
+Thank you to all who came to celebrate Clarice. For those who couldn't be there, we offer solace in the form of photograph's of Group. BR's venue and stage, with dark romantic lighting, and, for your reading pleasure, the story "Mineirinho."
 
 **_Mineirinho_**
 
