@@ -15,11 +15,11 @@ featured_image:
   file: Lispectorlookingback.jpg
   caption: ''
 cover_image: ''
-featured: true
+featured: false
 authors: []
 description: ''
 related_contributors: []
-headerClasses: ''
+headerClasses: bg-primary-color-light white-80
 
 ---
 Hora de Clarice is a worldwide celebration which takes place each year on Clarice Lispector's birthday. Lovers of Lispector come  
