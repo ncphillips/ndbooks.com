@@ -16,7 +16,7 @@ related_books:
 featured_image:
   file: Lispectorlookingback.jpg
   caption: ''
-cover_image: Lispectorlookingback.jpg
+cover_image: ''
 featured: true
 authors: []
 description: ''
