@@ -29,6 +29,8 @@ On Sunday, December 10th, 2017, Group .BR, New York's only Brazilian theater com
 
 Thank you to all who came to celebrate Clarice Lispector. For those who couldn't be there, for your reading pleasure, the amazing story of Mineirinho. 
 
+{{< youtube CClqC0RgdU0 >}}
+
 **_Mineirinho_**
 
 Yes, I suppose it is in myself, as one of the representatives of us, that I should seek the reasons why the death of a thug is hurting. And why it does me more good to count the thirteen gunshots that killed Mineirinho rather than his crimes. I asked my cook what she thought about it. I saw in her face the slight convulsion of a conflict, the distress of not understanding what one feels, of having to betray contradictory feelings because one cannot reconcile them. Indisputable facts, but indisputable revolt as well, the violent compassion of revolt. Feeling divided by one’s own confusion about being unable to forget that Mineirinho was dangerous and had already killed too many; and still we wanted him to live. The cook grew slightly guarded, seeing me perhaps as an avenging justice. Somewhat angry at me, who was prying into her soul, she answered coldly: “It’s no use saying what I feel. Who doesn’t know Mineirinho was a criminal? But I’m sure he was saved and is already in heaven.” I answered, “more than lots of people who haven’t killed anyone.”
