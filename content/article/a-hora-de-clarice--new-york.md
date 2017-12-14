@@ -24,7 +24,7 @@ headerClasses: bg-primary-color-light white-80
 ---
 Hora de Clarice is a worldwide celebration which takes place each year on Clarice Lispector's birthday in Brazil, Paris, Madrid, Lisbon, Frankfurt, Buenos Aires, Mexico City, and New York. 
 
-This year on December 10th, Group .BR, New York's only Brazilian theater company, partnered with Salles Institute, Brazil, for anevening of installations and performances from _Inside the Wild Heart_, an adaptation of Lispector's first novel. Special guests Katrina Dodson and Rebecca Ariel Porte discussed Lispector's stories "Mineirinho" and "The Egg and the Chicken" with moderator Mila Burns.
+This year on December 10th, Group .BR partnered with Salles Institute, Brazil, for an evening of installations and performances from _Inside the Wild Heart_, an adaptation of Lispector's first novel, in New York. Special guests Katrina Dodson and Rebecca Ariel Porte discussed Lispector's stories "Mineirinho" and "The Egg and the Chicken" with moderator Mila Burns.
 
 Thank you to all who came to celebrate Clarice Lispector. For those who couldn't be there, for your reading pleasure, the amazing story of Mineirinho. 
 
