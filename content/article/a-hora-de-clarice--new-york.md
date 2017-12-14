@@ -3,8 +3,6 @@ title: A Hora de Clarice, New York
 gallery:
 - image: HoradeClarice3004.jpg
   caption: 
-- image: HoradeClarice3002.jpg
-  caption: 
 - image: Horadeclarice3001.jpg
   caption: 
 - image: Horadeclarice3023.jpg
@@ -29,7 +27,7 @@ together in Brazil, Paris, Madrid, Lisbon, Frankfurt, Buenos Aires, Mexico City,
 
 On Sunday, December 10th, 2017, Group .BR, New York's only Brazilian theater company partnered with Salles Institute, Brazil, for an evening of installations and performances from its latest show, _Inside the Wild Heart_, an adaptation of Lispector's first novel. Special guests Katrina Dodson, translator of _Complete Stories of Clarice Lispector_, and Rebecca Ariel Porte discussed Lispector's stories "Mineirinho" and "The Egg and the Chicken" with moderator Mila Burns.
 
-Thank you to all who came to celebrate Clarice Lispector. For those who couldn't be there, photographs and the amazing story of Mineirinho. 
+Thank you to all who came to celebrate Clarice Lispector. For those who couldn't be there, for your reading pleasure, the amazing story of Mineirinho. 
 
 **_Mineirinho_**
 
