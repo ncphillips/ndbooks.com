@@ -22,10 +22,9 @@ related_contributors: []
 headerClasses: bg-primary-color-light white-80
 
 ---
-Hora de Clarice is a worldwide celebration which takes place each year on Clarice Lispector's birthday. Lovers of Lispector come  
-together in Brazil, Paris, Madrid, Lisbon, Frankfurt, Buenos Aires, Mexico City, and New York to raise a glass to her life and work.
+Hora de Clarice is a worldwide celebration which takes place each year on Clarice Lispector's birthday in Brazil, Paris, Madrid, Lisbon, Frankfurt, Buenos Aires, Mexico City, and New York. 
 
-On Sunday, December 10th, 2017, Group .BR, New York's only Brazilian theater company partnered with Salles Institute, Brazil, for an evening of installations and performances from its latest show, _Inside the Wild Heart_, an adaptation of Lispector's first novel. Special guests Katrina Dodson, translator of _Complete Stories of Clarice Lispector_, and Rebecca Ariel Porte discussed Lispector's stories "Mineirinho" and "The Egg and the Chicken" with moderator Mila Burns.
+This year on December 10th, Group .BR, New York's only Brazilian theater company, partnered with Salles Institute, Brazil, for anevening of installations and performances from _Inside the Wild Heart_, an adaptation of Lispector's first novel. Special guests Katrina Dodson and Rebecca Ariel Porte discussed Lispector's stories "Mineirinho" and "The Egg and the Chicken" with moderator Mila Burns.
 
 Thank you to all who came to celebrate Clarice Lispector. For those who couldn't be there, for your reading pleasure, the amazing story of Mineirinho. 
 
