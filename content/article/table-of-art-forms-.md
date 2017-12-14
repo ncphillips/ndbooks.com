@@ -17,15 +17,15 @@ headerClasses: ''
 cover_image: ''
 
 ---
- 1. Eroticism
- 2. Music
- 3. Poetry
- 4. Drama
- 5. Pyrotechnics
- 6. Surfing
- 7. The art of the novel
- 8. Glass painting
- 9. Tennis
+1. Eroticism
+2. Music
+3. Poetry
+4. Drama
+5. Pyrotechnics
+6. Surfing
+7. The art of the novel
+8. Glass painting
+9. Tennis
 10. Water colors
 11. Oil painting
 12. Rhetoric
