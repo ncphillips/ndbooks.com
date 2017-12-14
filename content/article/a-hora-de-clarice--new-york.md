@@ -22,7 +22,6 @@ authors: []
 description: ''
 related_contributors: []
 headerClasses: ''
-draft: true
 
 ---
 Hora de Clarice is a worldwide celebration which takes place each year on Clarice Lispector's birthday. Lovers of Lispector come together in Brazil, Paris, Madrid, Lisbon, Frankfurt, Buenos Aires, Mexico City, and New York to raise a glass to her life and work.  
