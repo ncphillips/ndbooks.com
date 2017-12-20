@@ -15,17 +15,6 @@ contributors:
 - author/john-goodby.md
 editions:
 - binding: clothbound
-  isbn: 9780811221146
-  date: 2017-10-31 04:00:00 +0000
-  description: ''
-  trim_size: 5 1/2 x 8 1/2
-  page_count: 512
-  cover_image: 9780811221146.jpg
-  sales_data:
-    for_sale: true
-    price_us: 39.95
-    price_cn: 53.95
-- binding: clothbound
   isbn: 9780811215411
   date: 2003-04-01 06:00:46 +0000
   description: ''
@@ -40,6 +29,17 @@ editions:
   contributors:
   - author/thomas-keith.md
   cover_image: thepoemsofdylanthomas.JPG
+- binding: clothbound
+  isbn: 9780811221146
+  date: 2017-10-31 04:00:00 +0000
+  description: ''
+  trim_size: 5 1/2 x 8 1/2
+  page_count: 512
+  cover_image: 9780811221146.jpg
+  sales_data:
+    for_sale: true
+    price_us: 39.95
+    price_cn: 53.95
 featured_image:
   file: ''
   caption: ''
