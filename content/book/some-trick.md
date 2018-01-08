@@ -10,7 +10,7 @@ authors:
 editions:
 - binding: clothbound
   isbn: 9780811227827
-  date: 2018-05-30 00:00:00 -0400
+  date: 2018-05-29 00:00:00 -0400
   description: 'At last a new book: a baker’s dozen of stories all with Helen DeWitt’s
     razor-sharp genius'
   trim_size: 5 x 8
@@ -20,7 +20,7 @@ editions:
     price_cn: 29.95
   cover_image: 9780811227827.jpg
 - isbn: 9780811227834
-  date: 2018-05-30 00:00:00 -0400
+  date: 2018-05-30 04:00:00 +0000
 language: ''
 editors: []
 translators: []
