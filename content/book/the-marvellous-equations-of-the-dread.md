@@ -4,7 +4,7 @@ date: 2017-11-16 09:24:20 -0500
 editions:
 - binding: paperback
   isbn: 9780811227865
-  date: 2018-07-24 04:00:00 +0000
+  date: 2018-07-31 00:00:00 -0400
   description: The ancestors have awakened. Somebody has called them. The long-dead
     are stirring. Jah ways are mysterious ways
   trim_size: 5x8
