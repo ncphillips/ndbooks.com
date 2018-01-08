@@ -16,7 +16,7 @@ contributors: []
 editions:
 - binding: paperback
   isbn: 9780811227568
-  date: 2018-01-22 00:00:00 -0500
+  date: 2018-02-27 00:00:00 -0500
   description: 'Now in paperback, the definitive, life-spanning, bilingual edition
     of the poems by the Nobel Prize laureate '
   trim_size: 6 x 9
