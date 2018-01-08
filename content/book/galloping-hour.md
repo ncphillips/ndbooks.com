@@ -5,7 +5,7 @@ editions:
 - binding: paperback
   isbn: 9780811227742
   cover_image: 9780811227742.jpg
-  date: 2018-07-27 04:00:00 +0000
+  date: 2018-07-31 00:00:00 -0400
   description: A beautifully produced and exquisitely translated edition of French
     poems by “the best exponent of the poetry of introversion and metaphorical delirium”
     (Italo Calvino)
