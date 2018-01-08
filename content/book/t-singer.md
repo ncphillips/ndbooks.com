@@ -7,9 +7,9 @@ new_and_forthcoming_books:
 bestsellers:
   titles: []
 editions:
-- binding: paperback
+- binding: paperback w/ flaps
   isbn: 9780811225960
-  date: 2018-05-20 04:00:00 +0000
+  date: 2018-05-29 00:00:00 -0400
   cover_image: 9780811225960.jpg
   trim_size: 5x8"
   page_count: 176pp
