@@ -16,7 +16,7 @@ contributors:
 editions:
 - binding: paperback
   isbn: 9780811227674
-  date: 2018-01-30 05:00:00 +0000
+  date: 2018-01-23 00:00:00 -0500
   description: Now in paperback, here are the sparkling essays of Muriel Spark, author
     of “the best sentences in English” (*The New Yorker*)
   trim_size: 5.5x8.5
