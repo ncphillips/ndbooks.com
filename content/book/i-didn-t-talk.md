@@ -4,7 +4,7 @@ date: 2018-07-24 09:26:08 -0400
 editions:
 - binding: paperback
   isbn: 9780811227360
-  date: 2018-07-25 04:00:00 +0000
+  date: 2018-07-31 00:00:00 -0400
   cover_image: 9780811227360.jpg
   description: 'The English-language debut of a master stylist: a compassionate but
     relentless novel about the long, dark harvest of Brazil’s totalitarian rule'
