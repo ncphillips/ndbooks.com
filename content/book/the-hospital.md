@@ -5,7 +5,7 @@ editions:
 - binding: paperback
   isbn: 9780811225762
   cover_image: 9780811225762.jpg
-  date: 2018-06-20 04:00:00 +0000
+  date: 2018-06-26 00:00:00 -0400
   description: 'A tour de force: an utterly singular modern Moroccan classic'
   trim_size: 5x8"
   page_count: 128pp
