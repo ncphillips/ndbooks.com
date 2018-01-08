@@ -1,11 +1,11 @@
 ---
 title: Dog Symphony
-date: 2017-11-16 14:28:07 +0000
+date: 2017-11-16 09:28:07 -0500
 editions:
 - binding: paperback
   isbn: 9780811227681
   cover_image: 9780811227681.jpg
-  date: 2018-08-27 04:00:00 +0000
+  date: 2018-08-28 00:00:00 -0400
   description: A breakthrough novel from the acclaimed young American writer
   trim_size: 5x7"
   page_count: 144pp
