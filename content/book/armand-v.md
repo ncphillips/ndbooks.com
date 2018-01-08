@@ -2,10 +2,10 @@
 title: Armand V
 date: 2018-05-18 09:03:12 -0400
 editions:
-- binding: clothbound
+- binding: paperback w/ flaps
   isbn: 9780811226288
   cover_image: 9780811226288.jpg
-  date: 2018-05-18 04:00:00 +0000
+  date: 2018-05-29 00:00:00 -0400
   description: New Directions proudly introduces two novels in English by the Norwegian
     master, who is “without question, Norway’s bravest, most intelligent novelist”
     (Per Petterson)
