@@ -11,11 +11,13 @@
 
 
   {{ range $name, $taxonomy := .Site.Taxonomies.genre }}{{ $URL := $name | urlize | printf "%s%s" "/genre/" | printf "%s/"  }}
-    <li class="{{ $li_classes }} mr2-ns">
-      <a href="{{$URL}}" class="{{ $link_classes }}{{if eq $current_url $URL }} {{$active_classes}}{{end}}">
-        {{ $name | humanize }}
-      </a>
-    </li>
+    {{with $name}}
+      <li class="{{ $li_classes }} mr2-ns">
+        <a href="{{$URL}}" class="{{ $link_classes }}{{if eq $current_url $URL }} {{$active_classes}}{{end}}">
+          {{ $name | humanize }}
+        </a>
+      </li>
+    {{ end }}
   {{ end }}
 
 
