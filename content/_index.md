@@ -13,9 +13,9 @@ featured_image:
   caption: ''
 featured_review: ''
 gallery:
-- image: 9780811224192.jpg
+- image: 9780811227605.jpg
   caption: ''
-  link: "/book/the-world-goes-on/"
+  link: "/book/a-good-comb-the-sayings-of-muriel-spark/"
 - image: Krasznahorkai_Laszlo_Subin.jpg
   caption: 
   link: "/book/the-world-goes-on/"
