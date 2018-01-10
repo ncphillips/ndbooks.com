@@ -30,24 +30,6 @@ gallery:
 - image: Kluge hero 5.jpg
   caption: ''
   link: "/book/temple-of-the-scapegoat/"
-- image: 9780811224093.jpg
-  caption: ''
-  link: "/book/dandelions/"
-- image: Kawabata1929.jpg
-  caption: ''
-  link: "/book/dandelions"
-- image: kawabata_dandelions_coverback.jpg
-  caption: ''
-  link: "/book/dandelions/"
-- image: gowentgonesliderodrigowood.jpg
-  caption: ''
-  link: "/book/go-went-gone/"
-- image: Erpenbeck_Jenny_CREDIT_NINA_SUBIN
-  caption: ''
-  link: "/book/go-went-gone/"
-- image: Gowentgonesliderodrigo.jpg
-  caption: ''
-  link: "/book/go-went-gone/"
 headerClasses: vh-100 bg-near-white white-70
 title: ''
 type: home-page
