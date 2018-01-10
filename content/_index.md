@@ -16,9 +16,9 @@ gallery:
 - image: 9780811227483.jpg
   caption: ''
   link: "/book/temple-of-the-scapegoat/"
-- image: gary_photo.jpg
+- image: neuartig.jpg
   caption: 
-  link: "/author/romain-gary/"
+  link: "/book/temple-of-the-scapegoat/"
 - image: 9780811226547.jpg
   caption: ''
   link: https://www.ndbooks.com/book/the-kites/
