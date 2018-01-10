@@ -19,7 +19,7 @@ gallery:
 - image: 9780811227483.jpg
   caption: ''
   link: "/book/temple-of-the-scapegoat/"
-- image: Kluge_Alexander600.jpg
+- image: Kluge hero 5.jpg
   caption: ''
   link: "/book/temple-of-the-scapegoat/"
 - image: the_comforters_100.jpg
