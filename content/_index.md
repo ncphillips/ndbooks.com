@@ -13,15 +13,15 @@ featured_image:
   caption: ''
 featured_review: ''
 gallery:
-- image: 9780811227605.jpg
-  caption: ''
-  link: "/book/a-good-comb-the-sayings-of-muriel-spark/"
 - image: memento_centenary.jpg
   caption: ''
   link: "/author/muriel-spark/"
-- image: waterfall_laszlo.jpg
+- image: 9780811227605.jpg
+  caption: ''
+  link: "/book/a-good-comb-the-sayings-of-muriel-spark/"
+- image: 9780811227674.jpg
   caption: 
-  link: "/book/the-world-goes-on/"
+  link: "/book/the-informed-air/"
 - image: 9780811221986.jpg
   caption: ''
   link: "/book/promise-at-dawn/"
