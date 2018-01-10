@@ -13,16 +13,16 @@ featured_image:
   caption: ''
 featured_review: ''
 gallery:
-- image: 9780811227483.jpg
-  caption: ''
-  link: "/book/temple-of-the-scapegoat/"
 - image: neuartig.jpg
   caption: 
+  link: "/book/temple-of-the-scapegoat/"
+- image: 9780811227483.jpg
+  caption: ''
   link: "/book/temple-of-the-scapegoat/"
 - image: Kluge_Alexander600.jpg
   caption: ''
   link: "/book/temple-of-the-scapegoat/"
-- image: " territorial_rights_1.jpg"
+- image: the_comforters_100.jpg
   caption: ''
   link: "/author/muriel-spark/"
 - image: 9780811227605.jpg
