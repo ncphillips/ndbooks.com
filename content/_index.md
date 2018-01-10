@@ -12,6 +12,15 @@ featured_image:
   caption: ''
 featured_review: ''
 gallery:
+- image: the_comforters_100.jpg
+  caption: ''
+  link: "/author/muriel-spark/"
+- image: 9780811227674.jpg
+  caption: 
+  link: "/book/the-informed-air/"
+- image: 9780811227605.jpg
+  caption: ''
+  link: "/book/a-good-comb-the-sayings-of-muriel-spark/"
 - image: kluge hero 6.jpg
   caption: 
   link: "/book/temple-of-the-scapegoat/"
@@ -21,15 +30,6 @@ gallery:
 - image: Kluge hero 5.jpg
   caption: ''
   link: "/book/temple-of-the-scapegoat/"
-- image: the_comforters_100.jpg
-  caption: ''
-  link: "/author/muriel-spark/"
-- image: 9780811227605.jpg
-  caption: ''
-  link: "/book/a-good-comb-the-sayings-of-muriel-spark/"
-- image: 9780811227674.jpg
-  caption: 
-  link: "/book/the-informed-air/"
 - image: 9780811224093.jpg
   caption: ''
   link: "/book/dandelions/"
