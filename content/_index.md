@@ -9,7 +9,7 @@ featured_books:
 - book/letters-to-his-neighbor.md
 - book/the-book-of-disquiet-the-complete-edition.md
 featured_image:
-  file: Kluge hero 3.jpg
+  file: ''
   caption: ''
 featured_review: ''
 gallery:
