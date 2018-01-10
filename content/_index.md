@@ -3,7 +3,7 @@ date: 2015-07-14 18:00:00 +0000
 description: ''
 featured_books: []
 featured_image:
-  file: ''
+  file: 100-best-novels-miss-jean-009.jpg
   caption: ''
 featured_review: ''
 gallery:
