@@ -9,7 +9,7 @@ featured_books:
 - book/letters-to-his-neighbor.md
 - book/the-book-of-disquiet-the-complete-edition.md
 featured_image:
-  file: the_comforters_100.jpg
+  file: memento_centenary.jpg
   caption: ''
 featured_review: ''
 gallery:
