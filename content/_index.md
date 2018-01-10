@@ -16,9 +16,9 @@ gallery:
 - image: 9780811227605.jpg
   caption: ''
   link: "/book/a-good-comb-the-sayings-of-muriel-spark/"
-- image: Krasznahorkai_Laszlo_Subin.jpg
-  caption: 
-  link: "/book/the-world-goes-on/"
+- image: memento_centenary.jpg
+  caption: ''
+  link: "/author/muriel-spark/"
 - image: waterfall_laszlo.jpg
   caption: 
   link: "/book/the-world-goes-on/"
