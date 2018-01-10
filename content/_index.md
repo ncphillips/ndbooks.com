@@ -13,7 +13,7 @@ featured_image:
   caption: ''
 featured_review: ''
 gallery:
-- image: memento_centenary.jpg
+- image: " territorial_rights_1.jpg"
   caption: ''
   link: "/author/muriel-spark/"
 - image: 9780811227605.jpg
