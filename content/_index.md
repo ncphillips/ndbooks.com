@@ -9,19 +9,10 @@ featured_books:
 - book/letters-to-his-neighbor.md
 - book/the-book-of-disquiet-the-complete-edition.md
 featured_image:
-  file: Kluge_hero.jpg
+  file: Kluge hero 3.jpg
   caption: ''
 featured_review: ''
 gallery:
-- image: " territorial_rights_1.jpg"
-  caption: ''
-  link: "/author/muriel-spark/"
-- image: 9780811227605.jpg
-  caption: ''
-  link: "/book/a-good-comb-the-sayings-of-muriel-spark/"
-- image: 9780811227674.jpg
-  caption: 
-  link: "/book/the-informed-air/"
 - image: 9780811227483.jpg
   caption: ''
   link: "/book/temple-of-the-scapegoat/"
@@ -31,6 +22,15 @@ gallery:
 - image: 9780811226547.jpg
   caption: ''
   link: https://www.ndbooks.com/book/the-kites/
+- image: " territorial_rights_1.jpg"
+  caption: ''
+  link: "/author/muriel-spark/"
+- image: 9780811227605.jpg
+  caption: ''
+  link: "/book/a-good-comb-the-sayings-of-muriel-spark/"
+- image: 9780811227674.jpg
+  caption: 
+  link: "/book/the-informed-air/"
 - image: 9780811224093.jpg
   caption: ''
   link: "/book/dandelions/"
