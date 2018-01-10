@@ -22,9 +22,9 @@ gallery:
 - image: 9780811227674.jpg
   caption: 
   link: "/book/the-informed-air/"
-- image: 9780811221986.jpg
+- image: 9780811227483.jpg
   caption: ''
-  link: "/book/promise-at-dawn/"
+  link: "/book/temple-of-the-scapegoat/"
 - image: gary_photo.jpg
   caption: 
   link: "/author/romain-gary/"
