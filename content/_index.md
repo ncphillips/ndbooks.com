@@ -13,7 +13,7 @@ featured_image:
   caption: ''
 featured_review: ''
 gallery:
-- image: neuartig.jpg
+- image: " kluge hero 6.jpg"
   caption: 
   link: "/book/temple-of-the-scapegoat/"
 - image: 9780811227483.jpg
