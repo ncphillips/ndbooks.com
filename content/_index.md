@@ -1,7 +1,12 @@
 ---
 date: 2015-07-14 18:00:00 +0000
 description: ''
-featured_books: []
+featured_books:
+- Mrs Caliban
+- Time of Gratitude
+- Dandelions
+- Poems from the Book of Hours
+- Poems of Octavio Paz
 featured_image:
   file: 100-best-novels-miss-jean-009.jpg
   caption: ''
