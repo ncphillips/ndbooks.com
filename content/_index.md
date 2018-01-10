@@ -19,9 +19,9 @@ gallery:
 - image: neuartig.jpg
   caption: 
   link: "/book/temple-of-the-scapegoat/"
-- image: 9780811226547.jpg
+- image: Kluge_Alexander600.jpg
   caption: ''
-  link: https://www.ndbooks.com/book/the-kites/
+  link: "/book/temple-of-the-scapegoat/"
 - image: " territorial_rights_1.jpg"
   caption: ''
   link: "/author/muriel-spark/"
