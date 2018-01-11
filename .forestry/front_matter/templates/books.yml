@@ -1,6 +1,4 @@
 ---
-pages:
-- books.md
 hide_body: true
 fields:
 - label: Title

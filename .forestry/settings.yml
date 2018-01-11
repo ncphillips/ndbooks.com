@@ -6,27 +6,4 @@ new_page_extension: md
 auto_deploy: false
 admin_path: admin
 webhook_url: 
-sections:
-  review:
-    default_front_matter_template: review
-  product:
-    default_front_matter_template: page
-  series:
-    default_front_matter_template: page
-  staff:
-    default_front_matter_template: staff
-  genre:
-    default_front_matter_template: default
-  event:
-    default_front_matter_template: event
-  catalog:
-    default_front_matter_template: catalog
-  book:
-    default_front_matter_template: book
-  author:
-    default_front_matter_template: author
-  article:
-    default_front_matter_template: article
-  about:
-    default_front_matter_template: page
-version: '0.28'
+collections: 
