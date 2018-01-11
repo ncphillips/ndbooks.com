@@ -8,7 +8,7 @@ featured_books:
 - Poems from the Book of Hours
 - Poems of Octavio Paz
 featured_image:
-  file: 100-best-novels-miss-jean-009.jpg
+  file: " Kluge_hero_2.jpg"
   caption: ''
 featured_review: ''
 gallery:
@@ -16,13 +16,13 @@ gallery:
   caption: ''
   link: "/author/muriel-spark/"
 - image: 9780811227674.jpg
-  caption:
+  caption: 
   link: "/book/the-informed-air/"
 - image: 9780811227605.jpg
   caption: ''
   link: "/book/a-good-comb-the-sayings-of-muriel-spark/"
 - image: kluge hero 6.jpg
-  caption:
+  caption: 
   link: "/book/temple-of-the-scapegoat/"
 - image: 9780811227483.jpg
   caption: ''
@@ -34,4 +34,5 @@ headerClasses: vh-100 bg-near-white white-70
 title: ''
 type: home-page
 bgClasses: bg-right
+
 ---
