@@ -50,6 +50,15 @@ fields:
   config:
     source:
       type: datafiles
-      file: page-designs-yaml
-      path: page-designs
+      file: ''
+      path: ''
   label: Hero styling
+- type: list
+  name: test
+  label: Test
+  config:
+    use_select: true
+    source:
+      type: pages
+  default:
+  - content/article/zyzzyva-on-clarice-lispector.md
