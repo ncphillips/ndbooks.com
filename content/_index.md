@@ -8,7 +8,7 @@ featured_books:
 - Poems from the Book of Hours
 - Poems of Octavio Paz
 featured_image:
-  file: " Kluge_hero_2.jpg"
+  file: Kluge_hero_2.jpg
   caption: ''
 featured_review: ''
 gallery:
