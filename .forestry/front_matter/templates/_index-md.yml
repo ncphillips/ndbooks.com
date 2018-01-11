@@ -1,0 +1,80 @@
+---
+hide_body: false
+fields:
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: description
+  label: Description
+  type: textarea
+  hidden: false
+  default: ''
+- name: featured_books
+  label: Featured books
+  type: list
+  hidden: false
+  default: ''
+- name: featured_image
+  label: Featured image
+  type: field_group
+  fields:
+  - name: file
+    label: File
+    type: text
+    hidden: false
+    default: ''
+  - name: caption
+    label: Caption
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: featured_review
+  label: Featured review
+  type: text
+  hidden: false
+  default: ''
+- name: gallery
+  label: Gallery
+  type: field_group_list
+  fields:
+  - name: image
+    label: Image
+    type: text
+    hidden: false
+    default: ''
+  - name: caption
+    label: Caption
+    type: text
+    hidden: false
+    default: ''
+  - name: link
+    label: Link
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: headerClasses
+  label: Headerclasses
+  type: text
+  hidden: false
+  default: ''
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: type
+  label: Type
+  type: text
+  hidden: false
+  default: ''
+- name: bgClasses
+  label: Bgclasses
+  type: text
+  hidden: false
+  default: ''
