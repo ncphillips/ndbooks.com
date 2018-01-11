@@ -6,6 +6,7 @@ featured_books:
 - book/time-of-gratitude.md
 - book/dandelions.md
 - book/the-poems-of-octavio-paz.md
+- book/poems-from-the-book-of-hours.md
 featured_image:
   file: Kluge_hero_2.jpg
   caption: ''
