@@ -2,11 +2,10 @@
 date: 2015-07-14 18:00:00 +0000
 description: ''
 featured_books:
-- Mrs Caliban
-- Time of Gratitude
-- Dandelions
-- Poems from the Book of Hours
-- Poems of Octavio Paz
+- book/mrs-caliban.md
+- book/time-of-gratitude.md
+- book/dandelions.md
+- book/the-poems-of-octavio-paz.md
 featured_image:
   file: Kluge_hero_2.jpg
   caption: ''
